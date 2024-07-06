@@ -1,603 +1,670 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en" data-bs-theme="light" data-footer="dark">
+
 <head>
+
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <title>Mcollections | Home</title>
-    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
-    <!-- Vendor CSS -->
-    <link href="js/vendor/bootstrap/bootstrap.min.css" rel="stylesheet">
-    <link href="js/vendor/slick/slick.min.css" rel="stylesheet">
-    <link href="js/vendor/fancybox/jquery.fancybox.min.css" rel="stylesheet">
-    <link href="js/vendor/animate/animate.min.css" rel="stylesheet">
-    <!-- Custom styles for this template -->
-    <link href="css/style-light.css" rel="stylesheet">
-    <!--icon font-->
-    <link href="fonts/icomoon/icomoon.css" rel="stylesheet">
-    <!--custom font-->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <title>Mcollections | UI Design</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="Toner - eCommerce + Admin HTML Template Build with HTML, React, Laravel, Nodejs" name="description">
+    <meta content="Themesbrand" name="author">
+    <!-- App favicon -->
+    <link rel="shortcut icon" href="images/favicon.ico">
+
+    <link rel="stylesheet" href="libs/swiper/swiper-bundle.min.css">
+
+    <!-- Bootstrap Css -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <!-- Icons Css -->
+    <link href="css/icons.min.css" rel="stylesheet" type="text/css">
+    <!-- App Css-->
+    <link href="css/app.min.css" rel="stylesheet" type="text/css">
+    <!-- custom Css-->
+    <link href="css/custom.min.css" rel="stylesheet" type="text/css">
+
 </head>
 
-<body class="home-page is-dropdn-click has-slider">
-    <div class="body-preloader">
-        <div class="loader-wrap">
-            <div class="dots">
-                <div class="dot one"></div>
-                <div class="dot two"></div>
-                <div class="dot three"></div>
+<body>
+
+    <div class="top-tagbar">
+        <div class="w-100">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-md-4 col-6 d-none d-xxl-block">
+                    <div class="d-flex align-items-center gap-3 fs-14 fw-medium">
+                        <div>
+                            <i class="bi bi-envelope align-middle me-2"></i> support@themesbrand.com
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-3">
+                    <div class="d-flex align-items-center justify-content-end gap-3 fs-14">
+                        <div class="text-reset fw-normal d-none d-lg-block">
+                            <i class="bi bi-telephone-outbound align-middle me-2"></i> +(235) 01234 5678
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    <header class="hdr global_width hdr_sticky hdr-mobile-style2">
-        <!-- Mobile Menu -->
-        <div class="mobilemenu js-push-mbmenu">
-            <div class="mobilemenu-content">
-                <div class="mobilemenu-close mobilemenu-toggle">CLOSE</div>
-                <div class="mobilemenu-scroll">
-                    <div class="mobilemenu-search"></div>
-                    <div class="nav-wrapper show-menu">
-                        <div class="nav-toggle"><span class="nav-back"><i class="icon-arrow-left"></i></span> <span class="nav-title"></span></div>
-                        <ul class="nav nav-level-1">
-                            <li><a href="index.php">Layouts<span class="menu-label menu-label--color1">NEW</span></a><span class="arrow"></span>
-                                <ul class="nav-level-2">
-                                    <li><a href="index.php" title="">Fashion 1</a></li>
-                                    <li><a href="index-fashion-2.html" title="">Fashion 2</a></li>
-                                    <li><a href="index-electronics.html" title="">Electronics 1</a></li>
-                                    <li><a href="index-electronics-2.html" title="">Electronics 2</a></li>
-                                    <li><a href="index-furniture.html" title="">Furniture</a></li>
-                                    <li><a href="index-nutrition.html" title="">Nutrition</a></li>
-                                    <li><a href="index-sport.html" title="">Sport</a></li>
-                                    <li><a href="index-tools.html" title="">Tools</a></li>
-                                    <li><a href="index-watches.html" title="">Watches</a></li>
-                                    <li><a href="index-tshirts.html" title="">T-shirts</a></li>
-                                    <li><a href="index-toys.html" title="">Toys</a></li>
-                                    <li><a href="index-plumbing.html" title="">Plumbing</a></li>
-                                    <li><a href="index-rtl.html" title="">RTL</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#" title="">Pages</a><span class="arrow"></span>
-                                <ul class="nav-level-2">
-                                    <li><a href="index.php" title="">Product page</a><span class="arrow"></span>
-                                        <ul class="nav-level-3">
-                                            <li><a href="product.html" title="">Product page variant 1</a></li>
-                                            <li><a href="product-2.html" title="">Product page variant 2</a></li>
-                                            <li><a href="product-3.html" title="">Product page variant 3</a></li>
-                                            <li><a href="product-4.html" title="">Product page variant 4</a></li>
-                                            <li><a href="product-5.html" title="">Product page variant 5</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="category.html" title="">Category page</a><span class="arrow"></span>
-                                        <ul class="nav-level-3">
-                                            <li><a href="category.html" title="">Left sidebar filters</a></li>
-                                            <li><a href="category-right-column.html" title="">Right sidebar filters</a></li>
-                                            <li><a href="category-with-description.html" title="">With category description</a></li>
-                                            <li><a href="category-no-filters.html" title="">Without filters</a></li>
-                                            <li><a href="category-empty.html" title="">Empty category</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="cart.html" title="">Cart & Checkout</a><span class="arrow"></span>
-                                        <ul class="nav-level-3">
-                                            <li><a href="cart.html" title="">Cart variant 1</a></li>
-                                            <li><a href="cart-2.html" title="">Cart variant 2</a></li>
-                                            <li><a href="checkout.html" title="">Checkout variant 1</a></li>
-                                            <li><a href="checkout-2.html" title="">Checkout variant 2</a></li>
-                                            <li><a href="checkout-3.html" title="">Checkout variant 3</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="account-create.html" title="">Account</a><span class="arrow"></span>
-                                        <ul class="nav-level-3">
-                                            <li><a href="login.html" title="">Login</a></li>
-                                            <li><a href="account-create.html" title="">Create account</a></li>
-                                            <li><a href="account-details.html" title="">Account details</a></li>
-                                            <li><a href="account-addresses.html" title="">Account addresses</a></li>
-                                            <li><a href="account-history.html" title="">Order History</a></li>
-                                            <li><a href="account-wishlist.html" title="">Wishlist</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="blog.html" title="">Blog</a><span class="arrow"></span>
-                                        <ul class="nav-level-3">
-                                            <li><a href="blog.html" title="">Right sidebar</a></li>
-                                            <li><a href="blog-left-column.html" title="">Left sidebar</a></li>
-                                            <li><a href="blog-fixed-column.html" title="">Sticky sidebar</a></li>
-                                            <li><a href="blog-grid-2.html" title="">Grid 2 column</a></li>
-                                            <li><a href="blog-grid-3.html" title="">Grid 3 column</a></li>
-                                            <li><a href="blog-grid-4.html" title="">Grid 4 column</a></li>
-                                            <li><a href="blog-post.html" title="">Blog post</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="gallery.html" title="">Gallery</a><span class="arrow"></span>
-                                        <ul class="nav-level-3">
-                                            <li><a href="gallery.html" title="">Gallery variant 1</a></li>
-                                            <li><a href="gallery-2.html" title="">Gallery variant 2</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="faq.html" title="">Faq</a></li>
-                                    <li><a href="about.html" title="">About Us</a></li>
-                                    <li><a href="contact.html" title="">Contact Us</a></li>
-                                    <li><a href="page404.html" title="">404 Page</a></li>
-                                    <li><a href="typography.html" title="">Typography</a></li>
-                                    <li><a href="coming-soon.html" target="_blank" title="">Coming soon</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#" title="">Features</a><span class="arrow"></span>
-                                <ul class="nav-level-2">
-                                    <li><a href="index.php" title="">Headers</a><span class="arrow"></span>
-                                        <ul class="nav-level-3">
-                                            <li><a href="index.php" title="">Header 1</a></li>
-                                            <li><a href="index-fashion-2.html" title="">Header 2</a></li>
-                                            <li><a href="index-electronics.html" title="">Header 3</a></li>
-                                            <li><a href="index-sport.html" title="">Header 4</a></li>
-                                            <li><a href="typography.html" title="">Header 5</a></li>
-                                            <li><a href="index-tools.html" title="">Header 6</a></li>
-                                            <li><a href="index-watches.html" title="">Header 7</a></li>
-                                            <li><a href="index-toys.html" title="">Header 8</a></li>
-                                            <li><a href="index-furniture.html" title="">Header 9</a></li>
-                                            <li><a href="index-tshirts.html" title="">Header 10</a></li>
-                                            <li><a href="index-nutrition.html" title="">Header 11</a></li>
-                                            <li><a href="index-plumbing.html" title="">Header 12</a></li>
-                                            <li><a href="index-electronics-2.html" title="">Header 13</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="index.php" title="">Footers</a><span class="arrow"></span>
-                                        <ul class="nav-level-3">
-                                            <li><a href="index.php" title="">Footer 1</a></li>
-                                            <li><a href="index-sport.html" title="">Footer 2</a></li>
-                                            <li><a href="index-tools.html" title="">Footer 3</a></li>
-                                            <li><a href="index-furniture.html" title="">Footer 4</a></li>
-                                            <li><a href="index-plumbing.html" title="">Footer 5</a></li>
-                                            <li><a href="index-electronics.html" title="">Footer 6</a></li>
-                                            <li><a href="index-watches.html" title="">Footer 7</a></li>
-                                            <li><a href="index-fashion-2.html" title="">Footer 8</a></li>
-                                            <li><a href="index-nutrition.html" title="">Footer 9</a></li>
-                                            <li><a href="typography.html" title="">Footer 10</a></li>
-                                            <li><a href="index-tshirts.html" title="">Footer 11</a></li>
-                                            <li><a href="index-electronics-2.html" title="">Footer 12</a></li>
-                                            <li><a href="index-tshirts.html" title="">Footer 13</a></li>
-                                            <li><a href="index-toys.html" title="">Footer 14</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="http://frontend.big-skins.com/goodwin-html/banners-generator/" target="_blank" title="">Banners / Grid Editor</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="category.html">New Arrivals</a><span class="arrow"></span>
-                                <ul class="nav-level-2">
-                                    <li><a href="category.html" title="">Shoes</a><span class="arrow"></span>
-                                        <ul class="nav-level-3">
-                                            <li><a href="category.html">Heels</a></li>
-                                            <li><a href="category.html">Boots</a></li>
-                                            <li><a href="category.html">Flats</a></li>
-                                            <li><a href="category.html">Sneakers &amp; Athletic</a></li>
-                                            <li><a href="category.html">Clogs &amp; Mules</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="category.html" title="">Tops</a><span class="arrow"></span>
-                                        <ul class="nav-level-3">
-                                            <li><a href="category.html">Dresses</a></li>
-                                            <li><a href="category.html">Shirts &amp; Tops</a></li>
-                                            <li><a href="category.html">Coats &amp; Outerwear</a></li>
-                                            <li><a href="category.html">Sweaters</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="category.html" title="">Shoes</a><span class="arrow"></span>
-                                        <ul class="nav-level-3">
-                                            <li><a href="category.html">Heels</a></li>
-                                            <li><a href="category.html">Boots</a></li>
-                                            <li><a href="category.html">Flats</a></li>
-                                            <li><a href="category.html">Sneakers &amp; Athletic</a></li>
-                                            <li><a href="category.html">Clogs &amp; Mules</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="category.html" title="">Bottoms</a><span class="arrow"></span>
-                                        <ul class="nav-level-3">
-                                            <li><a href="category.html">Jeans</a></li>
-                                            <li><a href="category.html">Pants</a></li>
-                                            <li><a href="category.html">slippers</a></li>
-                                            <li><a href="category.html">suits</a></li>
-                                            <li><a href="category.html">socks</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="category.html" title="">Accessories</a><span class="arrow"></span>
-                                        <ul class="nav-level-3">
-                                            <li><a href="category.html">Sunglasses</a></li>
-                                            <li><a href="category.html">Hats</a></li>
-                                            <li><a href="category.html">Watches</a></li>
-                                            <li><a href="category.html">Jewelry</a></li>
-                                            <li><a href="category.html">Belts</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="category.html" title="">Bags</a><span class="arrow"></span>
-                                        <ul class="nav-level-3">
-                                            <li><a href="category.html">Handbags</a></li>
-                                            <li><a href="category.html">Backpacks</a></li>
-                                            <li><a href="category.html">Luggage</a></li>
-                                            <li><a href="category.html">wallets</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li><a href="#" target="_blank">Buy Theme<span class="menu-label menu-label--color3">Hurry Up!</span></a><span class="arrow"></span></li>
-                        </ul>
-                    </div>
-                    <div class="mobilemenu-bottom">
-                        <div class="mobilemenu-currency"></div>
-                        <div class="mobilemenu-language"></div>
-                        <div class="mobilemenu-settings"></div>
-                    </div>
+    <nav class="navbar navbar-expand-lg ecommerce-navbar" id="navbar">
+        <div class="container-fluid container-custom">
+            <a class="navbar-brand d-none d-lg-block nav-bar-logo-custom" href="index.php">
+                <div class="logo-dark">
+                    <img class="img-responsive" src="images/logo-dark.png" alt="">
                 </div>
-            </div>
-        </div>
-        <!-- /Mobile Menu -->
-        <div class="hdr-mobile show-mobile">
-            <div class="hdr-content">
-                <div class="container">
-                    <!-- Menu Toggle -->
-                    <div class="menu-toggle"><a href="#" class="mobilemenu-toggle"><i class="icon icon-menu"></i></a></div>
-                    <!-- /Menu Toggle -->
-                    <div class="logo-holder"><a href="index.php" class="logo"><img src="images/logo.png" srcset="images/logo-retina.png 2x" alt=""></a></div>
-                    <div class="hdr-mobile-right">
-                        <div class="hdr-topline-right links-holder"></div>
-                        <div class="minicart-holder"></div>
-                    </div>
+                <div class="logo-light">
+                    <img src="images/logo-light.png" alt="" height="25">
                 </div>
-            </div>
-        </div>
-        <div class="hdr-desktop hide-mobile">
-            <div class="hdr-topline">
-                <div class="container">
-                    <div class="row">
-                        <div class="col hdr-topline-center">
-                            <div class="custom-text"><i class="icon icon-mail-envelope"></i><a href="mailto:info@exapmpledomain.com">info@exapmpledomain.com</a></div>
-                            <div class="custom-text"><i class="icon icon-mobile"></i><a href="tel:+91 123456789">+91 123456789</a></div>
-                        </div>
-                        <div class="col-auto hdr-topline-right links-holder">
-                            <!-- Header Search -->
-                            <div class="dropdn dropdn_search hide-mobile @@classes"><a href="#" class="dropdn-link"><i class="icon icon-search2"></i><span>Search</span></a>
-                                <div class="dropdn-content">
-                                    <div class="container">
-                                        <form action="#" class="search"><button type="submit" class="search-button"><i class="icon-search2"></i></button> <input type="text" class="search-input" placeholder="search keyword">
-                                            <div class="search-popular js-search-autofill"><span class="search-popular-label">popular searches:</span><a href="#">Jeans</a> <a href="#">Sunglazsses</a> <a href="#">hand bags</a> <a href="#">Discount</a> <a href="#">St.Valentine’s gift</a> <a href="#">maxi dress</a> <a href="#">Underwear</a><a href="#">new in clothing</a> <a href="#">men tops</a></div>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- /Header Search -->
-                            <!-- Header Wishlist -->
-                            <div class="dropdn dropdn_wishlist @@classes"><a href="account-wishlist.html" class="dropdn-link"><i class="icon icon-heart-1"></i><span>Wishlist</span></a></div>
-                            <!-- /Header Wishlist -->
-                            <!-- Header Account -->
-                            <div class="dropdn dropdn_account @@classes"><a href="#" class="dropdn-link"><i class="icon icon-person"></i><span>My Account</span></a>
-                                <div class="dropdn-content">
-                                    <div class="container">
-                                        <div class="dropdn-close">CLOSE</div>
-                                        <ul>
-                                            <li><a href="account-details.html"><i class="icon icon-person-fill"></i><span>My Account</span></a></li>
-                                            <li><a href="login.html"><i class="icon icon-lock"></i><span>Log In</span></a></li>
-                                            <li><a href="account-create.html"><i class="icon icon-person-fill-add"></i><span>Register</span></a></li>
-                                            <li><a href="checkout.html"><i class="icon icon-check-box"></i><span>Checkout</span></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- /Header Account -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="hdr-content hide-mobile">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-auto logo-holder"><a href="index.php" class="logo"><img src="images/logo.png" srcset="images/logo-retina.png 2x" alt=""></a></div>
-                        <!--navigation-->
-                        <div class="prev-menu-scroll icon-angle-left prev-menu-js"></div>
-                        <div class="nav-holder">
-                            <div class="hdr-nav">
-                                <!--mmenu-->
-                                <ul class="mmenu mmenu-js">
-                                    <li><a href="index.php" target="_blank">Home</a></li>
-                                    <li class="mmenu-item--mega"><a href="category.html">New Arrivals</a>
-                                        <div class="mmenu-submenu mmenu-submenu-with-sublevel">
-                                            <div class="mmenu-submenu-inside">
-                                                <div class="container">
-                                                    <div class="mmenu-right width-20">
-                                                        <h4 class="text-center submenu-title">Featured</h4>
-                                                        <div class="prd-carousel-menu" data-slick='{"slidesToShow": 1, "slidesToScroll": 1, "arrows": true}'>
-                                                            <div class="prd-sm"><a href="product.html" class="prd-img"><img src="images/products/product-placeholder.png" data-srcset="images/products/product-11-2.jpg" class="lazyload" alt=""></a>
-                                                                <div class="prd-info">
-                                                                    <h2 class="prd-title"><a href="product.html">Leather belt</a></h2>
-                                                                    <div class="prd-price">
-                                                                        <div class="price-new">$ 90.00</div>
-                                                                        <div class="price-old">$ 150.00</div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="prd-sm"><a href="product.html" class="prd-img"><img src="images/products/product-placeholder.png" data-srcset="images/products/product-06-2.jpg" class="lazyload" alt=""></a>
-                                                                <div class="prd-info">
-                                                                    <h2 class="prd-title"><a href="product.html">Louboutin</a></h2>
-                                                                    <div class="prd-price">
-                                                                        <div class="price-new">$ 110.00</div>
-                                                                        <div class="price-old">$ 210.00</div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="prd-sm"><a href="product.html" class="prd-img"><img src="images/products/product-placeholder.png" data-srcset="images/products/product-08-2.jpg" class="lazyload" alt=""></a>
-                                                                <div class="prd-info">
-                                                                    <h2 class="prd-title"><a href="product.html">Office bag</a></h2>
-                                                                    <div class="prd-price">
-                                                                        <div class="price-new">$ 210.00</div>
-                                                                        <div class="price-old">$ 310.00</div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="mmenu-cols column-5">
-                                                        <div class="mmenu-col">
-                                                            <h3 class="submenu-title"><a href="category.html">shoes</a></h3>
-                                                            <ul class="submenu-list">
-                                                                <li><a href="category.html">Sub Menu Level 1</a>
-                                                                    <ul class="sub-level">
-                                                                        <li><a href="#">Sub Menu Level 2</a>
-                                                                            <ul class="sub-level">
-                                                                                <li><a href="#">Sub Menu Level 3</a>
-                                                                                    <ul class="sub-level">
-                                                                                        <li><a href="#">Sub Menu Level 4</a>
-                                                                                            <ul class="sub-level">
-                                                                                                <li><a href="#">Sub Menu Level 5</a>
-                                                                                                    <ul class="sub-level">
-                                                                                                        <li><a href="#">Sub Menu Level 6</a>
-                                                                                                            <ul class="sub-level">
-                                                                                                                <li><a href="#">Sub Menu Level 7</a></li>
-                                                                                                                <li><a href="#">Sub Menu Level 7</a></li>
-                                                                                                                <li><a href="#">Sub Menu Level 7</a></li>
-                                                                                                            </ul>
-                                                                                                        </li>
-                                                                                                        <li><a href="#">Sub Menu Level 6</a></li>
-                                                                                                        <li><a href="#">Sub Menu Level 6</a></li>
-                                                                                                        <li><a href="#">Sub Menu Level 6</a></li>
-                                                                                                        <li><a href="#">Sub Menu Level 6</a></li>
-                                                                                                        <li><a href="#">Sub Menu Level 6</a></li>
-                                                                                                        <li><a href="#">Sub Menu Level 6</a></li>
-                                                                                                        <li><a href="#">Sub Menu Level 6</a></li>
-                                                                                                    </ul>
-                                                                                                </li>
-                                                                                                <li><a href="#">Sub Menu Level 5</a></li>
-                                                                                                <li><a href="#">Sub Menu Level 5</a></li>
-                                                                                                <li><a href="#">Sub Menu Level 5</a></li>
-                                                                                                <li><a href="#">Sub Menu Level 5</a></li>
-                                                                                            </ul>
-                                                                                        </li>
-                                                                                        <li><a href="#">Sub Menu Level 4</a></li>
-                                                                                        <li><a href="#">Sub Menu Level 4</a></li>
-                                                                                        <li><a href="#">Sub Menu Level 4</a></li>
-                                                                                        <li><a href="#">Sub Menu Level 4</a></li>
-                                                                                        <li><a href="#">Sub Menu Level 4</a></li>
-                                                                                        <li><a href="#">Sub Menu Level 4</a></li>
-                                                                                        <li><a href="#">Sub Menu Level 4</a></li>
-                                                                                    </ul>
-                                                                                </li>
-                                                                                <li><a href="#">Sub Menu Level 3</a></li>
-                                                                                <li><a href="#">Sub Menu Level 3</a></li>
-                                                                                <li><a href="#">Sub Menu Level 3</a></li>
-                                                                                <li><a href="#">Sub Menu Level 3</a></li>
-                                                                            </ul>
-                                                                        </li>
-                                                                        <li><a href="#">Sub Menu Level 2</a></li>
-                                                                        <li><a href="#">Sub Menu Level 2</a></li>
-                                                                        <li><a href="#">Sub Menu Level 2</a></li>
-                                                                        <li><a href="#">Sub Menu Level 2</a></li>
-                                                                        <li><a href="#">Sub Menu Level 2</a></li>
-                                                                        <li><a href="#">Sub Menu Level 2</a></li>
-                                                                        <li><a href="#">Sub Menu Level 2</a></li>
-                                                                        <li><a href="#">Sub Menu Level 2</a></li>
-                                                                        <li><a href="#">Sub Menu Level 2</a></li>
-                                                                        <li><a href="#">Sub Menu Level 2</a></li>
-                                                                        <li><a href="#">Sub Menu Level 2</a></li>
-                                                                        <li><a href="#">Sub Menu Level 2</a></li>
-                                                                        <li><a href="#">Sub Menu Level 2</a></li>
-                                                                    </ul>
-                                                                </li>
-                                                                <li><a href="category.html">Boots</a></li>
-                                                                <li><a href="category.html">Flats</a></li>
-                                                                <li><a href="category.html">Sneakers & Athletic</a></li>
-                                                                <li><a href="category.html">Clogs & Mules</a></li>
-                                                            </ul><a href="category.html" class="submenu-view-more">View More</a>
-                                                            <div class="submenu-img"><a href="category.html"><img src="images/placeholder.png" data-src="images/menu/category-img-01.jpg" class="lazyload" alt=""></a></div>
-                                                        </div>
-                                                        <div class="mmenu-col">
-                                                            <h3 class="submenu-title"><a href="category.html">tops</a></h3>
-                                                            <ul class="submenu-list">
-                                                                <li><a href="category.html">Dresses</a></li>
-                                                                <li><a href="category.html">Shirts & Tops</a></li>
-                                                                <li><a href="category.html">Coats & Outerwear</a></li>
-                                                                <li><a href="category.html">Sweaters</a></li>
-                                                            </ul>
-                                                            <div class="submenu-img"><a href="category.html"><img src="images/placeholder.png" data-src="images/menu/category-img-02.jpg" class="lazyload" alt=""></a></div>
-                                                        </div>
-                                                        <div class="mmenu-col">
-                                                            <h3 class="submenu-title"><a href="category.html">bottoms</a></h3>
-                                                            <ul class="submenu-list">
-                                                                <li><a href="category.html">Jeans</a></li>
-                                                                <li><a href="category.html">Pants</a></li>
-                                                                <li><a href="category.html">slippers</a></li>
-                                                                <li><a href="category.html">suits</a></li>
-                                                                <li><a href="category.html">socks</a></li>
-                                                            </ul><a href="category.html" class="submenu-view-more">View More</a>
-                                                            <div class="submenu-img"><a href="category.html"><img src="images/placeholder.png" data-src="images/menu/category-img-03.jpg" class="lazyload" alt=""></a></div>
-                                                        </div>
-                                                        <div class="mmenu-col">
-                                                            <h3 class="submenu-title"><a href="category.html">accessories</a></h3>
-                                                            <ul class="submenu-list">
-                                                                <li><a href="category.html">Sunglasses</a></li>
-                                                                <li><a href="category.html">Hats</a></li>
-                                                                <li><a href="category.html">Watches</a></li>
-                                                                <li><a href="category.html">Jewelry</a></li>
-                                                                <li><a href="category.html">Belts</a></li>
-                                                            </ul><a href="category.html" class="submenu-view-more">View More</a>
-                                                            <div class="submenu-img"><a href="category.html"><img src="images/placeholder.png" data-src="images/menu/category-img-04.jpg" class="lazyload" alt=""></a></div>
-                                                        </div>
-                                                        <div class="mmenu-col">
-                                                            <h3 class="submenu-title"><a href="category.html">bags</a></h3>
-                                                            <ul class="submenu-list">
-                                                                <li><a href="category.html">Handbags</a></li>
-                                                                <li><a href="category.html">Backpacks</a></li>
-                                                                <li><a href="category.html">Luggage</a></li>
-                                                                <li><a href="category.html">wallets</a></li>
-                                                            </ul><a href="category.html" class="submenu-view-more">View More</a>
-                                                            <div class="submenu-img"><a href="category.html"><img src="images/placeholder.png" data-src="images/menu/category-img-05.jpg" class="lazyload" alt=""></a></div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="mmenu-bottom">
-                                                        <div class="custom-text"><span>FREE</span> STANDARD DELIVERY ON ORDERS OVER $ 150</div>
-                                                        <div class="custom-text"><span>100%</span> money back guarantee</div>
-                                                        <div class="custom-text"><span>24/7</span> customer support</div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="mmenu-item--mega"><a href="collections.html">Shop By<span class="menu-label menu-label--color4">SALE</span></a>
-                                        <div class="mmenu-submenu">
-                                            <div class="mmenu-submenu-inside">
-                                                <div class="container">
-                                                    <div class="mmenu-right width-25">
-                                                        <!--banners grid from the editor Banner21 --> <a href="product.html" class="bnr-wrap">
-                                                            <div class="bnr bnr21 bnr--style-1-1 bnr--left bnr--bottom bnr-hover-scale" data-fontratio="2.63"><img src="images/menu/mega-banner.jpg" alt=""> <span class="bnr-caption" style="padding: 8% 8%;"><span class="bnr-text-wrap"><span class="bnr-text5">try<br>to be 1-st</span> <span class="btn-decor btn-decor--xs bnr-btn">shop new arrivals<span class="btn-line"></span></span></span></span></div>
-                                                        </a>
-                                                        <!--banners grid from the editor -->
-                                                    </div>
-                                                    <div class="mmenu-cols column-5">
-                                                        <div class="mmenu-col">
-                                                            <h3 class="submenu-title"><a href="category.html">Men</a></h3>
-                                                            <h3 class="submenu-title"><a href="category.html">Women</a></h3>
-                                                            <h3 class="submenu-title"><a href="category.html">Electronics</a></h3>
-                                                            <h3 class="submenu-title"><a href="category.html">Options</a></h3>
-                                                            <h3 class="submenu-title"><a href="category.html">Sale</a></h3>
-                                                        </div>
-                                                        <div class="mmenu-col mmenu-col--double">
-                                                            <h3 class="submenu-title"><a href="category.html">Shop By Brand</a></h3>
-                                                            <ul class="submenu-list two-cols">
-                                                                <li><a href="category.html">all brands a-z</a></li>
-                                                                <li><a href="category.html">Converse</a></li>
-                                                                <li><a href="category.html">Saucony</a></li>
-                                                                <li><a href="category.html">Calvin Klein</a></li>
-                                                                <li><a href="category.html">Lacoste</a></li>
-                                                                <li><a href="category.html">Under Armour</a></li>
-                                                                <li><a href="category.html">The North Face</a></li>
-                                                                <li><a href="category.html">Clarks</a></li>
-                                                                <li><a href="category.html">Clayton</a></li>
-                                                                <li><a href="category.html">COACH</a></li>
-                                                                <li><a href="category.html">Cobian</a></li>
-                                                                <li><a href="category.html">Cole Haan</a></li>
-                                                            </ul><a href="category.html" class="submenu-view-more">View More</a>
-                                                        </div>
-                                                        <div class="mmenu-col">
-                                                            <h3 class="submenu-title"><a href="category.html">Shop By Color</a></h3>
-                                                            <ul class="submenu-list">
-                                                                <li><a href="category.html"><span class="color" style="background-color: #ff0000;"></span><span>Red</span></a></li>
-                                                                <li><a href="category.html"><span class="color" style="background-color: #000000;"></span><span>Black</span></a></li>
-                                                                <li><a href="category.html"><span class="color" style="background-color: #ffffff;"></span><span>White</span></a></li>
-                                                                <li><a href="category.html"><span class="color" style="background-color: #15c979;"></span><span>Green</span></a></li>
-                                                                <li><a href="category.html"><span class="color" style="background-color: #d81f5e;"></span><span>Purple</span></a></li>
-                                                                <li><a href="category.html"><span class="color" style="background-color: #ff9f15;"></span><span>Orange</span></a></li>
-                                                                <li><a href="category.html"><span class="color" style="background-color: #2196f3;"></span><span>Blue</span></a></li>
-                                                            </ul><a href="category.html" class="submenu-view-more">View More</a>
-                                                        </div>
-                                                        <div class="mmenu-col">
-                                                            <h3 class="submenu-title"><a href="category.html">shop by style</a></h3>
-                                                            <ul class="submenu-list">
-                                                                <li><a href="category.html">tops</a></li>
-                                                                <li><a href="category.html">buttoms</a></li>
-                                                                <li><a href="category.html">shoes</a></li>
-                                                                <li><a href="category.html">accessories</a></li>
-                                                                <li><a href="category.html">gifts</a></li>
-                                                                <li><a href="category.html">clearens</a></li>
-                                                            </ul><a href="category.html" class="submenu-view-more">View More</a>
-                                                        </div>
-                                                    </div>
-                                                    <div class="mmenu-bottom">
-                                                        <div class="custom-text"><span>FREE</span> STANDARD DELIVERY ON ORDERS OVER $ 150</div>
-                                                        <div class="custom-text"><span>100%</span> money back guarantee</div>
-                                                        <div class="custom-text"><span>24/7</span> customer support</div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li><a href="index.php" target="_blank">About Us</a></li>
-                                    <li><a href="index.php" target="_blank">Contact Us</a></li>
-                                </ul>
-                                <!--/mmenu-->
-                            </div>
-                        </div>
-                        <div class="next-menu-scroll icon-angle-right next-menu-js"></div>
-                        <!--//navigation-->
-                        <div class="col-auto minicart-holder">
-                            <div class="minicart minicart-js"><a href="#" class="minicart-link"><i class="icon icon-handbag"></i> <span class="minicart-qty">3</span> <span class="minicart-title">Shopping Cart</span> <span class="minicart-total">$750.00</span></a>
-                                <div class="minicart-drop">
-                                    <div class="container">
-                                        <div class="minicart-drop-close">CLOSE</div>
-                                        <div class="minicart-drop-content">
-                                            <h3>Recently added items:</h3>
-                                            <div class="minicart-prd">
-                                                <div class="minicart-prd-image"><a href="#"><img src="images/products/product-placeholder.png" data-srcset="images/products/xsmall/product-05.jpg" class="lazyload" alt=""></a></div>
-                                                <div class="minicart-prd-name">
-                                                    <h5><a href="#">canverse</a></h5>
-                                                    <h2><a href="#">Checkered shirt</a></h2>
-                                                </div>
-                                                <div class="minicart-prd-qty"><span>qty:</span> <b>1</b></div>
-                                                <div class="minicart-prd-price"><span>price:</span> <b>$ 75.00</b></div>
-                                                <div class="minicart-prd-action"><a href="#" class="icon-heart js-label-wishlist"></a> <a href="product.html" class="icon-pencil"></a> <a href="#" class="icon-cross js-product-remove"></a></div>
-                                            </div>
-                                            <div class="minicart-prd">
-                                                <div class="minicart-prd-image"><a href="#"><img src="images/products/product-placeholder.png" data-srcset="images/products/xsmall/product-02.jpg" class="lazyload" alt=""></a></div>
-                                                <div class="minicart-prd-name">
-                                                    <h5><a href="#">canverse</a></h5>
-                                                    <h2><a href="#">Long top with print</a></h2>
-                                                </div>
-                                                <div class="minicart-prd-qty"><span>qty:</span> <b>1</b></div>
-                                                <div class="minicart-prd-price"><span>price:</span> <b>$ 20.00</b></div>
-                                                <div class="minicart-prd-action"><a href="#" class="icon-heart js-label-wishlist"></a> <a href="product.html" class="icon-pencil"></a> <a href="#" class="icon-cross js-product-remove"></a></div>
-                                            </div>
-                                            <div class="minicart-prd">
-                                                <div class="minicart-prd-image"><a href="#"><img src="images/products/product-placeholder.png" data-srcset="images/products/xsmall/product-14.jpg" class="lazyload" alt=""></a></div>
-                                                <div class="minicart-prd-name">
-                                                    <h5><a href="#">saucany</a></h5>
-                                                    <h2><a href="#">Knitted sweater</a></h2>
-                                                </div>
-                                                <div class="minicart-prd-qty"><span>qty:</span> <b>1</b></div>
-                                                <div class="minicart-prd-price"><span>price:</span> <b>$ 199.00</b></div>
-                                                <div class="minicart-prd-action"><a href="#" class="icon-heart js-label-wishlist"></a> <a href="product.html" class="icon-pencil"></a> <a href="#" class="icon-cross js-product-remove"></a></div>
-                                            </div>
-                                            <div class="minicart-drop-total">
-                                                <div class="float-right"><span class="minicart-drop-summa"><span>Cart Subtotal:</span> <b>$ 294.00</b></span>
-                                                    <div class="minicart-drop-btns-wrap"><a href="checkout.html" class="btn"><i class="icon-check-box"></i><span>checkout</span></a> <a href="cart.html" class="btn btn--alt"><i class="icon-handbag"></i><span>view cart</span></a></div>
-                                                </div>
-                                                <div class="float-left"><a href="cart.html" class="btn btn--alt"><i class="icon-handbag"></i><span>view cart</span></a></div>
+            </a>
+            <button class="btn btn-soft-primary btn-icon d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="bi bi-list fs-20"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-lg-auto mb-2 mb-lg-0" id="navigation-menu">
+                    <li class="nav-item d-block d-lg-none">
+                        <a class="d-block p-3 h-auto text-center" href="index.php">
+                            <img src="images/logo-dark.png" alt="" height="25" class="card-logo-dark mx-auto">
+                            <img src="images/logo-light.png" alt="" height="25" class="card-logo-light mx-auto">
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.php" data-key="t-contact">Home</a>
+                    </li>
+                    <li class="nav-item dropdown dropdown-hover dropdown-mega-full">
+                        <a class="nav-link dropdown-toggle" data-key="t-catalog" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            New Arrivals
+                        </a>
+                        <div class="dropdown-menu p-0">
+                            <div class="row g-0 g-lg-4">
+                                <div class="col-lg-2 d-none d-lg-block">
+                                    <div class="card rounded-start rounded-0 border-0 h-100 mb-0 overflow-hidden" style="background-image: url('images/demo-images/category-01.png');background-size: cover;">
+                                        <div class="bg-overlay bg-light bg-opacity-25"></div>
+                                        <div class="card-body d-flex align-items-center justify-content-center">
+                                            <div class="text-center">
+                                                <a href="product-list.php" class="btn btn-secondary btn-hover"><i class="ph-storefront align-middle me-1"></i> <span data-key="t-shop-now">Shop Now</span></a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+                                <div class="col-lg-2">
+                                    <ul class="dropdown-menu-list list-unstyled mb-0 py-3">
+                                        <li>
+                                            <p class="mb-2 text-uppercase fs-11 fw-medium text-muted menu-title" data-key="t-men">Saree</p>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="product-list.php" class="nav-link" data-key="t-clothing">Ethnic Wear</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="product-list.php" class="nav-link" data-key="t-watches">Fashion Sarees</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="product-list.php" class="nav-link" data-key="t-watches">Fashion</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="product-list.php" class="nav-link" data-key="t-watches">Ethnic Sarees</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="product-list.php" class="nav-link" data-key="t-watches">Fashion</a>
+                                        </li>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-2">
+                                    <ul class="dropdown-menu-list list-unstyled mb-0 py-3">
+                                        <li>
+                                            <p class="mb-2 text-uppercase fs-11 fw-medium text-muted menu-title" data-key="t-women">Salwar</p>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="product-list.php" class="nav-link" data-key="t-western-wear">Western Wear</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="product-list.php" class="nav-link" data-key="t-handbags-clutches">Ethnic Wear</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="product-list.php" class="nav-link" data-key="t-lingerie-nightwear">Lingerie & Nightwear</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="product-list.php" class="nav-link" data-key="t-footwear">Ethnic Wear</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="product-list.php" class="nav-link" data-key="t-fashion-silver-jewellery">Fashion Wear</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-2">
+                                    <ul class="dropdown-menu-list list-unstyled mb-0 py-3">
+                                        <li>
+                                            <p class="mb-2 text-uppercase fs-11 fw-medium text-muted menu-title" data-key="t-accessories-others">Kurti</p>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="product-list.php" class="nav-link" data-key="t-western-wear">Western Wear</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="product-list.php" class="nav-link" data-key="t-handbags-clutches">Ethnic Wear</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="product-list.php" class="nav-link" data-key="t-lingerie-nightwear">Lingerie & Nightwear</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="product-list.php" class="nav-link" data-key="t-footwear">Ethnic Wear</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="product-list.php" class="nav-link" data-key="t-fashion-silver-jewellery">Fashion Wear</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-2">
+                                    <ul class="dropdown-menu-list list-unstyled mb-0 py-3">
+                                        <li>
+                                            <p class="mb-2 text-uppercase fs-11 fw-medium text-muted menu-title" data-key="t-accessories-others">Kurti</p>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="product-list.php" class="nav-link" data-key="t-western-wear">Western Wear</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="product-list.php" class="nav-link" data-key="t-handbags-clutches">Ethnic Wear</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="product-list.php" class="nav-link" data-key="t-lingerie-nightwear">Lingerie & Nightwear</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="product-list.php" class="nav-link" data-key="t-footwear">Ethnic Wear</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="product-list.php" class="nav-link" data-key="t-fashion-silver-jewellery">Fashion Wear</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-2">
+                                    <ul class="dropdown-menu-list list-unstyled mb-0 py-3">
+                                        <li>
+                                            <p class="mb-2 text-uppercase fs-11 fw-medium text-muted menu-title" data-key="t-women">Salwar</p>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="product-list.php" class="nav-link" data-key="t-western-wear">Western Wear</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="product-list.php" class="nav-link" data-key="t-handbags-clutches">Ethnic Wear</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="product-list.php" class="nav-link" data-key="t-lingerie-nightwear">Lingerie & Nightwear</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="product-list.php" class="nav-link" data-key="t-footwear">Ethnic Wear</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="product-list.php" class="nav-link" data-key="t-fashion-silver-jewellery">Fashion Wear</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown dropdown-hover dropdown-mega-full">
+                        <a class="nav-link dropdown-toggle" data-key="t-catalog" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Shop By
+                        </a>
+                        <div class="dropdown-menu p-0">
+                            <div class="row g-0 g-lg-4">
+                                <div class="col-lg-2 d-none d-lg-block">
+                                    <div class="card rounded-start rounded-0 border-0 h-100 mb-0 overflow-hidden" style="background-image: url('images/demo-images/category-01.png');background-size: cover;">
+                                        <div class="bg-overlay bg-light bg-opacity-25"></div>
+                                        <div class="card-body d-flex align-items-center justify-content-center">
+                                            <div class="text-center">
+                                                <a href="product-list.php" class="btn btn-secondary btn-hover"><i class="ph-storefront align-middle me-1"></i> <span data-key="t-shop-now">Shop Now</span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2">
+                                    <ul class="dropdown-menu-list list-unstyled mb-0 py-3">
+                                        <li>
+                                            <p class="mb-2 text-uppercase fs-11 fw-medium text-muted menu-title" data-key="t-men">Saree</p>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="product-list.php" class="nav-link" data-key="t-clothing">Ethnic Wear</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="product-list.php" class="nav-link" data-key="t-watches">Fashion Sarees</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="product-list.php" class="nav-link" data-key="t-watches">Fashion</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="product-list.php" class="nav-link" data-key="t-watches">Ethnic Sarees</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="product-list.php" class="nav-link" data-key="t-watches">Fashion</a>
+                                        </li>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-2">
+                                    <ul class="dropdown-menu-list list-unstyled mb-0 py-3">
+                                        <li>
+                                            <p class="mb-2 text-uppercase fs-11 fw-medium text-muted menu-title" data-key="t-women">Salwar</p>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="product-list.php" class="nav-link" data-key="t-western-wear">Western Wear</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="product-list.php" class="nav-link" data-key="t-handbags-clutches">Ethnic Wear</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="product-list.php" class="nav-link" data-key="t-lingerie-nightwear">Lingerie & Nightwear</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="product-list.php" class="nav-link" data-key="t-footwear">Ethnic Wear</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="product-list.php" class="nav-link" data-key="t-fashion-silver-jewellery">Fashion Wear</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-2">
+                                    <ul class="dropdown-menu-list list-unstyled mb-0 py-3">
+                                        <li>
+                                            <p class="mb-2 text-uppercase fs-11 fw-medium text-muted menu-title" data-key="t-accessories-others">Kurti</p>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="product-list.php" class="nav-link" data-key="t-western-wear">Western Wear</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="product-list.php" class="nav-link" data-key="t-handbags-clutches">Ethnic Wear</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="product-list.php" class="nav-link" data-key="t-lingerie-nightwear">Lingerie & Nightwear</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="product-list.php" class="nav-link" data-key="t-footwear">Ethnic Wear</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="product-list.php" class="nav-link" data-key="t-fashion-silver-jewellery">Fashion Wear</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-2">
+                                    <ul class="dropdown-menu-list list-unstyled mb-0 py-3">
+                                        <li>
+                                            <p class="mb-2 text-uppercase fs-11 fw-medium text-muted menu-title" data-key="t-accessories-others">Kurti</p>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="product-list.php" class="nav-link" data-key="t-western-wear">Western Wear</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="product-list.php" class="nav-link" data-key="t-handbags-clutches">Ethnic Wear</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="product-list.php" class="nav-link" data-key="t-lingerie-nightwear">Lingerie & Nightwear</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="product-list.php" class="nav-link" data-key="t-footwear">Ethnic Wear</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="product-list.php" class="nav-link" data-key="t-fashion-silver-jewellery">Fashion Wear</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-2">
+                                    <ul class="dropdown-menu-list list-unstyled mb-0 py-3">
+                                        <li>
+                                            <p class="mb-2 text-uppercase fs-11 fw-medium text-muted menu-title" data-key="t-women">Salwar</p>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="product-list.php" class="nav-link" data-key="t-western-wear">Western Wear</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="product-list.php" class="nav-link" data-key="t-handbags-clutches">Ethnic Wear</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="product-list.php" class="nav-link" data-key="t-lingerie-nightwear">Lingerie & Nightwear</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="product-list.php" class="nav-link" data-key="t-footwear">Ethnic Wear</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="product-list.php" class="nav-link" data-key="t-fashion-silver-jewellery">Fashion Wear</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                
+                    <li class="nav-item">
+                        <a class="nav-link" href="about-us.php" data-key="t-contact">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact-us.php" data-key="t-contact">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="bg-overlay navbar-overlay" data-bs-toggle="collapse"  data-bs-target="#navbarSupportedContent.show"></div>
+
+            <div class="d-flex align-items-center">
+                <button type="button" class="btn btn-icon btn-topbar btn-ghost-dark rounded-circle text-muted" data-bs-toggle="modal" data-bs-target="#searchModal">
+                    <i class="bx bx-search fs-22"></i>
+                </button>
+                <div class="topbar-head-dropdown ms-1 header-item">
+                    <button type="button" class="btn btn-icon btn-topbar btn-ghost-dark rounded-circle text-muted" data-bs-toggle="offcanvas" data-bs-target="#ecommerceCart" aria-controls="ecommerceCart">
+                        <i class="ph-shopping-cart fs-18"></i>
+                        <span class="position-absolute topbar-badge cartitem-badge fs-10 translate-middle badge rounded-pill bg-danger">4</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!--cart -->
+    <div class="offcanvas offcanvas-end product-list" tabindex="-1" id="ecommerceCart" aria-labelledby="ecommerceCartLabel">
+        <div class="offcanvas-header border-bottom">
+            <h5 class="offcanvas-title" id="ecommerceCartLabel">My Cart <span class="badge bg-danger align-middle ms-1 cartitem-badge">4</span></h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body px-0">
+            <div data-simplebar  class="h-100">
+                <ul class="list-group list-group-flush cartlist">
+                    <li class="list-group-item product">
+                        <div class="d-flex gap-3">
+                            <div class="flex-shrink-0">
+                                <div class="avatar-md" style="height: 100%;">
+                                    <div class="avatar-title bg-warning-subtle rounded-3">
+                                        <img src="images/demo-images/product-01.jpeg" alt="" class="avatar-sm">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex-grow-1">
+                                <a href="#!">
+                                    <h5 class="fs-15">Borosil Paper Cup</h5>
+                                </a>
+                                <div class="d-flex mb-3 gap-2">
+                                    <div class="text-muted fw-medium mb-0">₹ <span class="product-price">24.00</span></div>
+                                    <div class="vr"></div>
+                                    <span class="text-success fw-medium">In Stock</span>
+                                </div>
+                                <div class="input-step">
+                                    <button type="button" class="minus">–</button>
+                                    <input type="number" class="product-quantity" value="2" min="0" max="100" readonly>
+                                    <button type="button" class="plus">+</button>
+                                </div>
+                            </div>
+                            <div class="flex-shrink-0 d-flex flex-column justify-content-between align-items-end">
+                                <button type="button" class="btn btn-icon btn-sm btn-ghost-secondary remove-item-btn" data-bs-toggle="modal" data-bs-target="#removeItemModal"><i class="ri-close-fill fs-16"></i></button>
+                                <div class="fw-medium mb-0 fs-16">₹ <span class="product-line-price">48.00</span></div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item product">
+                        <div class="d-flex gap-3">
+                            <div class="flex-shrink-0">
+                                <div class="avatar-md" style="height: 100%;">
+                                    <div class="avatar-title bg-info-subtle rounded-3">
+                                        <img src="images/demo-images/product-01.jpeg" alt="" class="avatar-sm">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex-grow-1">
+                                <a href="#!">
+                                    <h5 class="fs-15">Rockerz Ear Bluetooth Hea...</h5>
+                                </a>
+                                <div class="d-flex mb-3 gap-2">
+                                    <div class="text-muted fw-medium mb-0">₹ <span class="product-price">160.00</span></div>
+                                    <div class="vr"></div>
+                                    <span class="text-success fw-medium">In Stock</span>
+                                </div>
+                                <div class="input-step">
+                                    <button type="button" class="minus">–</button>
+                                    <input type="number" class="product-quantity" value="1" min="0" max="100" readonly>
+                                    <button type="button" class="plus">+</button>
+                                </div>
+                            </div>
+                            <div class="flex-shrink-0 d-flex flex-column justify-content-between align-items-end">
+                                <button type="button" class="btn btn-icon btn-sm btn-ghost-secondary remove-item-btn" data-bs-toggle="modal" data-bs-target="#removeItemModal"><i class="ri-close-fill fs-16"></i></button>
+                                <div class="fw-medium mb-0 fs-16">₹ <span class="product-line-price">160.00</span></div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item product">
+                        <div class="d-flex gap-3">
+                            <div class="flex-shrink-0">
+                                <div class="avatar-md" style="height: 100%;">
+                                    <div class="avatar-title bg-danger-subtle rounded-3">
+                                        <img src="images/products/img-6.png" alt="" class="avatar-sm">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex-grow-1">
+                                <a href="#!">
+                                    <h5 class="fs-15">Monte Carlo Sweaters</h5>
+                                </a>
+                                <div class="d-flex mb-3 gap-2">
+                                    <div class="text-muted fw-medium mb-0">₹  <span class="product-price">244.99</span></div>
+                                    <div class="vr"></div>
+                                    <span class="text-success fw-medium">In Stock</span>
+                                </div>
+                                <div class="input-step">
+                                    <button type="button" class="minus">–</button>
+                                    <input type="number" class="product-quantity" value="3" min="0" max="100" readonly>
+                                    <button type="button" class="plus">+</button>
+                                </div>
+                            </div>
+                            <div class="flex-shrink-0 d-flex flex-column justify-content-between align-items-end">
+                                <button type="button" class="btn btn-icon btn-sm btn-ghost-secondary remove-item-btn" data-bs-toggle="modal" data-bs-target="#removeItemModal"><i class="ri-close-fill fs-16"></i></button>
+                                <div class="fw-medium mb-0 fs-16">₹ <span class="product-line-price">734.97</span></div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item product">
+                        <div class="d-flex gap-3">
+                            <div class="flex-shrink-0">
+                                <div class="avatar-md" style="height: 100%;">
+                                    <div class="avatar-title bg-primary-subtle rounded-3">
+                                        <img src="images/demo-images/product-02.jpeg" alt="" class="avatar-sm">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex-grow-1">
+                                <a href="#!">
+                                    <h5 class="fs-15">Men's Running Shoes Act...</h5>
+                                </a>
+                                <div class="d-flex mb-3 gap-2">
+                                    <div class="text-muted fw-medium mb-0">₹ <span class="product-price">120.30</span></div>
+                                    <div class="vr"></div>
+                                    <span class="text-success fw-medium">In Stock</span>
+                                </div>
+                                <div class="input-step">
+                                    <button type="button" class="minus">–</button>
+                                    <input type="number" class="product-quantity" value="2" min="0" max="100" readonly>
+                                    <button type="button" class="plus">+</button>
+                                </div>
+                            </div>
+                            <div class="flex-shrink-0 d-flex flex-column justify-content-between align-items-end">
+                                <button type="button" class="btn btn-icon btn-sm btn-ghost-secondary remove-item-btn" data-bs-toggle="modal" data-bs-target="#removeItemModal"><i class="ri-close-fill fs-16"></i></button>
+                                <div class="fw-medium mb-0 fs-16">₹ <span class="product-line-price">240.60</span></div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+                <div class="table-responsive mx-2 border-top border-top-dashed">
+                    <table class="table table-borderless mb-0 fs-14 fw-semibold">
+                        <tbody>
+                            <tr>
+                                <td>Sub Total :</td>
+                                <td class="text-end cart-subtotal">₹ 1183.57</td>
+                            </tr>
+                            <tr>
+                                <td>Discount <span class="text-muted">(Toner15)</span>:</td>
+                                <td class="text-end cart-discount">- ₹ 177.54</td>
+                            </tr>
+                            <tr>
+                                <td>Shipping Charge :</td>
+                                <td class="text-end cart-shipping">₹ 65.00</td>
+                            </tr>
+                            <tr>
+                                <td>Estimated Tax (12.5%) : </td>
+                                <td class="text-end cart-tax">₹ 147.95</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="offcanvas-footer border-top p-3 text-center">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <h6 class="m-0 fs-16 text-muted">Total:</h6>
+                <div class="px-2">
+                    <h6 class="m-0 fs-16 cart-total">₹ 1218.98</h6>
+                </div>
+            </div>
+            <div class="row g-2">
+                <div class="col-6">
+                    <a href="cart.php" class="btn btn-info w-100">Continue to Checkout</a>
+                </div>
+                <div class="col-6">
+                    <a href="checkout.php" class="btn btn-info w-100">Continue to Checkout</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="searchModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content rounded">
+                <div class="modal-header p-3">
+                    <div class="position-relative w-100">
+                        <input type="text" class="form-control form-control-lg border-2" placeholder="Search for latest collections..." autocomplete="off" id="search-options" value="">
+                        <span class="bi bi-search search-widget-icon fs-17"></span>
+                        <a href="javascript:void(0);" class="search-widget-icon fs-14 link-secondary text-decoration-underline search-widget-icon-close d-none" id="search-close-options">Clear</a>
+                    </div>
+                </div>
+                <div class="dropdown-menu dropdown-menu-lg dropdown-menu-end p-0 overflow-hidden" id="search-dropdown">
+
+                    <div class="dropdown-head rounded-top">
+                        <div class="p-3">
+                            <div class="row align-items-center">
+                                <div class="col">
+                                    <h6 class="m-0 fs-14 text-muted fw-semibold"> RECENT SEARCHES </h6>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="dropdown-item bg-transparent text-wrap">
+                            <a href="index.php" class="btn btn-soft-secondary btn-sm btn-rounded">how to setup <i class="mdi mdi-magnify ms-1 align-middle"></i></a>
+                            <a href="index.php" class="btn btn-soft-secondary btn-sm btn-rounded">buttons <i class="mdi mdi-magnify ms-1 align-middle"></i></a>
+                        </div>
+                    </div>
+
+                    <div data-simplebar style="max-height: 300px;" class="pe-2 ps-3 my-3">
+                        <div class="list-group list-group-flush border-dashed">
+                            <div class="notification-group-list">
+                                <h5 class="text-overflow text-muted fs-13 mb-2 mt-3 text-uppercase notification-title">Apps Pages</h5>
+                                <a href="javascript:void(0);" class="list-group-item dropdown-item notify-item"><i class="bi bi-speedometer2 me-2"></i> <span>Analytics Dashboard</span></a>
+                                <a href="javascript:void(0);" class="list-group-item dropdown-item notify-item"><i class="bi bi-filetype-psd me-2"></i> <span>Toner.psd</span></a>
+                                <a href="javascript:void(0);" class="list-group-item dropdown-item notify-item"><i class="bi bi-ticket-detailed me-2"></i> <span>Support Tickets</span></a>
+                                <a href="javascript:void(0);" class="list-group-item dropdown-item notify-item"><i class="bi bi-file-earmark-zip me-2"></i> <span>Toner.zip</span></a>
+                            </div>
+
+                            <div class="notification-group-list">
+                                <h5 class="text-overflow text-muted fs-13 mb-2 mt-3 text-uppercase notification-title">Links</h5>
+                                <a href="javascript:void(0);" class="list-group-item dropdown-item notify-item"><i class="bi bi-link-45deg me-2 align-middle"></i> <span>www.themesbrand.com</span></a>
+                            </div>
+
+                            <div class="notification-group-list">
+                                <h5 class="text-overflow text-muted fs-13 mb-2 mt-3 text-uppercase notification-title">People</h5>
+                                <a href="javascript:void(0);" class="list-group-item dropdown-item notify-item">
+                                    <div class="d-flex align-items-center">
+                                        <img src="images/users/avatar-1.jpg" alt="" class="avatar-xs rounded-circle flex-shrink-0 me-2">
+                                        <div>
+                                            <h6 class="mb-0">Ayaan Bowen</h6>
+                                            <span class="fs-12 text-muted">React Developer</span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="javascript:void(0);" class="list-group-item dropdown-item notify-item">
+                                    <div class="d-flex align-items-center">
+                                        <img src="images/users/avatar-7.jpg" alt="" class="avatar-xs rounded-circle flex-shrink-0 me-2">
+                                        <div>
+                                            <h6 class="mb-0">Alexander Kristi</h6>
+                                            <span class="fs-12 text-muted">React Developer</span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="javascript:void(0);" class="list-group-item dropdown-item notify-item">
+                                    <div class="d-flex align-items-center">
+                                        <img src="images/users/avatar-5.jpg" alt="" class="avatar-xs rounded-circle flex-shrink-0 me-2">
+                                        <div>
+                                            <h6 class="mb-0">Alan Carla</h6>
+                                            <span class="fs-12 text-muted">React Developer</span>
+                                        </div>
+                                    </div>
+                                </a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="sticky-holder compensate-for-scrollbar">
-            <div class="container">
-                <div class="row"><a href="#" class="mobilemenu-toggle show-mobile"><i class="icon icon-menu"></i></a>
-                    <div class="col-auto logo-holder-s"><a href="index.php" class="logo"><img src="images/logo.png" srcset="images/logo-retina.png 2x" alt=""></a></div>
-                    <!--navigation-->
-                    <div class="prev-menu-scroll icon-angle-left prev-menu-js"></div>
-                    <div class="nav-holder-s"></div>
-                    <div class="next-menu-scroll icon-angle-right next-menu-js"></div>
-                    <!--//navigation-->
-                    <div class="col-auto minicart-holder-s"></div>
+    </div>
+
+    <!-- removeItemModal -->
+    <div id="removeItemModal" class="modal fade zoomIn" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" id="close-modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="mt-2 text-center">
+                        <lord-icon src="https://cdn.lordicon.com/gsqxdxog.json" trigger="loop" colors="primary:#f7b84b,secondary:#f06548" style="width:100px;height:100px"></lord-icon>
+                        <div class="mt-4 pt-2 fs-15 mx-4 mx-sm-5">
+                            <h4>Are you sure ?</h4>
+                            <p class="text-muted mx-4 mb-0">Are you sure you want to remove this product ?</p>
+                        </div>
+                    </div>
+                    <div class="d-flex gap-2 justify-content-center mt-4 mb-2">
+                        <button type="button" class="btn w-sm btn-light" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn w-sm btn-danger" id="remove-product">Yes, Delete It!</button>
+                    </div>
+                </div>
+
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <div class="modal fade" id="subscribeModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content border-0">
+                <div class="modal-body p-0 bg-info-subtle rounded">
+                    <div class="row g-0 align-items-center">
+                        <div class="col-lg-6">
+                            <div class="p-4 h-100">
+                                <span class="badge bg-info-subtle text-info  fs-13">GET 10% SALE OFF</span>
+                                <h2 class="display-6 mt-2 mb-3">Subscribe & Get <b>50% Special</b> Discount On Email</h2>
+                                <p class="mb-4 pb-lg-2 fs-16">Join our newsletter to receive the latest updates and promotion</p>
+                                <form action="#!">
+                                    <div class="position-relative ecommerce-subscript">
+                                        <input type="email" class="form-control rounded-pill border-0" placeholder="Enter your email">
+                                        <button type="submit" class="btn btn-info btn-hover rounded-pill">Subscript</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="p-4 pb-0">
+                                <img src="images/subscribe.png" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </header>
+    </div>
+    <!-- end modal -->
+
+    <!--start back-to-top-->
+    <button onclick="topFunction()" class="btn btn-info btn-icon" style="bottom: 50px;" id="back-to-top">
+        <i class="ri-arrow-up-line"></i>
+    </button>
+    <!--end back-to-top-->

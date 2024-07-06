@@ -1,0 +1,16 @@
+.navbar.navbar-expand-lg.ecommerce-navbar .nav-bar-logo-custom{
+	position: absolute;
+	top: 0;
+	background: #fff;
+	padding-bottom: 10px;
+	border-bottom-right-radius: 50px;
+	border-bottom-left-radius: 10px;
+	border-bottom: 1px solid #d0d0d0;
+}
+.navbar.navbar-expand-lg.ecommerce-navbar .nav-bar-logo-custom .logo-dark img{
+	height: 180px;
+	transition: height 0.3s ease;
+}
+.navbar.navbar-expand-lg.ecommerce-navbar.is-sticky .nav-bar-logo-custom .logo-dark img{
+	height: 100px;
+}

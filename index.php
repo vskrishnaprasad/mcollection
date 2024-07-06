@@ -1,570 +1,593 @@
 <?php
 include "inc_header.php";
 ?>
-<div class="page-content">
-    <!-- BN Slider 1 -->
-    <div class="holder fullwidth full-nopad mt-0">
-        <div class="container">
-            <div class="bnslider-wrapper">
-                <div class="bnslider bnslider--lg bnslider--darkarrows keep-scale" id="bnslider-001" data-slick='{"arrows": true, "dots": true}' data-autoplay="false" data-speed="5000" data-start-width="1920" data-start-height="680" data-start-mwidth="480" data-start-mheight="578">
-                    <div class="bnslider-slide bnslide-fashion-4">
-                        <div class="bnslider-image-mobile" style="background-image: url('images/home-fashion4/slide1-mobile.png');"></div>
-                        <div class="bnslider-image" style="background-image: url('images/home-fashion4/slide1.png');"></div>
-                        <div class="bnslider-text-wrap bnslider-overlay">
-                            <div class="bnslider-text-content txt-middle txt-left">
-                                <div class="bnslider-text-content-flex container">
-                                    <div class="bnslider-vert m-0">
-                                        <div class="bnslider-text bnslider-text--lg text-center" data-animation="fadeIn" data-animation-delay=".8s" style="color: #fff; opacity: 0; font-size: .48em;">THE BEST</div>
-                                        <div class="bnslider-text bnslider-text--xxs text-center" data-animation="fadeInUp" data-animation-delay="1.2s" style="color: #fff; font-weight: bold; opacity: 0;  font-size: .72em;margin-top: .2em;">SOLUTION</div>
-                                        <div class="bnslider-text bnslider-text--lg text-center" data-animation="fadeIn" data-animation-delay="1.5s" style="color: #fff; opacity: 0; font-size: .18em; font-weight: 600;margin-top: 1.2em;">FOR YOUR BUSINESS</div>
-                                        <div class="bnslider-text bnslider-text--xs text-center" data-animation="zoomIn" data-animation-delay="2.8s" style="color: #fff; font-weight: 600; font-size: .24em;margin-top: 1.5em;">WEEKLY <img width="50" alt="" src=""> TOPSELLER</div>
-                                        <div class="btn-wrap double-mt text-center" data-animation="fadeInUp" data-animation-delay="2s" style="opacity: 0"><a target="_blank" href="https://themeforest.net/item/goodwin-ecommerce-html-template/23251412?rel=bigsteps" class="btn-decor" style="color: #fff;">buy theme<span class="btn-line" style="background-color: #fff;"></span></a></div>
+<section class="position-relative">
+    <div id="ecommerceHero" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="ecommerce-home bg-danger-subtle" style="background-image: url('images/demo-images/slider-01.png');">
+                    <div class="container">
+                        <div class="row justify-content-end">
+                            <div class="col-lg-7">
+                                <div class="text-sm-end">
+                                    <p class="fs-15 fw-semibold text-uppercase"><i class="ri-flashlight-fill text-primary align-bottom me-1"></i> In this season, find the best</p>
+                                    <h1 class="display-4 fw-bold lh-base text-capitalize mb-3">Exclusive collection for everyone</h1>
+                                    <p class="fs-20 mb-4">Biggest offers on this season</p>
+                                    <button class="btn btn-danger btn-hover"><i class="ph-shopping-cart align-middle me-1"></i> Shop Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="ecommerce-home bg-danger-subtle" style="background-image: url('images/demo-images/slider-01.png');">
+                    <div class="container">
+                        <div class="row justify-content-end">
+                            <div class="col-lg-7">
+                                <div class="text-sm-end">
+                                    <p class="fs-15 fw-semibold text-uppercase"><i class="ri-flashlight-fill text-primary align-bottom me-1"></i> In this season, find the best</p>
+                                    <h1 class="display-4 fw-bold lh-base text-capitalize mb-3">Exclusive collection for everyone</h1>
+                                    <p class="fs-20 mb-4">Biggest offers on this season</p>
+                                    <button class="btn btn-danger btn-hover"><i class="ph-shopping-cart align-middle me-1"></i> Shop Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="ecommerce-home bg-danger-subtle" style="background-image: url('images/demo-images/slider-01.png');">
+                    <div class="container">
+                        <div class="row justify-content-end">
+                            <div class="col-lg-7">
+                                <div class="text-sm-end">
+                                    <p class="fs-15 fw-semibold text-uppercase"><i class="ri-flashlight-fill text-primary align-bottom me-1"></i> In this season, find the best</p>
+                                    <h1 class="display-4 fw-bold lh-base text-capitalize mb-3">Exclusive collection for everyone</h1>
+                                    <p class="fs-20 mb-4">Biggest offers on this season</p>
+                                    <button class="btn btn-danger btn-hover"><i class="ph-shopping-cart align-middle me-1"></i> Shop Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#ecommerceHero" data-bs-slide="prev">
+            <i class="ph-caret-left"></i>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#ecommerceHero" data-bs-slide="next">
+            <i class="ph-caret-right"></i>
+        </button>
+    </div>
+</section>
+<!--end home-->
+
+<section class="section">
+    <div class="container-fluid container-custom">
+        <div class="row justify-content-center">
+            <div class="col-lg-7">
+                <div class="section-content text-center mb-5">
+                    <h2 class="title fw-normal text-capitalize">You are in <span class="fw-semibold">new arrivals</span></h2>
+                    <p class="fs-20">Top sale in this week</p>
+                </div>
+            </div><!--end col-->
+        </div><!--end row-->
+        <div class="row row-cols-xxl-5 row-cols-lg-4 row-cols-md-2 row-cols-1" id="productList">
+            <?php
+            for ($i = 1; $i <= 5; $i++) {
+            ?>
+            <div class="col item">
+                <div class="card product-widget border-0 card-animate">
+                    <div class="card-body p-2">
+                        <div class="position-relative p-4 bg-light">
+                            <img src="images/demo-images/product-01.jpeg" alt="" class="img-fluid product-img-main">
+                            <img src="images/demo-images/product-02.jpeg" alt="" class="img-fluid product-img-2">
+                            <ul class="product-menu list-unstyled">
+                                <li class="mb-2">
+                                    <a href="#!" class="rounded-circle bookmark" data-bs-toggle="button"><i class="bi bi-star"></i></a>
+                                </li>
+                                <li>
+                                    <a href="product-details.php" class="rounded-circle"><i class="bi bi-eye"></i></a>
+                                </li>
+                            </ul>
+                            <div class="product-btn mx-auto">
+                                <a href="#!" class="btn btn-info w-100"><i class="bi bi-bag align-baseline me-1"></i> Buy Now</a>
+                            </div>
+                        </div>
+                        <div class="mt-3">
+                            <a href="#!">
+                                <h6 class="text-capitalize fs-16 text-truncate">Regal in Ivory, Pita Handwork Organza Silk Saree</h6>
+                            </a>
+                            <h6 class="fw-normal mb-3 fs-16">₹ 87.99</h6>
+                            <div class="d-flex flex-wrap gap-1">
+                                <div data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" aria-label="Blue" data-bs-original-title="Blue">
+                                    <button type="button" class="btn avatar-xs p-0 d-flex align-items-center justify-content-center border rounded-circle fs-20 text-primary opacity-50">
+                                        <i class="ri-checkbox-blank-circle-fill"></i>
+                                    </button>
+                                </div>
+                                <div data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" aria-label="Yellow" data-bs-original-title="Yellow">
+                                    <button type="button" class="btn avatar-xs p-0 d-flex align-items-center justify-content-center border rounded-circle fs-20 text-warning opacity-50">
+                                        <i class="ri-checkbox-blank-circle-fill"></i>
+                                    </button>
+                                </div>
+                                <div data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" aria-label="Success" data-bs-original-title="Success">
+                                    <button type="button" class="btn avatar-xs p-0 d-flex align-items-center justify-content-center border rounded-circle fs-20 text-success opacity-50">
+                                        <i class="ri-checkbox-blank-circle-fill"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!--end col-->
+            <div class="col item">
+                <div class="card product-widget border-0 card-animate">
+                    <div class="card-body p-2">
+                        <div class="position-relative p-4 bg-light">
+                            <img src="images/demo-images/product-03.jpeg" alt="" class="img-fluid product-img-main">
+                            <img src="images/demo-images/product-04.jpeg" alt="" class="img-fluid product-img-2">
+                            <ul class="product-menu list-unstyled">
+                                <li class="mb-2">
+                                    <a href="#!" class="rounded-circle bookmark" data-bs-toggle="button"><i class="bi bi-star"></i></a>
+                                </li>
+                                <li>
+                                    <a href="product-details.php" class="rounded-circle"><i class="bi bi-eye"></i></a>
+                                </li>
+                            </ul>
+                            <div class="product-btn mx-auto">
+                                <a href="#!" class="btn btn-info w-100"><i class="bi bi-bag align-baseline me-1"></i> Buy Now</a>
+                            </div>
+                        </div>
+                        <div class="mt-3">
+                            <a href="#!">
+                                <h6 class="text-capitalize fs-16 text-truncate">Handpainted Peach Organza Silk Saree</h6>
+                            </a>
+                            <h6 class="fw-normal mb-3 fs-16">₹ 120.32 <small class="text-decoration-line-through fs-14 text-muted">₹ 348.24</small></h6>
+                            <div class="d-flex flex-wrap gap-1">
+                                <div data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" aria-label="Gray" data-bs-original-title="Gray">
+                                    <button type="button" class="btn avatar-xs p-0 d-flex align-items-center justify-content-center border rounded-circle fs-20 text-body opacity-50">
+                                        <i class="ri-checkbox-blank-circle-fill"></i>
+                                    </button>
+                                </div>
+                                <div data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" aria-label="Cyan" data-bs-original-title="Cyan">
+                                    <button type="button" class="btn avatar-xs p-0 d-flex align-items-center justify-content-center border rounded-circle fs-20 text-secondary opacity-50">
+                                        <i class="ri-checkbox-blank-circle-fill"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!--end col-->
+            <?php
+            }
+            ?>
+        </div><!--end row-->
+        <div class="text-center mt-4">
+            <button type="button" class="btn btn-info rounded-0 btn-load" id="productLoadMore">
+                <span class="d-flex align-items-center">
+                    <span class="flex-grow-1 me-2">
+                        Load More
+                    </span>
+                    <span class="spinner-border flex-shrink-0" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </span>
+                </span>
+            </button>
+        </div>
+    </div><!--end container-->
+</section>
+<!--end product-->
+
+<section class="section pt-0">
+    <div class="container-fluid container-custom">
+        <div class="row">
+            <div class="col-lg-4 mb-3">
+                <a href="#!" class="product-banner-1 mt-4 mt-lg-0 rounded overflow-hidden position-relative d-block">
+                    <img src="images/demo-images/feature-01.png" class="img-fluid rounded" alt="">
+                    <div class="bg-overlay blue"></div>
+                    <div class="product-content p-4">
+                        <p class="text-uppercase text-white mb-2">NEW COLLECTIONS</p>
+                        <h1 class="text-white lh-base fw-medium ff-secondary"> Versatile Sarees for Every Occasion </h1>
+                        <div class="product-btn mt-4 text-white">
+                            Shop Now <i class="bi bi-arrow-right ms-2"></i>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 mb-3">
+                <a href="#!" class="product-banner-1 mt-4 mt-lg-0 rounded overflow-hidden position-relative d-block">
+                    <img src="images/demo-images/feature-02.png" class="img-fluid rounded" alt="">
+                    <div class="bg-overlay blue"></div>
+                    <div class="product-content p-4">
+                        <p class="text-uppercase text-white mb-2">NEW COLLECTIONS</p>
+                        <h1 class="text-white lh-base fw-medium ff-secondary">  Unwrap Timeless Elegance </h1>
+                        <div class="product-btn mt-4 text-white">
+                            Shop Now <i class="bi bi-arrow-right ms-2"></i>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 mb-3">
+                <a href="#!" class="product-banner-1 mt-4 mt-lg-0 rounded overflow-hidden position-relative d-block">
+                    <img src="images/demo-images/feature-02.png" class="img-fluid rounded" alt="">
+                    <div class="bg-overlay blue"></div>
+                    <div class="product-content p-4">
+                        <p class="text-uppercase text-white mb-2">NEW COLLECTIONS</p>
+                        <h1 class="text-white lh-base fw-medium ff-secondary"> Versatile Sarees for Every Occasion </h1>
+                        <div class="product-btn mt-4 text-white">
+                            Shop Now <i class="bi bi-arrow-right ms-2"></i>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="section">
+    <div class="container-fluid container-custom">
+        <div class="row align-items-center">
+            <div class="col-lg-2">
+                <h2 class="title text-capitalize fw-medium lh-base mb-3"><b>Premium Categories</b> For Fashion</h2>
+                <a href="product-list.php" class="btn btn-outline-warning btn-hover">View All <i class="bi bi-arrow-right"></i></a>
+            </div>
+            <div class="col-lg-10">
+                <!-- Swiper -->
+                <div class="swiper category-slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="category-widgets-main card border-0 shadow-none bg-light">
+                                <div class="effect">
+                                    <img src="images/demo-images/category-01.png" alt="" class="img-fluid">
+                                    <div class="widgets-wrapper position-absolute text-center">
+                                        <a href="product-list.php" class="btn btn-warning w-md rounded-0 stretched-link">SAREE</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="category-widgets-main card border-0 shadow-none bg-light">
+                                <div class="effect">
+                                    <img src="images/demo-images/category-02.png" alt="" class="img-fluid">
+                                    <div class="widgets-wrapper position-absolute text-center">
+                                        <a href="product-list.php" class="btn btn-warning w-md rounded-0 stretched-link">KURTI</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="category-widgets-main card border-0 shadow-none bg-light">
+                                <div class="effect">
+                                    <img src="images/demo-images/category-03.png" alt="" class="img-fluid">
+                                    <div class="widgets-wrapper position-absolute text-center">
+                                        <a href="product-list.php" class="btn btn-warning w-md rounded-0 stretched-link">SALWAR</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="category-widgets-main card border-0 shadow-none bg-light">
+                                <div class="effect">
+                                    <img src="images/demo-images/category-01.png" alt="" class="img-fluid">
+                                    <div class="widgets-wrapper position-absolute text-center">
+                                        <a href="product-list.php" class="btn btn-warning w-md rounded-0 stretched-link">FASHION</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="category-widgets-main card border-0 shadow-none bg-light">
+                                <div class="effect">
+                                    <img src="images/demo-images/category-02.png" alt="" class="img-fluid">
+                                    <div class="widgets-wrapper position-absolute text-center">
+                                        <a href="product-list.php" class="btn btn-warning w-md rounded-0 stretched-link">ETHNIC</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="category-widgets-main card border-0 shadow-none bg-light">
+                                <div class="effect">
+                                    <img src="images/demo-images/category-03.png" alt="" class="img-fluid">
+                                    <div class="widgets-wrapper position-absolute text-center">
+                                        <a href="product-list.php" class="btn btn-warning w-md rounded-0 stretched-link">FORMAL</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="bnslider-slide bnslide-fashion-3">
-                        <div class="bnslider-image-mobile" style="background-image: url('images/slider/slide3-mobile.jpg');"></div>
-                        <div class="bnslider-image" style="background-image: url('images/slider/slide3.jpg');"></div>
-                        <div class="bnslider-text-wrap bnslider-overlay">
-                            <div class="bnslider-text-content txt-middle txt-center">
-                                <div class="bnslider-text-content-flex container">
-                                    <div class="bnslider-vert border-half" data-animation="zoomIn" data-animation-delay="0s">
-                                        <div class="bnslider-text bnslider-text--xxs text-center" data-animation="fadeInUp" data-animation-delay=".5s">LOOK HUN-REAL IN THE HEAT IN OUR</div>
-                                        <div class="bnslider-text bnslider-text--sm text-center" data-animation="fadeInUp" data-animation-delay="1s" style="color: #000;">URBAN STYLES</div>
-                                        <div class="bnslider-text bnslider-text--xxs text-center" data-animation="fadeInUp" data-animation-delay="1.5s">OUTFIT ALL IN ONE</div>
-                                        <div class="btn-wrap double-mt text-center" data-animation="fadeInUp" data-animation-delay="2s"><a href="#" class="btn-decor" style="color: #000;">shop now<span class="btn-line" style="background-color: #fff;"></span></a></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="bnslider-slide bnslide-fashion-1">
-                        <div class="bnslider-image-mobile" style="background-image: url('images/slider/slide1-mobile.jpg');"></div>
-                        <div class="bnslider-image" style="background-image: url('images/slider/slide1.jpg');"></div>
-                        <div class="bnslider-text-wrap bnslider-overlay">
-                            <div class="bnslider-text-content txt-middle txt-left">
-                                <div class="bnslider-text-content-flex container">
-                                    <div class="bnslider-vert border-half mx-0" data-animation="fadeIn" data-animation-delay="0.5s">
-                                        <div class="bnslider-text bnslider-text--xxs text-center" data-animation="fadeInUp" data-animation-delay="0.8s" style="color: #000;">LOOK HUN-REAL IN THE HEAT IN OUR</div>
-                                        <div class="bnslider-text bnslider-text--sm text-center" data-animation="fadeInUp" data-animation-delay="1s" style="color: #000;">URBAN STYLES</div>
-                                        <div class="bnslider-text bnslider-text--xxs text-center" data-animation="fadeInUp" data-animation-delay="1.6s" style="color: #000;">OUTFIT ALL IN ONE</div>
-                                        <div class="btn-wrap double-mt text-center" data-animation="fadeInUp" data-animation-delay="2s"><a href="#" class="btn-decor" style="color: #000;">shop now<span class="btn-line" style="background-color: #000;"></span></a></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="bnslider-loader">
-                    <div class="loader-wrap">
-                        <div class="dots">
-                            <div class="dot one"></div>
-                            <div class="dot two"></div>
-                            <div class="dot three"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="bnslider-arrows container">
-                    <div></div>
-                </div>
-                <div class="bnslider-dots vert-dots container"></div>
-            </div>
-        </div>
-    </div>
-    <!-- //BN Slider 1 -->
-    <div class="holder">
-        <div class="container">
-            <div class="title-with-right">
-                <h2 class="h1-style">Recomended Products</h2>
-                <div class="prd-carousel-tabs js-filters-prd d-none d-md-flex" data-grid="tabCarousel-01"><span class="active" data-filter="prd">All</span> <span data-filter="prd-popular">Popular</span> <span data-filter="prd-sale">Sale</span> <span data-filter="prd-new">New</span></div>
-                <div class="prd-carousel-tabs js-filters-prd-sm d-md-none"><span class="filters-label active" data-filter=".prd">All</span> <span class="filters-label" data-filter=".prd-popular">Popular</span> <span class="filters-label" data-filter=".prd-sale">Sale</span> <span class="filters-label" data-filter=".prd-new">New</span></div>
-            </div>
-            <div class="prd-grid prd-carousel js-prd-carousel-tab slick-arrows-aside-simple slick-arrows-mobile-lg data-to-show-4 data-to-show-md-3 data-to-show-sm-3 data-to-show-xs-2 js-product-isotope-sm" id="tabCarousel-01" data-slick='{"slidesToShow": 4, "slidesToScroll": 4}'>
-                <div class="prd prd-has-loader prd-new prd-popular">
-                    <div class="prd-inside">
-                        <div class="prd-img-area"><a href="product.html" class="prd-img"><img src="images/products/product-placeholder.png" data-srcset="images/products/product-01.jpg" alt="Glamor shoes" class="js-prd-img lazyload"></a>
-                            <div class="label-new">NEW</div><a href="#" class="label-wishlist icon-heart js-label-wishlist"></a>
-                            <ul class="list-options color-swatch prd-hidemobile">
-                                <li data-image="images/products/product-01.jpg"><a href="#" class="js-color-toggle"><img src="images/products/product-placeholder.png" data-srcset="images/products/xsmall/product-01.jpg" class="lazyload" alt="Color Name"></a></li>
-                                <li data-image="images/products/product-01-2.jpg"><a href="#" class="js-color-toggle"><img src="images/products/product-placeholder.png" data-srcset="images/products/xsmall/product-01-2.jpg" class="lazyload" alt="Color Name"></a></li>
-                            </ul>
-                            <div class="gdw-loader"></div>
-                        </div>
-                        <div class="prd-info">
-                            <div class="prd-tag prd-hidemobile"><a href="#">under armor</a></div>
-                            <h2 class="prd-title"><a href="product.html">Glamor shoes</a></h2>
-                            <div class="prd-rating prd-hidemobile"><i class="icon-star fill"></i><i class="icon-star fill"></i><i class="icon-star fill"></i><i class="icon-star fill"></i><i class="icon-star"></i></div>
-                            <div class="prd-price">
-                                <div class="price-new">$ 34.00</div>
-                            </div>
-                            <div class="prd-hover">
-                                <div class="prd-action">
-                                    <form action="#"><input type="hidden"> <button class="btn" data-fancybox data-src="#modalCheckOut"><i class="icon icon-handbag"></i><span>Add To Cart</span></button></form>
-                                    <div class="prd-links"><a href="#" class="icon-eye prd-qview-link js-qview-link" data-fancybox data-src="#modalQuickView"></a></div>
-                                </div>
-                                <div class="prd-options prd-hidemobile"><span class="label-options">Sizes:</span>
-                                    <ul class="list-options size-swatch">
-                                        <li class="active"><span>xs</span></li>
-                                        <li><span>s</span></li>
-                                        <li><span>m</span></li>
-                                        <li><span>l</span></li>
-                                        <li><span>xl</span></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="prd prd-has-loader prd-new">
-                    <div class="prd-inside">
-                        <div class="prd-img-area"><a href="product.html" class="prd-img"><img src="images/products/product-placeholder.png" data-srcset="images/products/product-02.jpg" alt="Long top with print" class="js-prd-img lazyload"></a>
-                            <div class="label-new">NEW</div><a href="#" class="label-wishlist icon-heart js-label-wishlist"></a>
-                            <ul class="list-options color-swatch prd-hidemobile">
-                                <li data-image="images/products/product-02.jpg"><a href="#" class="js-color-toggle"><img src="images/products/product-placeholder.png" data-srcset="images/products/xsmall/product-02.jpg" class="lazyload" alt="Color Name"></a></li>
-                                <li data-image="images/products/product-02-2.jpg"><a href="#" class="js-color-toggle"><img src="images/products/product-placeholder.png" data-srcset="images/products/xsmall/product-02-2.jpg" class="lazyload" alt="Color Name"></a></li>
-                            </ul>
-                            <div class="gdw-loader"></div>
-                        </div>
-                        <div class="prd-info">
-                            <div class="prd-tag prd-hidemobile"><a href="#">canverse</a></div>
-                            <h2 class="prd-title"><a href="product.html">Long top with print</a></h2>
-                            <div class="prd-rating prd-hidemobile"><i class="icon-star fill"></i><i class="icon-star fill"></i><i class="icon-star fill"></i><i class="icon-star fill"></i><i class="icon-star"></i></div>
-                            <div class="prd-price">
-                                <div class="price-new">$ 20.00</div>
-                            </div>
-                            <div class="prd-hover">
-                                <div class="prd-action">
-                                    <form action="#"><input type="hidden"> <button class="btn" data-fancybox data-src="#modalCheckOut"><i class="icon icon-handbag"></i><span>Add To Cart</span></button></form>
-                                    <div class="prd-links"><a href="#" class="icon-eye prd-qview-link js-qview-link" data-fancybox data-src="#modalQuickView"></a></div>
-                                </div>
-                                <div class="prd-options prd-hidemobile"><span class="label-options">Sizes:</span>
-                                    <ul class="list-options size-swatch">
-                                        <li class="active"><span>xs</span></li>
-                                        <li><span>s</span></li>
-                                        <li><span>m</span></li>
-                                        <li><span>l</span></li>
-                                        <li><span>xl</span></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="prd prd-has-loader prd-sale prd-popular prd-has-countdown">
-                    <div class="prd-inside">
-                        <div class="prd-img-area"><a href="product.html" class="prd-img"><img src="images/products/product-placeholder.png" data-srcset="images/products/product-03.jpg" alt="Tie with texture" class="js-prd-img lazyload"></a>
-                            <div class="label-sale">-51%</div><a href="#" class="label-wishlist icon-heart js-label-wishlist"></a>
-                            <ul class="list-options color-swatch prd-hidemobile">
-                                <li data-image="images/products/product-03.jpg"><a href="#" class="js-color-toggle"><img src="images/products/product-placeholder.png" data-srcset="images/products/xsmall/product-03.jpg" class="lazyload" alt="Color Name"></a></li>
-                                <li data-image="images/products/product-03-2.jpg"><a href="#" class="js-color-toggle"><img src="images/products/product-placeholder.png" data-srcset="images/products/xsmall/product-03-2.jpg" class="lazyload" alt="Color Name"></a></li>
-                                <li data-image="images/products/product-03-3.jpg"><a href="#" class="js-color-toggle"><img src="images/products/product-placeholder.png" data-srcset="images/products/xsmall/product-03-3.jpg" class="lazyload" alt="Color Name"></a></li>
-                            </ul>
-                            <div class="countdown-box">
-                                <div class="countdown js-countdown" data-countdown="2019/12/31"></div>
-                            </div>
-                            <div class="gdw-loader"></div>
-                        </div>
-                        <div class="prd-info">
-                            <div class="prd-tag prd-hidemobile"><a href="#">colvin klein</a></div>
-                            <h2 class="prd-title"><a href="product.html">Tie with texture</a></h2>
-                            <div class="prd-rating prd-hidemobile"><i class="icon-star fill"></i><i class="icon-star fill"></i><i class="icon-star fill"></i><i class="icon-star fill"></i><i class="icon-star"></i></div>
-                            <div class="prd-price">
-                                <div class="price-new">$ 34.00</div>
-                                <div class="price-old">$ 70.00</div>
-                                <div class="price-comment">You save $ 36.00</div>
-                            </div>
-                            <div class="prd-hover">
-                                <div class="prd-action">
-                                    <form action="#"><input type="hidden"> <button class="btn" data-fancybox data-src="#modalCheckOut"><i class="icon icon-handbag"></i><span>Add To Cart</span></button></form>
-                                    <div class="prd-links"><a href="#" class="icon-eye prd-qview-link js-qview-link" data-fancybox data-src="#modalQuickView"></a></div>
-                                </div>
-                                <div class="prd-options prd-hidemobile"><span class="label-options">Sizes:</span>
-                                    <ul class="list-options size-swatch">
-                                        <li class="active"><span>xs</span></li>
-                                        <li><span>s</span></li>
-                                        <li><span>m</span></li>
-                                        <li><span>l</span></li>
-                                        <li><span>xl</span></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="prd prd-has-loader prd-popular prd-outstock">
-                    <div class="prd-inside">
-                        <div class="prd-img-area"><a href="product.html" class="prd-img"><img src="images/products/product-placeholder.png" data-srcset="images/products/product-04.jpg" alt="Fashionable jacket" class="js-prd-img lazyload"></a>
-                            <div class="label-outstock">OUT OF STOCK</div><a href="#" class="label-wishlist icon-heart js-label-wishlist"></a>
-                            <div class="gdw-loader"></div>
-                        </div>
-                        <div class="prd-info">
-                            <div class="prd-tag prd-hidemobile"><a href="#">the south face</a></div>
-                            <h2 class="prd-title"><a href="product.html">Fashionable jacket</a></h2>
-                            <div class="prd-rating prd-hidemobile"><i class="icon-star fill"></i><i class="icon-star fill"></i><i class="icon-star fill"></i><i class="icon-star fill"></i><i class="icon-star"></i></div>
-                            <div class="prd-price">
-                                <div class="price-new">$ 280.00</div>
-                            </div>
-                            <div class="prd-hover">
-                                <div class="prd-action">
-                                    <form action="#"><input type="hidden"> <button class="btn" data-fancybox data-src="#modalCheckOut"><i class="icon icon-handbag"></i><span>Add To Cart</span></button></form>
-                                    <div class="prd-links"><a href="#" class="icon-eye prd-qview-link js-qview-link" data-fancybox data-src="#modalQuickView"></a></div>
-                                </div>
-                                <div class="prd-options prd-hidemobile"><span class="label-options">Sizes:</span>
-                                    <ul class="list-options size-swatch">
-                                        <li class="active"><span>xs</span></li>
-                                        <li><span>s</span></li>
-                                        <li><span>m</span></li>
-                                        <li><span>l</span></li>
-                                        <li><span>xl</span></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="prd prd-has-loader prd-sale prd-new prd-has-countdown">
-                    <div class="prd-inside">
-                        <div class="prd-img-area"><a href="product.html" class="prd-img"><img src="images/products/product-placeholder.png" data-srcset="images/products/product-05.jpg" alt="Checkered shirt" class="js-prd-img lazyload"></a>
-                            <div class="label-sale">-62%</div>
-                            <div class="label-new">NEW</div><a href="#" class="label-wishlist icon-heart js-label-wishlist"></a>
-                            <ul class="list-options color-swatch prd-hidemobile">
-                                <li data-image="images/products/product-05.jpg"><a href="#" class="js-color-toggle"><img src="images/products/product-placeholder.png" data-srcset="images/products/xsmall/product-05.jpg" class="lazyload" alt="Color Name"></a></li>
-                                <li data-image="images/products/product-05-2.jpg"><a href="#" class="js-color-toggle"><img src="images/products/product-placeholder.png" data-srcset="images/products/xsmall/product-05-2.jpg" class="lazyload" alt="Color Name"></a></li>
-                            </ul>
-                            <div class="countdown-box">
-                                <div class="countdown js-countdown" data-countdown="2019/12/31"></div>
-                            </div>
-                            <div class="gdw-loader"></div>
-                        </div>
-                        <div class="prd-info">
-                            <div class="prd-tag prd-hidemobile"><a href="#">canverse</a></div>
-                            <h2 class="prd-title"><a href="product.html">Checkered shirt</a></h2>
-                            <div class="prd-rating prd-hidemobile"><i class="icon-star fill"></i><i class="icon-star fill"></i><i class="icon-star fill"></i><i class="icon-star fill"></i><i class="icon-star"></i></div>
-                            <div class="prd-price">
-                                <div class="price-new">$ 75.00</div>
-                                <div class="price-old">$ 200.00</div>
-                                <div class="price-comment">You save $ 125.00</div>
-                            </div>
-                            <div class="prd-hover">
-                                <div class="prd-action">
-                                    <form action="#"><input type="hidden"> <button class="btn" data-fancybox data-src="#modalCheckOut"><i class="icon icon-handbag"></i><span>Add To Cart</span></button></form>
-                                    <div class="prd-links"><a href="#" class="icon-eye prd-qview-link js-qview-link" data-fancybox data-src="#modalQuickView"></a></div>
-                                </div>
-                                <div class="prd-options prd-hidemobile"><span class="label-options">Sizes:</span>
-                                    <ul class="list-options size-swatch">
-                                        <li class="active"><span>xs</span></li>
-                                        <li><span>s</span></li>
-                                        <li><span>m</span></li>
-                                        <li><span>l</span></li>
-                                        <li><span>xl</span></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="prd prd-has-loader prd-popular">
-                    <div class="prd-inside">
-                        <div class="prd-img-area"><a href="product.html" class="prd-img"><img src="images/products/product-placeholder.png" data-srcset="images/products/product-06.jpg" alt="Louboutin" class="js-prd-img lazyload"> </a><a href="#" class="label-wishlist icon-heart js-label-wishlist"></a>
-                            <ul class="list-options color-swatch prd-hidemobile">
-                                <li data-image="images/products/product-06.jpg"><a href="#" class="js-color-toggle"><img src="images/products/product-placeholder.png" data-srcset="images/products/xsmall/product-06.jpg" class="lazyload" alt="Color Name"></a></li>
-                                <li data-image="images/products/product-06-2.jpg"><a href="#" class="js-color-toggle"><img src="images/products/product-placeholder.png" data-srcset="images/products/xsmall/product-06-2.jpg" class="lazyload" alt="Color Name"></a></li>
-                            </ul>
-                            <div class="gdw-loader"></div>
-                        </div>
-                        <div class="prd-info">
-                            <div class="prd-tag prd-hidemobile"><a href="#">dacoste</a></div>
-                            <h2 class="prd-title"><a href="product.html">Louboutin</a></h2>
-                            <div class="prd-rating prd-hidemobile"><i class="icon-star fill"></i><i class="icon-star fill"></i><i class="icon-star fill"></i><i class="icon-star fill"></i><i class="icon-star"></i></div>
-                            <div class="prd-price">
-                                <div class="price-new">$ 11.00</div>
-                            </div>
-                            <div class="prd-hover">
-                                <div class="prd-action">
-                                    <form action="#"><input type="hidden"> <button class="btn" data-fancybox data-src="#modalCheckOut"><i class="icon icon-handbag"></i><span>Add To Cart</span></button></form>
-                                    <div class="prd-links"><a href="#" class="icon-eye prd-qview-link js-qview-link" data-fancybox data-src="#modalQuickView"></a></div>
-                                </div>
-                                <div class="prd-options prd-hidemobile"><span class="label-options">Sizes:</span>
-                                    <ul class="list-options size-swatch">
-                                        <li class="active"><span>xs</span></li>
-                                        <li><span>s</span></li>
-                                        <li><span>m</span></li>
-                                        <li><span>l</span></li>
-                                        <li><span>xl</span></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="prd prd-has-loader prd-sale prd-has-countdown">
-                    <div class="prd-inside">
-                        <div class="prd-img-area"><a href="product.html" class="prd-img"><img src="images/products/product-placeholder.png" data-srcset="images/products/product-07.jpg" alt="Long shirts" class="js-prd-img lazyload"></a>
-                            <div class="label-sale">-31%</div><a href="#" class="label-wishlist icon-heart js-label-wishlist"></a>
-                            <ul class="list-options color-swatch prd-hidemobile">
-                                <li data-image="images/products/product-07.jpg"><a href="#" class="js-color-toggle"><img src="images/products/product-placeholder.png" data-srcset="images/products/xsmall/product-07.jpg" class="lazyload" alt="Color Name"></a></li>
-                                <li data-image="images/products/product-07-2.jpg"><a href="#" class="js-color-toggle"><img src="images/products/product-placeholder.png" data-srcset="images/products/xsmall/product-07-2.jpg" class="lazyload" alt="Color Name"></a></li>
-                            </ul>
-                            <div class="countdown-box">
-                                <div class="countdown js-countdown" data-countdown="2019/12/31"></div>
-                            </div>
-                            <div class="gdw-loader"></div>
-                        </div>
-                        <div class="prd-info">
-                            <div class="prd-tag prd-hidemobile"><a href="#">koach</a></div>
-                            <h2 class="prd-title"><a href="product.html">Long shirts</a></h2>
-                            <div class="prd-rating prd-hidemobile"><i class="icon-star fill"></i><i class="icon-star fill"></i><i class="icon-star fill"></i><i class="icon-star fill"></i><i class="icon-star"></i></div>
-                            <div class="prd-price">
-                                <div class="price-new">$ 110.00</div>
-                                <div class="price-old">$ 160.00</div>
-                                <div class="price-comment">You save $ 50.00</div>
-                            </div>
-                            <div class="prd-hover">
-                                <div class="prd-action">
-                                    <form action="#"><input type="hidden"> <button class="btn" data-fancybox data-src="#modalCheckOut"><i class="icon icon-handbag"></i><span>Add To Cart</span></button></form>
-                                    <div class="prd-links"><a href="#" class="icon-eye prd-qview-link js-qview-link" data-fancybox data-src="#modalQuickView"></a></div>
-                                </div>
-                                <div class="prd-options prd-hidemobile"><span class="label-options">Sizes:</span>
-                                    <ul class="list-options size-swatch">
-                                        <li class="active"><span>xs</span></li>
-                                        <li><span>s</span></li>
-                                        <li><span>m</span></li>
-                                        <li><span>l</span></li>
-                                        <li><span>xl</span></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="prd prd-has-loader prd-sale prd-new prd-has-countdown">
-                    <div class="prd-inside">
-                        <div class="prd-img-area"><a href="product.html" class="prd-img"><img src="images/products/product-placeholder.png" data-srcset="images/products/product-08.jpg" alt="Office bag" class="js-prd-img lazyload"></a>
-                            <div class="label-sale">-30%</div>
-                            <div class="label-new">NEW</div><a href="#" class="label-wishlist icon-heart js-label-wishlist"></a>
-                            <ul class="list-options color-swatch prd-hidemobile">
-                                <li data-image="images/products/product-08.jpg"><a href="#" class="js-color-toggle"><img src="images/products/product-placeholder.png" data-srcset="images/products/xsmall/product-08.jpg" class="lazyload" alt="Color Name"></a></li>
-                                <li data-image="images/products/product-08-2.jpg"><a href="#" class="js-color-toggle"><img src="images/products/product-placeholder.png" data-srcset="images/products/xsmall/product-08-2.jpg" class="lazyload" alt="Color Name"></a></li>
-                            </ul>
-                            <div class="countdown-box">
-                                <div class="countdown js-countdown" data-countdown="2019/12/31"></div>
-                            </div>
-                            <div class="gdw-loader"></div>
-                        </div>
-                        <div class="prd-info">
-                            <div class="prd-tag prd-hidemobile"><a href="#">clorks</a></div>
-                            <h2 class="prd-title"><a href="product.html">Office bag</a></h2>
-                            <div class="prd-rating prd-hidemobile"><i class="icon-star fill"></i><i class="icon-star fill"></i><i class="icon-star fill"></i><i class="icon-star fill"></i><i class="icon-star"></i></div>
-                            <div class="prd-price">
-                                <div class="price-new">$ 210.00</div>
-                                <div class="price-old">$ 300.00</div>
-                                <div class="price-comment">You save $ 90.00</div>
-                            </div>
-                            <div class="prd-hover">
-                                <div class="prd-action">
-                                    <form action="#"><input type="hidden"> <button class="btn" data-fancybox data-src="#modalCheckOut"><i class="icon icon-handbag"></i><span>Add To Cart</span></button></form>
-                                    <div class="prd-links"><a href="#" class="icon-eye prd-qview-link js-qview-link" data-fancybox data-src="#modalQuickView"></a></div>
-                                </div>
-                                <div class="prd-options prd-hidemobile"><span class="label-options">Sizes:</span>
-                                    <ul class="list-options size-swatch">
-                                        <li class="active"><span>xs</span></li>
-                                        <li><span>s</span></li>
-                                        <li><span>m</span></li>
-                                        <li><span>l</span></li>
-                                        <li><span>xl</span></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="more-link-wrapper text-center"><a href="#" class="btn-decor">show all</a></div>
-        </div>
-    </div>
-    <div class="holder fullboxed bgcolor mt-0 py-2 py-sm-3">
-        <div class="container">
-            <div class="row bnr-grid">
-                <div class="col-md"><a href="#" class="bnr-wrap">
-                        <div class="bnr bnr1 bnr--style-1 bnr--right bnr--middle bnr-hover-scale" data-fontratio="5.55"><img src="images/placeholder.png" data-src="images/home-fashion/banner-1.jpg" alt="Banner" class="lazyload"> <span class="bnr-caption"><span class="bnr-text-wrap"><span class="bnr-text1">new arrivals</span> <span class="bnr-text2">men’s</span> <span class="btn-decor bnr-btn">shop now<span class="btn-line"></span></span></span></span></div>
-                    </a></div>
-                <div class="col-md"><a href="#" class="bnr-wrap">
-                        <div class="bnr bnr2 bnr--style-1 bnr--left bnr--middle bnr-hover-scale" data-fontratio="5.55"><img src="images/placeholder.png" data-src="images/home-fashion/banner-2.jpg" alt="Banner" class="lazyload"> <span class="bnr-caption"><span class="bnr-text-wrap"><span class="bnr-text1">new arrivals</span> <span class="bnr-text2">women’s</span> <span class="btn-decor bnr-btn">shop now<span class="btn-line"></span></span></span></span></div>
-                    </a></div>
-            </div>
-        </div>
-    </div>
-    <div class="holder fullboxed bgcolor mt-0 pb-2 pb-sm-3">
-        <div class="container">
-            <div class="row bnr-grid">
-                <div class="col-md"><a href="#" class="bnr-wrap">
-                        <div class="bnr bnr--style-1 bnr--right bnr--middle bnr-hover-scale" data-fontratio="5.55"><img src="images/placeholder.png" data-src="images/home-fashion/banner-3.jpg" alt="Banner" class="lazyload"> <span class="bnr-caption"><span class="bnr-text-wrap"><span class="bnr-text3">shop the sale now !</span></span></span></div>
-                    </a></div>
-                <div class="col-md"><a href="#" class="bnr-wrap">
-                        <div class="bnr bnr--style-1 bnr--left bnr--middle bnr--dark-text bnr-hover-scale" data-fontratio="5.55"><img src="images/placeholder.png" data-src="images/home-fashion/banner-4.jpg" alt="Banner" class="lazyload"> <span class="bnr-caption"><span class="bnr-text-wrap"><span class="bnr-text3 dark-text">shop the lookbook</span></span></span></div>
-                    </a></div>
-            </div>
-        </div>
-    </div>
-    <div class="holder fullboxed mt-0 py-3 py-lg-4 holder-bg-05">
-        <div class="container">
-            <div class="title-wrap text-center">
-                <div class="h1-style"><b>BUY ONE GET ONE 50% OFF ALL JEANS</b></div>
-                <div class="h4-style under-title">DON'T MISS OUT ON THE BIGGEST SALE DISCOUNTS OF TE SEASON</div>
-                <div><a href="#" class="btn-decor btn-decor--lg">SHOP NOW</a></div>
-            </div>
-        </div>
-    </div>
-    <div class="holder">
-        <div class="container">
-            <div class="collections-wrap row">
-                <div class="col-6 col-sm-4">
-                    <div class="collection-item zoom-out">
-                        <div class="collection-item-img"><a href="#"><img src="images/placeholder.png" data-src="images/home-fashion2/collection-fashion2-01.jpg" class="lazyload" alt="#"></a><span class="collection-item-hover"><span><a href="#" class="btn-decor">shop men’s</a> <a href="#" class="btn-decor">shop women’s</a></span></span></div>
-                        <h3 class="collection-item-title"><a href="#">FASHION SHOES</a></h3>
-                        <p>most popular brands</p>
-                    </div>
-                </div>
-                <div class="col-6 col-sm-4">
-                    <div class="collection-item zoom-out">
-                        <div class="collection-item-img"><a href="#"><img src="images/placeholder.png" data-src="images/home-fashion2/collection-fashion2-01.jpg" class="lazyload" alt="#"></a><span class="collection-item-hover"><span><a href="#" class="btn-decor">shop men’s</a> <a href="#" class="btn-decor">shop women’s</a></span></span></div>
-                        <h3 class="collection-item-title"><a href="#">NEW ARRIWALS</a></h3>
-                        <p>LACOSTE GUCCI CONVERSE</p>
-                    </div>
-                </div>
-                <div class="col-6 col-sm-4">
-                    <div class="collection-item zoom-out">
-                        <div class="collection-item-img"><a href="#"><img src="images/placeholder.png" data-src="images/home-fashion2/collection-fashion2-01.jpg" class="lazyload" alt="#"></a><span class="collection-item-hover"><span><a href="#" class="btn-decor">shop men’s</a> <a href="#" class="btn-decor">shop women’s</a></span></span></div>
-                        <h3 class="collection-item-title"><a href="#">STYLE</a></h3>
-                        <p>summer casual</p>
-                    </div>
-                </div>
-                <div class="col-6 col-sm-4">
-                    <div class="collection-item zoom-out">
-                        <div class="collection-item-img"><a href="#"><img src="images/placeholder.png" data-src="images/home-fashion2/collection-fashion2-01.jpg" class="lazyload" alt="#"></a><span class="collection-item-hover"><span><a href="#" class="btn-decor">shop men’s</a> <a href="#" class="btn-decor">shop women’s</a></span></span></div>
-                        <h3 class="collection-item-title"><a href="#">NEW TREND</a></h3>
-                        <p>look cool everywhere</p>
-                    </div>
-                </div>
-                <div class="col-6 col-sm-4">
-                    <div class="collection-item zoom-out">
-                        <div class="collection-item-img"><a href="#"><img src="images/placeholder.png" data-src="images/home-fashion2/collection-fashion2-01.jpg" class="lazyload" alt="#"></a><span class="collection-item-hover"><span><a href="#" class="btn-decor">shop men’s</a> <a href="#" class="btn-decor">shop women’s</a></span></span></div>
-                        <h3 class="collection-item-title"><a href="#">WEEKEND WARDROBE</a></h3>
-                        <p>find the best for rest</p>
-                    </div>
-                </div>
-                <div class="col-6 col-sm-4">
-                    <div class="collection-item zoom-out">
-                        <div class="collection-item-img"><a href="#"><img src="images/placeholder.png" data-src="images/home-fashion2/collection-fashion2-01.jpg" class="lazyload" alt="#"></a><span class="collection-item-hover collection-item-hover--empty"></span></div>
-                        <h3 class="collection-item-title"><a href="#">DEALS OF TE DAY</a></h3>
-                        <p>best offers & lowest prices</p>
-                    </div>
+                    <div class="swiper-pagination"></div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="holder">
-        <div class="container">
-            <div class="row vert-margin mobile-xs-pad">
-                <div class="col-6 col-lg-3 aside-col-lg-4"><a href="#" class="bnr bnr--style-3 bnr--left bnr--top" data-fontratio="2.63"><img src="images/placeholder.png" data-src="images/home-fashion/banner-7.jpg" alt="Banner" class="lazyload"> <span class="bnr-caption"><span class="bnr-text-wrap"><span class="bnr-text1">Limited discunts for jeans</span> <span class="bnr-text2">65<sup>%</sup><sub>off</sub></span></span></span></a></div>
-                <div class="col-6 col-lg-3 aside-d-none"><a href="#" class="bnr bnr--style-4 bnr--center bnr--middle" data-fontratio="2.63"><img src="images/placeholder.png" data-src="images/home-fashion/banner-8.jpg" alt="Banner" class="lazyload"> <span class="bnr-caption"><span class="bnr-text-wrap"><span class="bnr-text1">unique deal</span> <span class="bnr-text2">diesel watches</span> <span><span class="btn-decor bnr-btn">shop now<span class="btn-line"></span></span></span></span></span></a></div>
-                <div class="col-lg-6 aside-col-lg-8">
-                    <div class="prd-promo prd-promo-carousel vert-dots">
-                        <div class="prd-hor prd-has-loader">
-                            <h3 class="sidebar-block_title">Bestseller</h3>
-                            <div class="prd-inside">
-                                <div class="prd-img-area">
-                                    <div class="prd-img-wrap"><a href="product.html" class="prd-img"><img src="images/products/product-09.jpg" alt="Office shirt" class="js-prd-img"></a></div>
-                                    <ul class="list-options color-swatch prd-hidemobile">
-                                        <li data-image="images/products/product-09.jpg"><a href="#" class="js-color-toggle"><img src="images/products/xsmall/product-09.jpg" alt="Color Name"></a></li>
-                                        <li data-image="images/products/product-09-2.jpg"><a href="#" class="js-color-toggle"><img src="images/products/xsmall/product-09-2.jpg" alt="Color Name"></a></li>
-                                    </ul>
-                                    <div class="gdw-loader"></div>
-                                </div>
-                                <div class="prd-info">
-                                    <h3 class="sidebar-block_title">Bestseller</h3>
-                                    <div class="inside">
-                                        <div class="prd-tag"><a href="#">clorks</a></div>
-                                        <h2 class="prd-title"><a href="product.html">Office shirt</a></h2>
-                                        <div class="prd-rating"><i class="icon-star fill"></i><i class="icon-star fill"></i><i class="icon-star fill"></i><i class="icon-star fill"></i><i class="icon-star"></i></div>
-                                        <div class="prd-price">
-                                            <div class="price-new">$ 78.00</div>
-                                        </div>
-                                        <div class="prd-action">
-                                            <form action="#"><input type="hidden"> <button class="btn" data-fancybox data-src="#modalCheckOut"><i class="icon icon-handbag"></i><span>Add To Cart</span></button></form>
-                                            <div class="prd-links"><a href="#" class="icon-eye prd-qview-link js-qview-link" data-fancybox data-src="#modalQuickView"></a></div>
-                                        </div>
-                                    </div>
-                                </div>
+</section>
+
+<section class="trend-fashion-home">
+    <div class="container-fluid container-custom">
+        <div class="row g-0">
+            <div class="col-lg-4">
+                <div class="home-widgets card card-height-100 border-0 rounded-end-0" style="background-image: url('images/demo-images/section-image-01.png');background-size: cover;">
+                    <div class="card-body"></div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card card-height-100 border-0 rounded-0 bg-info-subtle">
+                    <div class="card-body px-4 px-lg-5 text-center d-flex align-items-center">
+                        <div>
+                            <h3 class="text-capitalize lh-base mb-2">The World Most suitable <span class="ff-secondary">Fashion</span> Collection</h3>
+                            <p class="fs-16 mb-4">Fashion Academy recommends 10 to 12 styles for your first collection. As for how many items to produce within each style frame, test out the waters first.</p>
+                            <button type="button" class="btn btn-info btn-hover rounded-0">Shop Now <i class="bi bi-bag align-baseline ms-1"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div><!--end col-->
+            <div class="col-lg-4">
+                <div class="card home-widgets card-height-100 border-0 rounded-start-0" style="background-image: url('images/demo-images/section-image-02.png');background-size: cover;">
+                    <div class="card-body"></div>
+                </div>
+            </div>
+        </div><!--end row-->
+    </div><!--end container-fluid-->
+</section>
+
+<section class="section pt-0">
+    <div class="container-fluid container-custom">
+        <div class="row justify-content-center">
+            <div class="col-lg-7">
+                <div class="section-content text-center mb-5">
+                    <h2 class="title fw-normal text-capitalize mb-3"><b>Trending</b> Products</h2>
+                </div>
+            </div><!--end col-->
+        </div><!--end row-->
+        <div class="row row-cols-xxl-5 row-cols-lg-4 row-cols-md-2 row-cols-1" id="productList">
+            <?php
+            for ($i = 1; $i <= 5; $i++) {
+            ?>
+            <div class="col item">
+                <div class="card product-widget border-0 card-animate">
+                    <div class="card-body p-2">
+                        <div class="position-relative p-4 bg-light">
+                            <img src="images/demo-images/product-04.jpeg" alt="" class="img-fluid product-img-main">
+                            <img src="images/demo-images/product-03.jpeg" alt="" class="img-fluid product-img-2">
+                            <ul class="product-menu list-unstyled">
+                                <li class="mb-2">
+                                    <a href="#!" class="rounded-circle bookmark" data-bs-toggle="button"><i class="bi bi-star"></i></a>
+                                </li>
+                                <li>
+                                    <a href="product-details.php" class="rounded-circle"><i class="bi bi-eye"></i></a>
+                                </li>
+                            </ul>
+                            <div class="product-btn mx-auto">
+                                <a href="cart.php" class="btn btn-warning w-100"><i class="bi bi-bag align-baseline me-1"></i> Buy Now</a>
                             </div>
                         </div>
-                        <div class="prd-hor prd-has-loader">
-                            <h3 class="sidebar-block_title">Deal of the day</h3>
-                            <div class="prd-inside">
-                                <div class="prd-img-area">
-                                    <div class="prd-img-wrap"><a href="product.html" class="prd-img"><img src="images/products/product-10.jpg" alt="Flip Flops Easy" class="js-prd-img"></a></div>
-                                    <div class="label-sale">-29%</div>
-                                    <ul class="list-options color-swatch prd-hidemobile">
-                                        <li data-image="images/products/product-10.jpg"><a href="#" class="js-color-toggle"><img src="images/products/xsmall/product-10.jpg" alt="Color Name"></a></li>
-                                        <li data-image="images/products/product-10-2.jpg"><a href="#" class="js-color-toggle"><img src="images/products/xsmall/product-10-2.jpg" alt="Color Name"></a></li>
-                                    </ul>
-                                    <div class="gdw-loader"></div>
+                        <div class="mt-3">
+                            <a href="product-details.php">
+                                <h6 class="text-capitalize fs-17 text-truncate">Regal in Ivory, Pita Handwork Organza Silk Saree</h6>
+                            </a>
+                            <h6 class="fw-normal mb-3">₹ 87.99</h6>
+                            <div class="d-flex flex-wrap gap-1">
+                                <div data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" aria-label="Blue" data-bs-original-title="Blue">
+                                    <button type="button" class="btn avatar-xs p-0 d-flex align-items-center justify-content-center border rounded-circle fs-20 text-primary opacity-50">
+                                        <i class="ri-checkbox-blank-circle-fill"></i>
+                                    </button>
                                 </div>
-                                <div class="prd-info">
-                                    <h3 class="sidebar-block_title">Deal of the day</h3>
-                                    <div class="inside">
-                                        <div class="prd-tag"><a href="#">claytan</a></div>
-                                        <h2 class="prd-title"><a href="product.html">Flip Flops Easy</a></h2>
-                                        <div class="prd-rating"><i class="icon-star fill"></i><i class="icon-star fill"></i><i class="icon-star fill"></i><i class="icon-star fill"></i><i class="icon-star"></i></div>
-                                        <div class="prd-price">
-                                            <div class="price-new">$ 122.00</div>
-                                            <div class="price-old">$ 240.00</div>
-                                            <div class="price-comment">You save $ 118.00</div>
-                                        </div>
-                                        <div class="prd-action">
-                                            <form action="#"><input type="hidden"> <button class="btn" data-fancybox data-src="#modalCheckOut"><i class="icon icon-handbag"></i><span>Add To Cart</span></button></form>
-                                            <div class="prd-links"><a href="#" class="icon-eye prd-qview-link js-qview-link" data-fancybox data-src="#modalQuickView"></a></div>
-                                        </div>
-                                    </div>
+                                <div data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" aria-label="Yellow" data-bs-original-title="Yellow">
+                                    <button type="button" class="btn avatar-xs p-0 d-flex align-items-center justify-content-center border rounded-circle fs-20 text-warning opacity-50">
+                                        <i class="ri-checkbox-blank-circle-fill"></i>
+                                    </button>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="prd-hor prd-has-loader">
-                            <h3 class="sidebar-block_title">Top Rated</h3>
-                            <div class="prd-inside">
-                                <div class="prd-img-area">
-                                    <div class="prd-img-wrap"><a href="product.html" class="prd-img"><img src="images/products/product-11.jpg" alt="Leather belt" class="js-prd-img"></a></div>
-                                    <ul class="list-options color-swatch prd-hidemobile">
-                                        <li data-image="images/products/product-11.jpg"><a href="#" class="js-color-toggle"><img src="images/products/xsmall/product-11.jpg" alt="Color Name"></a></li>
-                                        <li data-image="images/products/product-11-2.jpg"><a href="#" class="js-color-toggle"><img src="images/products/xsmall/product-11-2.jpg" alt="Color Name"></a></li>
-                                    </ul>
-                                    <div class="gdw-loader"></div>
-                                </div>
-                                <div class="prd-info">
-                                    <h3 class="sidebar-block_title">Top Rated</h3>
-                                    <div class="inside">
-                                        <div class="prd-tag"><a href="#">cabian</a></div>
-                                        <h2 class="prd-title"><a href="product.html">Leather belt</a></h2>
-                                        <div class="prd-rating"><i class="icon-star fill"></i><i class="icon-star fill"></i><i class="icon-star fill"></i><i class="icon-star fill"></i><i class="icon-star"></i></div>
-                                        <div class="prd-price">
-                                            <div class="price-new">$ 87.00</div>
-                                        </div>
-                                        <div class="prd-action">
-                                            <form action="#"><input type="hidden"> <button class="btn" data-fancybox data-src="#modalCheckOut"><i class="icon icon-handbag"></i><span>Add To Cart</span></button></form>
-                                            <div class="prd-links"><a href="#" class="icon-eye prd-qview-link js-qview-link" data-fancybox data-src="#modalQuickView"></a></div>
-                                        </div>
-                                    </div>
+                                <div data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" aria-label="Success" data-bs-original-title="Success">
+                                    <button type="button" class="btn avatar-xs p-0 d-flex align-items-center justify-content-center border rounded-circle fs-20 text-success opacity-50">
+                                        <i class="ri-checkbox-blank-circle-fill"></i>
+                                    </button>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </div><!--end col-->
+            <div class="col item">
+                <div class="card product-widget border-0 card-animate ribbon-box">
+                    <div class="ribbon ribbon-danger round-shape fw-normal fs-14">10% Off</div>
+                    <div class="card-body p-2">
+                        <div class="position-relative p-4 bg-light">
+                            <img src="images/demo-images/product-02.jpeg" alt="" class="img-fluid product-img-main">
+                            <img src="images/fashion/product/img-01.png" alt="" class="img-fluid product-img-2">
+                            <ul class="product-menu list-unstyled">
+                                <li class="mb-2">
+                                    <a href="#!" class="rounded-circle bookmark" data-bs-toggle="button"><i class="bi bi-star"></i></a>
+                                </li>
+                                <li>
+                                    <a href="product-details.php" class="rounded-circle"><i class="bi bi-eye"></i></a>
+                                </li>
+                            </ul>
+                            <div class="product-btn mx-auto">
+                                <a href="cart.php" class="btn btn-warning w-100"><i class="bi bi-bag align-baseline me-1"></i> Buy Now</a>
+                            </div>
+                        </div>
+                        <div class="mt-3">
+                            <a href="product-details.php">
+                                <h6 class="text-capitalize fs-17 text-truncate">Handpainted Peach Organza Silk Saree</h6>
+                            </a>
+                            <h6 class="fw-normal mb-3">₹ 120.32 <small class="text-decoration-line-through fs-14 text-muted">₹ 348.24</small></h6>
+                            <div class="d-flex flex-wrap gap-1">
+                                <div data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" aria-label="Gray" data-bs-original-title="Gray">
+                                    <button type="button" class="btn avatar-xs p-0 d-flex align-items-center justify-content-center border rounded-circle fs-20 text-body opacity-50">
+                                        <i class="ri-checkbox-blank-circle-fill"></i>
+                                    </button>
+                                </div>
+                                <div data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" aria-label="Cyan" data-bs-original-title="Cyan">
+                                    <button type="button" class="btn avatar-xs p-0 d-flex align-items-center justify-content-center border rounded-circle fs-20 text-secondary opacity-50">
+                                        <i class="ri-checkbox-blank-circle-fill"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!--end col-->
+            <?php
+            }
+            ?>
+        </div><!--end row-->
+        <div class="text-center mt-4">
+            <a href="product-list.php" type="button" class="btn btn-warning btn-hover">
+                View All Products <i class="bi bi-arrow-right"></i>
+            </a>
+        </div>
+    </div><!--end container-->
+</section>
+<!--end product-->
+
+<section class="py-5 border-bottom">
+    <div class="container-fluid container-custom">
+        <div class="row g-3">
+            <div class="col-lg-3">
+                <div class="card bg-success-subtle border-0 mb-0">
+                    <div class="card-body d-flex align-items-center gap-3">
+                        <div class="avatar-sm flex-shrink-0">
+                            <div class="avatar-title bg-success bg-opacity-10 text-success rounded fs-22">
+                                <i class="bi bi-truck"></i>
+                            </div>
+                        </div>
+                        <div class="flex-grow-1">
+                            <h6 class="fs-16">Fast Shipping</h6>
+                            <p class="text-muted mb-0">Lorem Ipsum is simply dummy text of the</p>
+                        </div>
+                    </div>
+                </div>
+            </div><!--end col-->
+            <div class="col-lg-3">
+                <div class="card bg-primary-subtle border-0 mb-0">
+                    <div class="card-body d-flex align-items-center gap-3">
+                        <div class="avatar-sm flex-shrink-0">
+                            <div class="avatar-title bg-primary bg-opacity-10 text-primary rounded fs-22">
+                                <i class="bi bi-cash-coin"></i>
+                            </div>
+                        </div>
+                        <div class="flex-grow-1">
+                            <h6 class="fs-16">Payment Security</h6>
+                            <p class="text-muted mb-0">Lorem Ipsum is simply dummy text of the</p>
+                        </div>
+                    </div>
+                </div>
+            </div><!--end col-->
+            <div class="col-lg-3">
+                <div class="card bg-danger-subtle border-0 mb-0">
+                    <div class="card-body d-flex align-items-center gap-3">
+                        <div class="avatar-sm flex-shrink-0">
+                            <div class="avatar-title bg-danger bg-opacity-10 text-danger rounded fs-22">
+                                <i class="bi bi-shield-check"></i>
+                            </div>
+                        </div>
+                        <div class="flex-grow-1">
+                            <h6 class="fs-16">Products Quality</h6>
+                            <p class="text-muted mb-0">Lorem Ipsum is simply dummy text of the</p>
+                        </div>
+                    </div>
+                </div>
+            </div><!--end col-->
+            <div class="col-lg-3">
+                <div class="card bg-secondary-subtle border-0 mb-0">
+                    <div class="card-body d-flex align-items-center gap-3">
+                        <div class="avatar-sm flex-shrink-0">
+                            <div class="avatar-title bg-secondary bg-opacity-10 text-secondary rounded fs-22">
+                                <i class="bi bi-clock-history"></i>
+                            </div>
+                        </div>
+                        <div class="flex-grow-1">
+                            <h6 class="fs-16">24/7 Support</h6>
+                            <p class="text-muted mb-0">Lorem Ipsum is simply dummy text of the</p>
+                        </div>
+                    </div>
+                </div>
+            </div><!--end col-->
+        </div><!--end row-->
+    </div><!--end container-->
+</section>
+<!--end section-->
+
+<!-- START INSTAGRAM -->
+<section class="section pb-0">
+    <div class="container">
+        <div class="row justify-content-center g-0">
+            <div class="col-lg-7">
+                <div class="text-center">
+                    <h3 class="mb-3">Follow Us In Instagram</h3>
+                    <p class="text-muted fs-15">The most common approach that peoples use to say follow me on Instagram is by sending a direct message.</p>
+                </div>
+           </div>
         </div>
     </div>
-</div>
+
+    <div class="position-relative">
+        <div class="row g-0 mt-5">
+            <div class="col">
+                <div class="insta-img">
+                    <a href="#!" class="stretched-link">
+                        <img src="images/demo-images/instgram-01.png" class="img-fluid" alt="">
+                        <i class="ri-instagram-line"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="insta-img">
+                    <a href="#!" class="stretched-link">
+                        <img src="images/demo-images/instgram-02.png" class="img-fluid" alt="">
+                        <i class="ri-instagram-line"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col d-none d-md-block">
+                <div class="insta-img">
+                    <a href="#!" class="stretched-link">
+                        <img src="images/demo-images/instgram-03.png" class="img-fluid" alt="">
+                        <i class="ri-instagram-line"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col d-none d-md-block">
+                <div class="insta-img">
+                    <a href="#!" class="stretched-link">
+                        <img src="images/demo-images/instgram-04.png" class="img-fluid" alt="">
+                        <i class="ri-instagram-line"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col d-none d-lg-block">
+                <div class="insta-img">
+                    <a href="#!" class="stretched-link">
+                        <img src="images/demo-images/instgram-01.png" class="img-fluid" alt="">
+                        <i class="ri-instagram-line"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col d-none d-lg-block">
+                <div class="insta-img">
+                    <a href="#!" class="stretched-link">
+                        <img src="images/demo-images/instgram-02.png" class="img-fluid" alt="">
+                        <i class="ri-instagram-line"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="insta-lable text-center">
+            <a href="#!" class="btn btn-primary btn-hover">
+                <i class="ph-instagram-logo align-middle me-1"></i> Follow In Instagram
+            </a>
+        </div>
+    </div>
+</section>
+<!-- END INSTAGRAM -->
 <?php
 include "inc_footer.php";
 ?>
