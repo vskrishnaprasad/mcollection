@@ -5,7 +5,7 @@ include "inc_header.php";
     <div id="ecommerceHero" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <div class="ecommerce-home bg-danger-subtle" style="background-image: url('images/demo-images/slider-01.png');">
+                <div class="ecommerce-home bg-danger-subtle" style="background-image: url('images/demo-images/back1.jpg');">
                     <div class="container">
                         <div class="row justify-content-end">
                             <div class="col-lg-7">
@@ -21,7 +21,7 @@ include "inc_header.php";
                 </div>
             </div>
             <div class="carousel-item">
-                <div class="ecommerce-home bg-danger-subtle" style="background-image: url('images/demo-images/slider-01.png');">
+                <div class="ecommerce-home bg-danger-subtle" style="background-image: url('images/demo-images/background2.jpg');">
                     <div class="container">
                         <div class="row justify-content-end">
                             <div class="col-lg-7">
@@ -37,7 +37,7 @@ include "inc_header.php";
                 </div>
             </div>
             <div class="carousel-item">
-                <div class="ecommerce-home bg-danger-subtle" style="background-image: url('images/demo-images/slider-01.png');">
+                <div class="ecommerce-home bg-danger-subtle" style="background-image: url('images/demo-images/back2.webp');">
                     <div class="container">
                         <div class="row justify-content-end">
                             <div class="col-lg-7">
@@ -77,89 +77,89 @@ include "inc_header.php";
             <?php
             for ($i = 1; $i <= 5; $i++) {
             ?>
-            <div class="col item">
-                <div class="card product-widget border-0 card-animate">
-                    <div class="card-body p-2">
-                        <div class="position-relative p-4 bg-light">
-                            <img src="images/demo-images/product-01.jpeg" alt="" class="img-fluid product-img-main">
-                            <img src="images/demo-images/product-02.jpeg" alt="" class="img-fluid product-img-2">
-                            <ul class="product-menu list-unstyled">
-                                <li class="mb-2">
-                                    <a href="#!" class="rounded-circle bookmark" data-bs-toggle="button"><i class="bi bi-star"></i></a>
-                                </li>
-                                <li>
-                                    <a href="product-details.php" class="rounded-circle"><i class="bi bi-eye"></i></a>
-                                </li>
-                            </ul>
-                            <div class="product-btn mx-auto">
-                                <a href="#!" class="btn btn-info w-100"><i class="bi bi-bag align-baseline me-1"></i> Buy Now</a>
-                            </div>
-                        </div>
-                        <div class="mt-3">
-                            <a href="#!">
-                                <h6 class="text-capitalize fs-16 text-truncate">Regal in Ivory, Pita Handwork Organza Silk Saree</h6>
-                            </a>
-                            <h6 class="fw-normal mb-3 fs-16">₹ 87.99</h6>
-                            <div class="d-flex flex-wrap gap-1">
-                                <div data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" aria-label="Blue" data-bs-original-title="Blue">
-                                    <button type="button" class="btn avatar-xs p-0 d-flex align-items-center justify-content-center border rounded-circle fs-20 text-primary opacity-50">
-                                        <i class="ri-checkbox-blank-circle-fill"></i>
-                                    </button>
-                                </div>
-                                <div data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" aria-label="Yellow" data-bs-original-title="Yellow">
-                                    <button type="button" class="btn avatar-xs p-0 d-flex align-items-center justify-content-center border rounded-circle fs-20 text-warning opacity-50">
-                                        <i class="ri-checkbox-blank-circle-fill"></i>
-                                    </button>
-                                </div>
-                                <div data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" aria-label="Success" data-bs-original-title="Success">
-                                    <button type="button" class="btn avatar-xs p-0 d-flex align-items-center justify-content-center border rounded-circle fs-20 text-success opacity-50">
-                                        <i class="ri-checkbox-blank-circle-fill"></i>
-                                    </button>
+                <div class="col item">
+                    <div class="card product-widget border-0 card-animate">
+                        <div class="card-body p-2">
+                            <div class="position-relative p-4 bg-light">
+                                <img src="images/products/pdt1.webp" alt="" class="img-fluid product-img-main">
+                                <img src="images/products/pdt1.webp" alt="" class="img-fluid product-img-2">
+                                <ul class="product-menu list-unstyled">
+                                    <li class="mb-2">
+                                        <a href="#!" class="rounded-circle bookmark" data-bs-toggle="button"><i class="bi bi-star"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="product-details.php" class="rounded-circle"><i class="bi bi-eye"></i></a>
+                                    </li>
+                                </ul>
+                                <div class="product-btn mx-auto">
+                                    <a href="#!" class="btn btn-info w-100"><i class="bi bi-bag align-baseline me-1"></i> Buy Now</a>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div><!--end col-->
-            <div class="col item">
-                <div class="card product-widget border-0 card-animate">
-                    <div class="card-body p-2">
-                        <div class="position-relative p-4 bg-light">
-                            <img src="images/demo-images/product-03.jpeg" alt="" class="img-fluid product-img-main">
-                            <img src="images/demo-images/product-04.jpeg" alt="" class="img-fluid product-img-2">
-                            <ul class="product-menu list-unstyled">
-                                <li class="mb-2">
-                                    <a href="#!" class="rounded-circle bookmark" data-bs-toggle="button"><i class="bi bi-star"></i></a>
-                                </li>
-                                <li>
-                                    <a href="product-details.php" class="rounded-circle"><i class="bi bi-eye"></i></a>
-                                </li>
-                            </ul>
-                            <div class="product-btn mx-auto">
-                                <a href="#!" class="btn btn-info w-100"><i class="bi bi-bag align-baseline me-1"></i> Buy Now</a>
-                            </div>
-                        </div>
-                        <div class="mt-3">
-                            <a href="#!">
-                                <h6 class="text-capitalize fs-16 text-truncate">Handpainted Peach Organza Silk Saree</h6>
-                            </a>
-                            <h6 class="fw-normal mb-3 fs-16">₹ 120.32 <small class="text-decoration-line-through fs-14 text-muted">₹ 348.24</small></h6>
-                            <div class="d-flex flex-wrap gap-1">
-                                <div data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" aria-label="Gray" data-bs-original-title="Gray">
-                                    <button type="button" class="btn avatar-xs p-0 d-flex align-items-center justify-content-center border rounded-circle fs-20 text-body opacity-50">
-                                        <i class="ri-checkbox-blank-circle-fill"></i>
-                                    </button>
-                                </div>
-                                <div data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" aria-label="Cyan" data-bs-original-title="Cyan">
-                                    <button type="button" class="btn avatar-xs p-0 d-flex align-items-center justify-content-center border rounded-circle fs-20 text-secondary opacity-50">
-                                        <i class="ri-checkbox-blank-circle-fill"></i>
-                                    </button>
+                            <div class="mt-3">
+                                <a href="#!">
+                                    <h6 class="text-capitalize fs-16 text-truncate">Regal in Ivory, Pita Handwork Organza Silk Saree</h6>
+                                </a>
+                                <h6 class="fw-normal mb-3 fs-16">₹ 87.99</h6>
+                                <div class="d-flex flex-wrap gap-1">
+                                    <div data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" aria-label="Blue" data-bs-original-title="Blue">
+                                        <button type="button" class="btn avatar-xs p-0 d-flex align-items-center justify-content-center border rounded-circle fs-20 text-primary opacity-50">
+                                            <i class="ri-checkbox-blank-circle-fill"></i>
+                                        </button>
+                                    </div>
+                                    <div data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" aria-label="Yellow" data-bs-original-title="Yellow">
+                                        <button type="button" class="btn avatar-xs p-0 d-flex align-items-center justify-content-center border rounded-circle fs-20 text-warning opacity-50">
+                                            <i class="ri-checkbox-blank-circle-fill"></i>
+                                        </button>
+                                    </div>
+                                    <div data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" aria-label="Success" data-bs-original-title="Success">
+                                        <button type="button" class="btn avatar-xs p-0 d-flex align-items-center justify-content-center border rounded-circle fs-20 text-success opacity-50">
+                                            <i class="ri-checkbox-blank-circle-fill"></i>
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div><!--end col-->
+                </div><!--end col-->
+                <!-- <div class="col item">
+                    <div class="card product-widget border-0 card-animate">
+                        <div class="card-body p-2">
+                            <div class="position-relative p-4 bg-light">
+                                <img src="images/products/pdt2.webp" alt="" class="img-fluid product-img-main">
+                                <img src="images/products/pdt2.webp" alt="" class="img-fluid product-img-2">
+                                <ul class="product-menu list-unstyled">
+                                    <li class="mb-2">
+                                        <a href="#!" class="rounded-circle bookmark" data-bs-toggle="button"><i class="bi bi-star"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="product-details.php" class="rounded-circle"><i class="bi bi-eye"></i></a>
+                                    </li>
+                                </ul>
+                                <div class="product-btn mx-auto">
+                                    <a href="#!" class="btn btn-info w-100"><i class="bi bi-bag align-baseline me-1"></i> Buy Now</a>
+                                </div>
+                            </div>
+                            <div class="mt-3">
+                                <a href="#!">
+                                    <h6 class="text-capitalize fs-16 text-truncate">Handpainted Peach Organza Silk Saree</h6>
+                                </a>
+                                <h6 class="fw-normal mb-3 fs-16">₹ 120.32 <small class="text-decoration-line-through fs-14 text-muted">₹ 348.24</small></h6>
+                                <div class="d-flex flex-wrap gap-1">
+                                    <div data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" aria-label="Gray" data-bs-original-title="Gray">
+                                        <button type="button" class="btn avatar-xs p-0 d-flex align-items-center justify-content-center border rounded-circle fs-20 text-body opacity-50">
+                                            <i class="ri-checkbox-blank-circle-fill"></i>
+                                        </button>
+                                    </div>
+                                    <div data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" aria-label="Cyan" data-bs-original-title="Cyan">
+                                        <button type="button" class="btn avatar-xs p-0 d-flex align-items-center justify-content-center border rounded-circle fs-20 text-secondary opacity-50">
+                                            <i class="ri-checkbox-blank-circle-fill"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>end col -->
             <?php
             }
             ?>
@@ -202,7 +202,7 @@ include "inc_header.php";
                     <div class="bg-overlay blue"></div>
                     <div class="product-content p-4">
                         <p class="text-uppercase text-white mb-2">NEW COLLECTIONS</p>
-                        <h1 class="text-white lh-base fw-medium ff-secondary">  Unwrap Timeless Elegance </h1>
+                        <h1 class="text-white lh-base fw-medium ff-secondary"> Unwrap Timeless Elegance </h1>
                         <div class="product-btn mt-4 text-white">
                             Shop Now <i class="bi bi-arrow-right ms-2"></i>
                         </div>
@@ -347,90 +347,90 @@ include "inc_header.php";
             <?php
             for ($i = 1; $i <= 5; $i++) {
             ?>
-            <div class="col item">
-                <div class="card product-widget border-0 card-animate">
-                    <div class="card-body p-2">
-                        <div class="position-relative p-4 bg-light">
-                            <img src="images/demo-images/product-04.jpeg" alt="" class="img-fluid product-img-main">
-                            <img src="images/demo-images/product-03.jpeg" alt="" class="img-fluid product-img-2">
-                            <ul class="product-menu list-unstyled">
-                                <li class="mb-2">
-                                    <a href="#!" class="rounded-circle bookmark" data-bs-toggle="button"><i class="bi bi-star"></i></a>
-                                </li>
-                                <li>
-                                    <a href="product-details.php" class="rounded-circle"><i class="bi bi-eye"></i></a>
-                                </li>
-                            </ul>
-                            <div class="product-btn mx-auto">
-                                <a href="cart.php" class="btn btn-warning w-100"><i class="bi bi-bag align-baseline me-1"></i> Buy Now</a>
-                            </div>
-                        </div>
-                        <div class="mt-3">
-                            <a href="product-details.php">
-                                <h6 class="text-capitalize fs-17 text-truncate">Regal in Ivory, Pita Handwork Organza Silk Saree</h6>
-                            </a>
-                            <h6 class="fw-normal mb-3">₹ 87.99</h6>
-                            <div class="d-flex flex-wrap gap-1">
-                                <div data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" aria-label="Blue" data-bs-original-title="Blue">
-                                    <button type="button" class="btn avatar-xs p-0 d-flex align-items-center justify-content-center border rounded-circle fs-20 text-primary opacity-50">
-                                        <i class="ri-checkbox-blank-circle-fill"></i>
-                                    </button>
-                                </div>
-                                <div data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" aria-label="Yellow" data-bs-original-title="Yellow">
-                                    <button type="button" class="btn avatar-xs p-0 d-flex align-items-center justify-content-center border rounded-circle fs-20 text-warning opacity-50">
-                                        <i class="ri-checkbox-blank-circle-fill"></i>
-                                    </button>
-                                </div>
-                                <div data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" aria-label="Success" data-bs-original-title="Success">
-                                    <button type="button" class="btn avatar-xs p-0 d-flex align-items-center justify-content-center border rounded-circle fs-20 text-success opacity-50">
-                                        <i class="ri-checkbox-blank-circle-fill"></i>
-                                    </button>
+                <div class="col item">
+                    <div class="card product-widget border-0 card-animate">
+                        <div class="card-body p-2">
+                            <div class="position-relative p-4 bg-light">
+                                <img src="images/demo-images/product-04.jpeg" alt="" class="img-fluid product-img-main">
+                                <img src="images/demo-images/product-03.jpeg" alt="" class="img-fluid product-img-2">
+                                <ul class="product-menu list-unstyled">
+                                    <li class="mb-2">
+                                        <a href="#!" class="rounded-circle bookmark" data-bs-toggle="button"><i class="bi bi-star"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="product-details.php" class="rounded-circle"><i class="bi bi-eye"></i></a>
+                                    </li>
+                                </ul>
+                                <div class="product-btn mx-auto">
+                                    <a href="cart.php" class="btn btn-warning w-100"><i class="bi bi-bag align-baseline me-1"></i> Buy Now</a>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div><!--end col-->
-            <div class="col item">
-                <div class="card product-widget border-0 card-animate ribbon-box">
-                    <div class="ribbon ribbon-danger round-shape fw-normal fs-14">10% Off</div>
-                    <div class="card-body p-2">
-                        <div class="position-relative p-4 bg-light">
-                            <img src="images/demo-images/product-02.jpeg" alt="" class="img-fluid product-img-main">
-                            <img src="images/fashion/product/img-01.png" alt="" class="img-fluid product-img-2">
-                            <ul class="product-menu list-unstyled">
-                                <li class="mb-2">
-                                    <a href="#!" class="rounded-circle bookmark" data-bs-toggle="button"><i class="bi bi-star"></i></a>
-                                </li>
-                                <li>
-                                    <a href="product-details.php" class="rounded-circle"><i class="bi bi-eye"></i></a>
-                                </li>
-                            </ul>
-                            <div class="product-btn mx-auto">
-                                <a href="cart.php" class="btn btn-warning w-100"><i class="bi bi-bag align-baseline me-1"></i> Buy Now</a>
-                            </div>
-                        </div>
-                        <div class="mt-3">
-                            <a href="product-details.php">
-                                <h6 class="text-capitalize fs-17 text-truncate">Handpainted Peach Organza Silk Saree</h6>
-                            </a>
-                            <h6 class="fw-normal mb-3">₹ 120.32 <small class="text-decoration-line-through fs-14 text-muted">₹ 348.24</small></h6>
-                            <div class="d-flex flex-wrap gap-1">
-                                <div data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" aria-label="Gray" data-bs-original-title="Gray">
-                                    <button type="button" class="btn avatar-xs p-0 d-flex align-items-center justify-content-center border rounded-circle fs-20 text-body opacity-50">
-                                        <i class="ri-checkbox-blank-circle-fill"></i>
-                                    </button>
-                                </div>
-                                <div data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" aria-label="Cyan" data-bs-original-title="Cyan">
-                                    <button type="button" class="btn avatar-xs p-0 d-flex align-items-center justify-content-center border rounded-circle fs-20 text-secondary opacity-50">
-                                        <i class="ri-checkbox-blank-circle-fill"></i>
-                                    </button>
+                            <div class="mt-3">
+                                <a href="product-details.php">
+                                    <h6 class="text-capitalize fs-17 text-truncate">Regal in Ivory, Pita Handwork Organza Silk Saree</h6>
+                                </a>
+                                <h6 class="fw-normal mb-3">₹ 87.99</h6>
+                                <div class="d-flex flex-wrap gap-1">
+                                    <div data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" aria-label="Blue" data-bs-original-title="Blue">
+                                        <button type="button" class="btn avatar-xs p-0 d-flex align-items-center justify-content-center border rounded-circle fs-20 text-primary opacity-50">
+                                            <i class="ri-checkbox-blank-circle-fill"></i>
+                                        </button>
+                                    </div>
+                                    <div data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" aria-label="Yellow" data-bs-original-title="Yellow">
+                                        <button type="button" class="btn avatar-xs p-0 d-flex align-items-center justify-content-center border rounded-circle fs-20 text-warning opacity-50">
+                                            <i class="ri-checkbox-blank-circle-fill"></i>
+                                        </button>
+                                    </div>
+                                    <div data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" aria-label="Success" data-bs-original-title="Success">
+                                        <button type="button" class="btn avatar-xs p-0 d-flex align-items-center justify-content-center border rounded-circle fs-20 text-success opacity-50">
+                                            <i class="ri-checkbox-blank-circle-fill"></i>
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div><!--end col-->
+                </div><!--end col-->
+                <!-- <div class="col item">
+                    <div class="card product-widget border-0 card-animate ribbon-box">
+                        <div class="ribbon ribbon-danger round-shape fw-normal fs-14">10% Off</div>
+                        <div class="card-body p-2">
+                            <div class="position-relative p-4 bg-light">
+                                <img src="images/demo-images/product-02.jpeg" alt="" class="img-fluid product-img-main">
+                                <img src="images/fashion/product/img-01.png" alt="" class="img-fluid product-img-2">
+                                <ul class="product-menu list-unstyled">
+                                    <li class="mb-2">
+                                        <a href="#!" class="rounded-circle bookmark" data-bs-toggle="button"><i class="bi bi-star"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="product-details.php" class="rounded-circle"><i class="bi bi-eye"></i></a>
+                                    </li>
+                                </ul>
+                                <div class="product-btn mx-auto">
+                                    <a href="cart.php" class="btn btn-warning w-100"><i class="bi bi-bag align-baseline me-1"></i> Buy Now</a>
+                                </div>
+                            </div>
+                            <div class="mt-3">
+                                <a href="product-details.php">
+                                    <h6 class="text-capitalize fs-17 text-truncate">Handpainted Peach Organza Silk Saree</h6>
+                                </a>
+                                <h6 class="fw-normal mb-3">₹ 120.32 <small class="text-decoration-line-through fs-14 text-muted">₹ 348.24</small></h6>
+                                <div class="d-flex flex-wrap gap-1">
+                                    <div data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" aria-label="Gray" data-bs-original-title="Gray">
+                                        <button type="button" class="btn avatar-xs p-0 d-flex align-items-center justify-content-center border rounded-circle fs-20 text-body opacity-50">
+                                            <i class="ri-checkbox-blank-circle-fill"></i>
+                                        </button>
+                                    </div>
+                                    <div data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" aria-label="Cyan" data-bs-original-title="Cyan">
+                                        <button type="button" class="btn avatar-xs p-0 d-flex align-items-center justify-content-center border rounded-circle fs-20 text-secondary opacity-50">
+                                            <i class="ri-checkbox-blank-circle-fill"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>end col -->
             <?php
             }
             ?>
@@ -521,7 +521,7 @@ include "inc_header.php";
                     <h3 class="mb-3">Follow Us In Instagram</h3>
                     <p class="text-muted fs-15">The most common approach that peoples use to say follow me on Instagram is by sending a direct message.</p>
                 </div>
-           </div>
+            </div>
         </div>
     </div>
 
