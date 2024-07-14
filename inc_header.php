@@ -345,6 +345,22 @@
                 <button type="button" class="btn btn-icon btn-topbar btn-ghost-dark rounded-circle text-muted" data-bs-toggle="modal" data-bs-target="#searchModal">
                     <i class="bx bx-search fs-22"></i>
                 </button>
+                <div class="dropdown header-item dropdown-hover-end">
+                    <button type="button" class="btn btn-icon btn-topbar btn-ghost-secondary rounded-circle" id="page-header-user-dropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="ph-user-circle fs-22"></i>
+                    </button> 
+                    <div class="dropdown-menu dropdown-menu-end">
+                        <!-- item-->
+                        <h6 class="dropdown-header">Hi, User_test!</h6>
+                        <a class="dropdown-item" href="my-account.php"><i class="bi bi-speedometer2 text-muted fs-16 align-middle me-1"></i> <span class="align-middle">My Account</span></a>
+                        <a class="dropdown-item" href="my-account.php"><i class="bi bi-cart4 text-muted fs-16 align-middle me-1"></i> <span class="align-middle">My Orders</span></a>
+                        <a class="dropdown-item" href="index.php"><i class="bi bi-box-arrow-right text-muted fs-16 align-middle me-1"></i> <span class="align-middle" data-key="t-logout">Logout</span></a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="sign-in.php"><i class="ph ph-sign-in-thin text-muted fs-16 align-middle me-1"></i> <span class="align-middle" data-key="t-logout">Sign In</span></a>
+                        <a class="dropdown-item" href="sign-up.php"><i class="ph ph-sign-in-thin text-muted fs-16 align-middle me-1"></i> <span class="align-middle" data-key="t-logout">Sign Up</span></a>
+                    </div>
+                </div>
+
                 <div class="topbar-head-dropdown ms-1 header-item">
                     <button type="button" class="btn btn-icon btn-topbar btn-ghost-dark rounded-circle text-muted" data-bs-toggle="offcanvas" data-bs-target="#ecommerceCart" aria-controls="ecommerceCart">
                         <i class="ph-shopping-cart fs-18"></i>
