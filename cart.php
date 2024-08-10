@@ -1,16 +1,16 @@
 <?php
 include "inc_header.php";
 ?>
-<section class="page-wrapper bg-primary">
+<section class="page-wrapper bg-page-header">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
                 <div class="text-center d-flex align-items-center justify-content-between">
-                    <h4 class="text-white mb-0">Shopping Cart</h4>
+                    <h4 class="text-dark mb-0">Shopping Cart</h4>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb breadcrumb-light justify-content-center mb-0 fs-15">
-                            <li class="breadcrumb-item"><a href="#!">Shop</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">Shopping Cart</li>
+                            <li class="breadcrumb-item text-muted"><a href="#!">Shop</a></li>
+                            <li class="breadcrumb-item text-muted active" aria-current="page">Shopping Cart</li>
                         </ol>
                     </nav>
                 </div>
@@ -20,8 +20,7 @@ include "inc_header.php";
         <!--end row-->
     </div>
     <!--end container-->
-</section><!--end page-wrapper-->
-
+</section>
 <section class="section">
     <div class="container">
         <div class="row product-list justify-content-center">

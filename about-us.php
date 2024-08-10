@@ -1,17 +1,25 @@
 <?php
 include "inc_header.php";
 ?>
-<section class="ecommerce-about bg-primary">
+<section class="page-wrapper bg-page-header">
     <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-5">
-                <div class="text-center">
-                    <h1 class="text-white">About Us</h1>
-                    <p class="fs-16 mb-0 text-white-75">Let's start something great together. Get in touch with one of the team today!</p>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="text-center d-flex align-items-center justify-content-between">
+                    <h4 class="text-dark mb-0">About us</h4>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb breadcrumb-light justify-content-center mb-0 fs-15">
+                            <li class="breadcrumb-item text-muted"><a href="#!">Home</a></li>
+                            <li class="breadcrumb-item text-muted active" aria-current="page">About us</li>
+                        </ol>
+                    </nav>
                 </div>
             </div>
+            <!--end col-->
         </div>
+        <!--end row-->
     </div>
+    <!--end container-->
 </section>
 
 <section class="ecommerce-about">

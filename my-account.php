@@ -78,7 +78,7 @@ include "inc_header.php";
                                                             Mobile / Phone Number
                                                         </td>
                                                         <td class="fw-medium">
-                                                            +(253) 01234 5678
+                                                            +91 1234567890
                                                         </td>
                                                     </tr>
                                                     <tr>
@@ -121,7 +121,7 @@ include "inc_header.php";
                                                             <p class="mb-3 fw-semibold fs-12 d-block text-muted text-uppercase">Home Address</p> 
                                                             <h6 class="fs-14 mb-2 d-block">Raquel Murillo</h6> 
                                                             <span class="text-muted fw-normal text-wrap mb-1 d-block">144 Cavendish Avenue, Indianapolis, IN 46251</span> 
-                                                            <span class="text-muted fw-normal d-block">Mo. +(253) 01234 5678</span> 
+                                                            <span class="text-muted fw-normal d-block">Mo. +91 1234567890</span> 
                                                         </div> 
                                                     </div>
                                                 </div>
@@ -134,7 +134,7 @@ include "inc_header.php";
                                                             <p class="mb-3 fw-semibold fs-12 d-block text-muted text-uppercase">Shipping Address</p>
                                                             <h6 class="fs-14 mb-2 d-block">James Honda</h6>
                                                             <span class="text-muted fw-normal text-wrap mb-1 d-block">1246 Virgil Street Pensacola, FL 32501</span>
-                                                            <span class="text-muted fw-normal d-block">Mo. +(253) 01234 5678</span>
+                                                            <span class="text-muted fw-normal d-block">Mo. +91 1234567890</span>
                                                         </div>
                                                     </div>
                                                 </div>

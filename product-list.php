@@ -1,5 +1,9 @@
 <?php
 include "inc_header.php";
+$tempStatus=0;
+?>
+<?php
+if($tempStatus==1){
 ?>
 <section class="section pb-0 mt-4">
     <div class="container-fluid">
@@ -17,21 +21,36 @@ include "inc_header.php";
         </div>
     </div><!--end container-->
 </section>
+<?php
+}
+?>
+<section class="page-wrapper bg-page-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="text-center d-flex align-items-center justify-content-between">
+                    <h4 class="text-dark mb-0">Products</h4>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb breadcrumb-light justify-content-center mb-0 fs-15">
+                            <li class="breadcrumb-item text-muted"><a href="#!">Shop</a></li>
+                            <li class="breadcrumb-item text-muted active" aria-current="page">Products</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+            <!--end col-->
+        </div>
+        <!--end row-->
+    </div>
+    <!--end container-->
+</section>
 
 <div class="position-relative section">
     <div class="container-fluid">
         <div class="ecommerce-product gap-4">
-            <div class="sidebar flex-shrink-0">
+            <div class="sidebar flex-shrink-0 hide-on-mob">
                 <div class="card overflow-hidden">
                     <div class="card-header">
-                        <div class="d-flex mb-3">
-                            <div class="flex-grow-1">
-                                <h5 class="fs-16">Filters</h5>
-                            </div>
-                            <div class="flex-shrink-0">
-                                <a href="#" class="text-decoration-underline" id="clearall">Clear All</a>
-                            </div>
-                        </div>
                         <div class="search-box">
                             <input type="text" class="form-control" id="searchProductList" autocomplete="off" placeholder="Search Products...">
                             <i class="ri-search-line search-icon"></i>
@@ -114,7 +133,9 @@ include "inc_header.php";
                                 </ul>
                             </div>
                         </div>
-
+                        <?php
+                        if($tempStatus==1){
+                        ?>
                         <div class="card-body border-bottom">
                             <p class="text-muted text-uppercase fs-12 fw-medium mb-4">Price</p>
 
@@ -219,6 +240,9 @@ include "inc_header.php";
                             </div>
                         </div>
                         <!-- end accordion-item -->
+                        <?php
+                        }
+                        ?>
 
                     </div>
                 </div>
@@ -243,97 +267,65 @@ include "inc_header.php";
                         </div>
                     </div>
                 </div>
-                <div class="row row-cols-xxl-5 row-cols-lg-4 row-cols-md-2 row-cols-1" id="product-grid">
-    	            <?php
-				    for ($i = 1; $i <= 15; $i++) {
-				    ?>
-				    <div class="col item">
-				        <div class="card product-widget border-0 card-animate">
-				            <div class="card-body p-2">
-				                <div class="position-relative p-4 bg-light">
-				                    <img src="images/demo-images/product-04.jpeg" alt="" class="img-fluid product-img-main">
-				                    <img src="images/demo-images/product-03.jpeg" alt="" class="img-fluid product-img-2">
-				                    <ul class="product-menu list-unstyled">
-				                        <li class="mb-2">
-				                            <a href="#!" class="rounded-circle bookmark" data-bs-toggle="button"><i class="bi bi-star"></i></a>
-				                        </li>
-				                        <li>
-				                            <a href="product-details.php" class="rounded-circle"><i class="bi bi-eye"></i></a>
-				                        </li>
-				                    </ul>
-				                    <div class="product-btn mx-auto">
-				                        <a href="product-details.php" class="btn btn-warning w-100"><i class="bi bi-bag align-baseline me-1"></i> Buy Now</a>
-				                    </div>
-				                </div>
-				                <div class="mt-3">
-				                    <a href="product-details.php">
-				                        <h6 class="text-capitalize fs-17 text-truncate">Regal in Ivory, Pita Handwork Organza Silk Saree</h6>
-				                    </a>
-				                    <h6 class="fw-normal mb-3">₹ 87.99</h6>
-				                    <div class="d-flex flex-wrap gap-1">
-				                        <div data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" aria-label="Blue" data-bs-original-title="Blue">
-				                            <button type="button" class="btn avatar-xs p-0 d-flex align-items-center justify-content-center border rounded-circle fs-20 text-primary opacity-50">
-				                                <i class="ri-checkbox-blank-circle-fill"></i>
-				                            </button>
-				                        </div>
-				                        <div data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" aria-label="Yellow" data-bs-original-title="Yellow">
-				                            <button type="button" class="btn avatar-xs p-0 d-flex align-items-center justify-content-center border rounded-circle fs-20 text-warning opacity-50">
-				                                <i class="ri-checkbox-blank-circle-fill"></i>
-				                            </button>
-				                        </div>
-				                        <div data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" aria-label="Success" data-bs-original-title="Success">
-				                            <button type="button" class="btn avatar-xs p-0 d-flex align-items-center justify-content-center border rounded-circle fs-20 text-success opacity-50">
-				                                <i class="ri-checkbox-blank-circle-fill"></i>
-				                            </button>
-				                        </div>
-				                    </div>
-				                </div>
-				            </div>
-				        </div>
-				    </div><!--end col-->
-				    <div class="col item">
-				        <div class="card product-widget border-0 card-animate ribbon-box">
-				            <div class="ribbon ribbon-danger round-shape fw-normal fs-14">10% Off</div>
-				            <div class="card-body p-2">
-				                <div class="position-relative p-4 bg-light">
-				                    <img src="images/demo-images/product-02.jpeg" alt="" class="img-fluid product-img-main">
-				                    <img src="images/demo-images/product-03.jpeg" alt="" class="img-fluid product-img-2">
-				                    <ul class="product-menu list-unstyled">
-				                        <li class="mb-2">
-				                            <a href="#!" class="rounded-circle bookmark" data-bs-toggle="button"><i class="bi bi-star"></i></a>
-				                        </li>
-				                        <li>
-				                            <a href="product-details.php" class="rounded-circle"><i class="bi bi-eye"></i></a>
-				                        </li>
-				                    </ul>
-				                    <div class="product-btn mx-auto">
-				                        <a href="product-details.php" class="btn btn-warning w-100"><i class="bi bi-bag align-baseline me-1"></i> Buy Now</a>
-				                    </div>
-				                </div>
-				                <div class="mt-3">
-				                    <a href="product-details.php">
-				                        <h6 class="text-capitalize fs-17 text-truncate">Handpainted Peach Organza Silk Saree</h6>
-				                    </a>
-				                    <h6 class="fw-normal mb-3">₹ 120.32 <small class="text-decoration-line-through fs-14 text-muted">₹ 348.24</small></h6>
-				                    <div class="d-flex flex-wrap gap-1">
-				                        <div data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" aria-label="Gray" data-bs-original-title="Gray">
-				                            <button type="button" class="btn avatar-xs p-0 d-flex align-items-center justify-content-center border rounded-circle fs-20 text-body opacity-50">
-				                                <i class="ri-checkbox-blank-circle-fill"></i>
-				                            </button>
-				                        </div>
-				                        <div data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" aria-label="Cyan" data-bs-original-title="Cyan">
-				                            <button type="button" class="btn avatar-xs p-0 d-flex align-items-center justify-content-center border rounded-circle fs-20 text-secondary opacity-50">
-				                                <i class="ri-checkbox-blank-circle-fill"></i>
-				                            </button>
-				                        </div>
-				                    </div>
-				                </div>
-				            </div>
-				        </div>
-				    </div><!--end col-->
-				    <?php
-				    }
-				    ?>
+                <div class="row row-cols-xxl-5 row-cols-lg-4 row-cols-md-2 row-cols-1 product-list-view" id="product-grid">
+                    <?php
+                    for ($i = 1; $i <= 15; $i++) {
+                    ?>
+                    <div class="col mb-2">   
+                        <div class="card product product-widget">
+                            <div class="d-flex flex-column justify-content-between h-100">
+                                <div class="product-header border-light border-bottom">
+                                    <a class="product-item-link" href="product-details.php"></a>
+                                    <img src="images/demo-images/product-02-700x700.png" alt="" class="img-fluid product-img-main">
+                                    <img src="images/demo-images/product-03-700x700.png" alt="" class="img-fluid product-img-2">
+                                </div>
+                                <div class="product-body">
+                                    <h5 class="product-item-name">
+                                        Handpainted Peach Organza Silk Saree
+                                    </h5>
+                                </div>
+                                <div class="product-footer">
+                                    <div class="d-flex flex-column flex-sm-row align-items-center justify-content-between">
+                                        <div class="product-item-price-wrap">
+                                            <p class="product-price">₹ 87.99</p>
+                                        </div>
+                                        <div class="product-item-cart-wrap">
+                                            <a href="#!" class="btn btn-primary btn-hover w-100 add-btn"><i class="mdi mdi-cart me-1"></i> Add To Cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                                    
+                    </div>
+                    <div class="col mb-2">   
+                        <div class="card product product-widget">
+                            <div class="d-flex flex-column justify-content-between h-100">
+                                <div class="product-header border-light border-bottom">
+                                    <a class="product-item-link" href="product-details.php"></a>
+                                    <img src="images/demo-images/product-03-700x700.png" alt="" class="img-fluid product-img-main">
+                                    <img src="images/demo-images/product-02-700x700.png" alt="" class="img-fluid product-img-2">
+                                </div>
+                                <div class="product-body">
+                                    <h5 class="product-item-name">
+                                        Regal in Ivory, Pita Handwork Organza Silk Saree
+                                    </h5>
+                                </div>
+                                <div class="product-footer">
+                                    <div class="d-flex flex-column flex-sm-row align-items-center justify-content-between">
+                                        <div class="product-item-price-wrap">
+                                            <p class="product-price">₹ 87.99</p>
+                                        </div>
+                                        <div class="product-item-cart-wrap">
+                                            <a href="#!" class="btn btn-primary btn-hover w-100 add-btn"><i class="mdi mdi-cart me-1"></i> Add To Cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                                    
+                    </div>
+                    <?php
+                        }
+                    ?>
                 </div>
                 <div class="row" id="pagination-element">
                     <div class="col-lg-12">

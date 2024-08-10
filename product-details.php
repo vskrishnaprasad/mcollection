@@ -1,8 +1,12 @@
 <?php
 include "inc_header.php";
+$tempStatus=0;
+?>
+<?php
+if($tempStatus==1){
 ?>
 <section class="ecommerce-about" style="background-image: url('images/demo-images/section-page-banner.png'); background-size: cover;background-position: center;">
-    <div class="bg-overlay bg-primary" style="opacity: 0.85;"></div>
+    <div class="bg-primary" style="opacity: 0.85;"></div>
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-6">
@@ -19,7 +23,29 @@ include "inc_header.php";
         </div><!--end row-->
     </div><!--end container-->
 </section>
-
+<?php
+}
+?>
+<section class="page-wrapper bg-page-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="text-center d-flex align-items-center justify-content-between">
+                    <h4 class="text-dark mb-0">Products</h4>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb breadcrumb-light justify-content-center mb-0 fs-15">
+                            <li class="breadcrumb-item text-muted"><a href="#!">Shop</a></li>
+                            <li class="breadcrumb-item text-muted active" aria-current="page">Products</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+            <!--end col-->
+        </div>
+        <!--end row-->
+    </div>
+    <!--end container-->
+</section>
 <section class="section">
     <div class="container">
         <div class="row gx-2">
@@ -30,7 +56,17 @@ include "inc_header.php";
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
                                     <div class="product-thumb rounded cursor-pointer">
-                                        <img src="images/demo-images/product-04.jpeg" alt="" class="img-fluid" />
+                                        <img src="images/demo-images/product-01.jpeg" alt="" class="img-fluid" />
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="product-thumb rounded cursor-pointer">
+                                        <img src="images/demo-images/product-02.jpeg" alt="" class="img-fluid" />
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="product-thumb rounded cursor-pointer">
+                                        <img src="images/demo-images/product-03.jpeg" alt="" class="img-fluid" />
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
@@ -40,17 +76,17 @@ include "inc_header.php";
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="product-thumb rounded cursor-pointer">
-                                        <img src="images/demo-images/product-04.jpeg" alt="" class="img-fluid" />
+                                        <img src="images/demo-images/product-01.jpeg" class="img-fluid" />
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="product-thumb rounded cursor-pointer">
-                                        <img src="images/demo-images/product-04.jpeg" alt="" class="img-fluid" />
+                                        <img src="images/demo-images/product-02.jpeg" class="img-fluid" />
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="product-thumb rounded cursor-pointer">
-                                        <img src="images/demo-images/product-04.jpeg" class="img-fluid" />
+                                        <img src="images/demo-images/product-03.jpeg" class="img-fluid" />
                                     </div>
                                 </div>
                             </div>
@@ -64,19 +100,25 @@ include "inc_header.php";
                             <div class="swiper productSwiper2">
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide ">
-                                        <img src="images/demo-images/product-04.jpeg" alt="" class="img-fluid" />
+                                        <img src="images/demo-images/product-01.jpeg" alt="" class="img-fluid" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="images/demo-images/product-02.jpeg" alt="" class="img-fluid" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="images/demo-images/product-03.jpeg" alt="" class="img-fluid" />
                                     </div>
                                     <div class="swiper-slide">
                                         <img src="images/demo-images/product-04.jpeg" alt="" class="img-fluid" />
                                     </div>
                                     <div class="swiper-slide">
-                                        <img src="images/demo-images/product-04.jpeg" alt="" class="img-fluid" />
+                                        <img src="images/demo-images/product-01.jpeg" alt="" class="img-fluid" />
                                     </div>
                                     <div class="swiper-slide">
-                                        <img src="images/demo-images/product-04.jpeg" alt="" class="img-fluid" />
+                                        <img src="images/demo-images/product-02.jpeg" alt="" class="img-fluid" />
                                     </div>
                                     <div class="swiper-slide">
-                                        <img src="images/demo-images/product-04.jpeg" alt="" class="img-fluid" />
+                                        <img src="images/demo-images/product-03.jpeg" alt="" class="img-fluid" />
                                     </div>
                                 </div>
                                 <div class="swiper-button-next bg-transparent"></div>
@@ -88,10 +130,10 @@ include "inc_header.php";
                         <div class="mt-3">
                             <div class="hstack gap-2">
                                 <button type="button" class="btn btn-success btn-hover w-100">
-                                    <i class="bi bi-basket2 me-2"></i> Add To Cart
+                                    <i class="bi bi-basket2 me-2"></i> Buy Now
                                 </button>
                                 <button type="button" class="btn btn-primary btn-hover w-100">
-                                    <i class="bi bi-cart2 me-2"></i> Buy Now
+                                    <i class="bi bi-cart2 me-2"></i> Add to cart
                                 </button>
                             </div>
                         </div>

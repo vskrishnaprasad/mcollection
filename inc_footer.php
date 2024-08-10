@@ -114,6 +114,9 @@
 
     <!-- menu init js -->
     <script src="js/frontend/menu.init.js"></script>
+
+    <script src="js/frontend/product-details.init.js"></script>
+
     <!-- custom.js -->
     <script src="js/custom.js"></script>
 

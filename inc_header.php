@@ -32,14 +32,14 @@
                 <div class="col-md-4 col-6 d-none d-xxl-block">
                     <div class="d-flex align-items-center gap-3 fs-14 fw-medium">
                         <div>
-                            <i class="bi bi-envelope align-middle me-2"></i> support@themesbrand.com
+                            <i class="bi bi-envelope align-middle me-2"></i> info@mcollectionsbymerrypaul.com
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 col-3">
                     <div class="d-flex align-items-center justify-content-end gap-3 fs-14">
                         <div class="text-reset fw-normal d-none d-lg-block">
-                            <i class="bi bi-telephone-outbound align-middle me-2"></i> +(235) 01234 5678
+                            <i class="bi bi-telephone-outbound align-middle me-2"></i> +91 1234567890
                         </div>
                     </div>
                 </div>
@@ -342,11 +342,11 @@
             <div class="bg-overlay navbar-overlay" data-bs-toggle="collapse"  data-bs-target="#navbarSupportedContent.show"></div>
 
             <div class="d-flex align-items-center">
-                <button type="button" class="btn btn-icon btn-topbar btn-ghost-dark rounded-circle text-muted" data-bs-toggle="modal" data-bs-target="#searchModal">
+                <button type="button" class="btn btn-icon btn-topbar btn-ghost-dark rounded-circle" data-bs-toggle="modal" data-bs-target="#searchModal">
                     <i class="bx bx-search fs-22"></i>
                 </button>
                 <div class="dropdown header-item dropdown-hover-end">
-                    <button type="button" class="btn btn-icon btn-topbar btn-ghost-secondary rounded-circle" id="page-header-user-dropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <button type="button" class="btn btn-icon btn-topbar btn-ghost-dark rounded-circle" id="page-header-user-dropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <i class="ph-user-circle fs-22"></i>
                     </button> 
                     <div class="dropdown-menu dropdown-menu-end">
@@ -362,7 +362,7 @@
                 </div>
 
                 <div class="topbar-head-dropdown ms-1 header-item">
-                    <button type="button" class="btn btn-icon btn-topbar btn-ghost-dark rounded-circle text-muted" data-bs-toggle="offcanvas" data-bs-target="#ecommerceCart" aria-controls="ecommerceCart">
+                    <button type="button" class="btn btn-icon btn-topbar btn-ghost-dark rounded-circle" data-bs-toggle="offcanvas" data-bs-target="#ecommerceCart" aria-controls="ecommerceCart">
                         <i class="ph-shopping-cart fs-18"></i>
                         <span class="position-absolute topbar-badge cartitem-badge fs-10 translate-middle badge rounded-pill bg-danger">4</span>
                     </button>
@@ -534,10 +534,7 @@
                 </div>
             </div>
             <div class="row g-2">
-                <div class="col-6">
-                    <a href="cart.php" class="btn btn-info w-100">Continue to Checkout</a>
-                </div>
-                <div class="col-6">
+                <div class="col-12">
                     <a href="checkout.php" class="btn btn-info w-100">Continue to Checkout</a>
                 </div>
             </div>

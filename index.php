@@ -63,131 +63,7 @@ include "inc_header.php";
 </section>
 <!--end home-->
 
-
 <section class="section">
-    <div class="container-fluid container-custom">
-        <div class="row justify-content-center">
-            <div class="col-lg-7">
-                <div class="section-content text-center mb-5">
-                    <h2 class="title fw-normal text-capitalize">You are in <span class="fw-semibold">new arrivals</span></h2>
-                    <p class="fs-20">Top sale in this week</p>
-                </div>
-            </div><!--end col-->
-        </div><!--end row-->
-        <div class="row">
-            <div class="col-lg-12">
-                <!-- Swiper -->
-                <div class="swiper top-Product-slider">
-                    <div class="swiper-wrapper">
-                        <?php
-                        for ($i = 1; $i <= 5; $i++) {
-                        ?>
-                        <div class="swiper-slide">
-                            <div class="card product-widget border-0 card-animate">
-                                <div class="card-body p-2">
-                                    <div class="position-relative p-4 bg-light">
-                                        <img src="images/demo-images/product-03.jpeg" alt="" class="img-fluid product-img-main">
-                                        <img src="images/demo-images/product-04.jpeg" alt="" class="img-fluid product-img-2">
-                                        <ul class="product-menu list-unstyled">
-                                            <li class="mb-2">
-                                                <a href="#!" class="rounded-circle bookmark" data-bs-toggle="button"><i class="bi bi-star"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="product-details.php" class="rounded-circle"><i class="bi bi-eye"></i></a>
-                                            </li>
-                                        </ul>
-                                        <div class="product-btn mx-auto">
-                                            <a href="#!" class="btn btn-info w-100"><i class="bi bi-bag align-baseline me-1"></i> Buy Now</a>
-                                        </div>
-                                    </div>
-                                    <div class="mt-3">
-                                        <a href="#!">
-                                            <h6 class="text-capitalize fs-16 text-truncate">Regal in Ivory, Pita Handwork Organza Silk Saree</h6>
-                                        </a>
-                                        <h6 class="fw-normal mb-3 fs-16">₹ 87.99</h6>
-                                        <div class="d-flex flex-wrap gap-1">
-                                            <div data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" aria-label="Blue" data-bs-original-title="Blue">
-                                                <button type="button" class="btn avatar-xs p-0 d-flex align-items-center justify-content-center border rounded-circle fs-20 text-primary opacity-50">
-                                                    <i class="ri-checkbox-blank-circle-fill"></i>
-                                                </button>
-                                            </div>
-                                            <div data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" aria-label="Yellow" data-bs-original-title="Yellow">
-                                                <button type="button" class="btn avatar-xs p-0 d-flex align-items-center justify-content-center border rounded-circle fs-20 text-warning opacity-50">
-                                                    <i class="ri-checkbox-blank-circle-fill"></i>
-                                                </button>
-                                            </div>
-                                            <div data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" aria-label="Success" data-bs-original-title="Success">
-                                                <button type="button" class="btn avatar-xs p-0 d-flex align-items-center justify-content-center border rounded-circle fs-20 text-success opacity-50">
-                                                    <i class="ri-checkbox-blank-circle-fill"></i>
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="card product-widget border-0 card-animate">
-                                <div class="card-body p-2">
-                                    <div class="position-relative p-4 bg-light">
-                                        <img src="images/demo-images/product-04.jpeg" alt="" class="img-fluid product-img-main">
-                                        <img src="images/demo-images/product-03.jpeg" alt="" class="img-fluid product-img-2">
-                                        <ul class="product-menu list-unstyled">
-                                            <li class="mb-2">
-                                                <a href="#!" class="rounded-circle bookmark" data-bs-toggle="button"><i class="bi bi-star"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="product-details.php" class="rounded-circle"><i class="bi bi-eye"></i></a>
-                                            </li>
-                                        </ul>
-                                        <div class="product-btn mx-auto">
-                                            <a href="#!" class="btn btn-info w-100"><i class="bi bi-bag align-baseline me-1"></i> Buy Now</a>
-                                        </div>
-                                    </div>
-                                    <div class="mt-3">
-                                        <a href="#!">
-                                            <h6 class="text-capitalize fs-16 text-truncate">Regal in Ivory, Pita Handwork Organza Silk Saree</h6>
-                                        </a>
-                                        <h6 class="fw-normal mb-3 fs-16">₹ 87.99</h6>
-                                        <div class="d-flex flex-wrap gap-1">
-                                            <div data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" aria-label="Blue" data-bs-original-title="Blue">
-                                                <button type="button" class="btn avatar-xs p-0 d-flex align-items-center justify-content-center border rounded-circle fs-20 text-primary opacity-50">
-                                                    <i class="ri-checkbox-blank-circle-fill"></i>
-                                                </button>
-                                            </div>
-                                            <div data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" aria-label="Yellow" data-bs-original-title="Yellow">
-                                                <button type="button" class="btn avatar-xs p-0 d-flex align-items-center justify-content-center border rounded-circle fs-20 text-warning opacity-50">
-                                                    <i class="ri-checkbox-blank-circle-fill"></i>
-                                                </button>
-                                            </div>
-                                            <div data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" aria-label="Success" data-bs-original-title="Success">
-                                                <button type="button" class="btn avatar-xs p-0 d-flex align-items-center justify-content-center border rounded-circle fs-20 text-success opacity-50">
-                                                    <i class="ri-checkbox-blank-circle-fill"></i>
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <?php
-                        }
-                        ?>
-                    </div>
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div>
-                </div>
-            </div><!--end col-->
-        </div><!--end row-->
-        <div class="text-center mt-4">
-            <a href="product-list.php" type="button" class="btn btn-warning btn-hover">
-                View All Products <i class="bi bi-arrow-right"></i>
-            </a>
-        </div>
-    </div><!--end container-fluid-->
-</section>
-
-<section class="section pt-0">
     <div class="container-fluid container-custom">
         <div class="row">
             <div class="col-lg-4 mb-3">
@@ -233,29 +109,129 @@ include "inc_header.php";
     </div>
 </section>
 
-<style>
-    .category-text-wrap{
-        position: absolute;
-        width: 100%;
-        bottom: 0;
-        text-align: center;
-        text-transform: capitalize;
-        color: #fff !important;
-        padding: 15px;
-    }
-        .category-text-wrap h4{
-            font-size: 18px;
-            text-transform: capitalize;
-}
-</style>
-<section class="section bg-light-golden border-bottom-light-golden">
+<section class="section">
+    <div class="container-fluid container-custom">
+        <div class="row justify-content-center">
+            <div class="col-lg-7">
+                <div class="section-content text-center mb-5">
+                    <h2 class="title fw-normal text-capitalize">Featured <span class="fw-semibold">Collections</span></h2>
+                    <p class="text-muted">Explore our featured collections here</p>
+                </div>
+            </div><!--end col-->
+        </div><!--end row-->
+        <div class="row">
+            <div class="col-lg-12">
+                <!-- Swiper -->
+                <div class="swiper top-Product-slider product-list-view">
+                    <div class="swiper-wrapper">
+                    <?php
+                    for ($i = 1; $i <= 15; $i++) {
+                    ?>
+                    <div class="swiper-slide">
+                        <div class="col mb-2">   
+                            <div class="card product product-widget">
+                                <div class="d-flex flex-column justify-content-between h-100">
+                                    <div class="product-header border-light border-bottom">
+                                        <a class="product-item-link" href="product-details.php"></a>
+                                        <img src="images/demo-images/product-02-700x700.png" alt="" class="img-fluid product-img-main">
+                                        <img src="images/demo-images/product-03-700x700.png" alt="" class="img-fluid product-img-2">
+                                    </div>
+                                    <div class="product-body">
+                                        <h5 class="product-item-name">
+                                            Handpainted Peach Organza Silk Saree
+                                        </h5>
+                                    </div>
+                                    <div class="product-footer">
+                                        <div class="d-flex flex-column flex-sm-row align-items-center justify-content-between">
+                                            <div class="product-item-price-wrap">
+                                                <p class="product-price">₹ 87.99</p>
+                                            </div>
+                                            <div class="product-item-cart-wrap">
+                                                <a href="#!" class="btn btn-primary btn-hover w-100 add-btn"><i class="mdi mdi-cart me-1"></i> Add To Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>                                    
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="col mb-2">   
+                            <div class="card product product-widget">
+                                <div class="d-flex flex-column justify-content-between h-100">
+                                    <div class="product-header border-light border-bottom">
+                                        <a class="product-item-link" href="product-details.php"></a>
+                                        <img src="images/demo-images/product-03-700x700.png" alt="" class="img-fluid product-img-main">
+                                        <img src="images/demo-images/product-02-700x700.png" alt="" class="img-fluid product-img-2">
+                                    </div>
+                                    <div class="product-body">
+                                        <h5 class="product-item-name">
+                                            Regal in Ivory, Pita Handwork Organza Silk Saree
+                                        </h5>
+                                    </div>
+                                    <div class="product-footer">
+                                        <div class="d-flex flex-column flex-sm-row align-items-center justify-content-between">
+                                            <div class="product-item-price-wrap">
+                                                <p class="product-price">₹ 87.99</p>
+                                            </div>
+                                            <div class="product-item-cart-wrap">
+                                                <a href="#!" class="btn btn-primary btn-hover w-100 add-btn"><i class="mdi mdi-cart me-1"></i> Add To Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>                                    
+                        </div>
+                    </div>
+                    <?php
+                        }
+                    ?>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div><!--end col-->
+        </div><!--end row-->
+        <div class="text-center mt-5">
+            <a href="product-list.php" type="button" class="btn btn-warning btn-hover">
+                View All Products <i class="bi bi-arrow-right"></i>
+            </a>
+        </div>
+    </div><!--end container-fluid-->
+</section>
+
+<section class="trend-fashion-home p-0">
+    <div class="section-full-width-wrap">
+        <div class="row g-0">
+            <div class="col-lg-4">
+                <div class="home-widgets card card-height-100 border-0 rounded-end-0" style="background-image: url('images/demo-images/section-image-01.png');background-size: cover;">
+                    <div class="card-body"></div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card card-height-100 border-0 rounded-0 bg-light-gray">
+                    <div class="card-body px-4 px-lg-5 text-center d-flex align-items-center">
+                        <div>
+                            <h3 class="text-capitalize lh-base mb-2">The World Most suitable <span class="ff-secondary">Fashion</span> Collection</h3>
+                            <p class="fs-16 mb-4">Fashion Academy recommends 10 to 12 styles for your first collection. As for how many items to produce within each style frame, test out the waters first.</p>
+                            <button type="button" class="btn btn-info btn-hover rounded-0">Shop Now <i class="bi bi-bag align-baseline ms-1"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div><!--end col-->
+            <div class="col-lg-4">
+                <div class="card home-widgets card-height-100 border-0 rounded-start-0" style="background-image: url('images/demo-images/section-image-02.png');background-size: cover;">
+                    <div class="card-body"></div>
+                </div>
+            </div>
+        </div><!--end row-->
+    </div><!--end container-fluid-->
+</section>
+
+<section class="section">
     <div class="container-fluid container-custom">
         <div class="row align-items-center">
-            <div class="col-lg-2">
-                <h2 class="title text-capitalize fw-medium lh-base mb-3"><b>Premium Categories</b> For Fashion</h2>
-                <a href="product-list.php" class="btn btn-info btn-hover">View All <i class="bi bi-arrow-right"></i></a>
-            </div>
-            <div class="col-lg-10">
+            <div class="col-lg-12">
                 <!-- Swiper -->
                 <div class="swiper category-slider">
                     <div class="swiper-wrapper">
@@ -345,33 +321,6 @@ include "inc_header.php";
     </div>
 </section>
 
-<section class="trend-fashion-home p-0">
-    <div class="section-full-width-wrap">
-        <div class="row g-0">
-            <div class="col-lg-4">
-                <div class="home-widgets card card-height-100 border-0 rounded-end-0" style="background-image: url('images/demo-images/section-image-01.png');background-size: cover;">
-                    <div class="card-body"></div>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="card card-height-100 border-0 rounded-0 bg-light-golden">
-                    <div class="card-body px-4 px-lg-5 text-center d-flex align-items-center">
-                        <div>
-                            <h3 class="text-capitalize lh-base mb-2">The World Most suitable <span class="ff-secondary">Fashion</span> Collection</h3>
-                            <p class="fs-16 mb-4">Fashion Academy recommends 10 to 12 styles for your first collection. As for how many items to produce within each style frame, test out the waters first.</p>
-                            <button type="button" class="btn btn-info btn-hover rounded-0">Shop Now <i class="bi bi-bag align-baseline ms-1"></i></button>
-                        </div>
-                    </div>
-                </div>
-            </div><!--end col-->
-            <div class="col-lg-4">
-                <div class="card home-widgets card-height-100 border-0 rounded-start-0" style="background-image: url('images/demo-images/section-image-02.png');background-size: cover;">
-                    <div class="card-body"></div>
-                </div>
-            </div>
-        </div><!--end row-->
-    </div><!--end container-fluid-->
-</section>
 
 <section class="section">
     <div class="container-fluid container-custom">
@@ -379,108 +328,76 @@ include "inc_header.php";
             <div class="col-lg-7">
                 <div class="section-content text-center mb-5">
                     <h2 class="title fw-normal text-capitalize">Top Trending<span class="fw-semibold">Products</span></h2>
-                    <p class="fs-20">Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+                    <p class="text-muted">Explore our trending collections</p>
                 </div>
             </div><!--end col-->
         </div><!--end row-->
         <div class="row">
             <div class="col-lg-12">
                 <!-- Swiper -->
-                <div class="swiper top-Product-slider">
+                <div class="swiper top-Product-slider product-list-view">
                     <div class="swiper-wrapper">
                         <?php
-                        for ($i = 1; $i <= 5; $i++) {
+                        for ($i = 1; $i <= 15; $i++) {
                         ?>
                         <div class="swiper-slide">
-                            <div class="card product-widget border-0 card-animate">
-                                <div class="card-body p-2">
-                                    <div class="position-relative p-4 bg-light">
-                                        <img src="images/demo-images/product-03.jpeg" alt="" class="img-fluid product-img-main">
-                                        <img src="images/demo-images/product-04.jpeg" alt="" class="img-fluid product-img-2">
-                                        <ul class="product-menu list-unstyled">
-                                            <li class="mb-2">
-                                                <a href="#!" class="rounded-circle bookmark" data-bs-toggle="button"><i class="bi bi-star"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="product-details.php" class="rounded-circle"><i class="bi bi-eye"></i></a>
-                                            </li>
-                                        </ul>
-                                        <div class="product-btn mx-auto">
-                                            <a href="#!" class="btn btn-info w-100"><i class="bi bi-bag align-baseline me-1"></i> Buy Now</a>
+                            <div class="col mb-2">   
+                                <div class="card product product-widget">
+                                    <div class="d-flex flex-column justify-content-between h-100">
+                                        <div class="product-header border-light border-bottom">
+                                            <a class="product-item-link" href="product-details.php"></a>
+                                            <img src="images/demo-images/product-02-700x700.png" alt="" class="img-fluid product-img-main">
+                                            <img src="images/demo-images/product-03-700x700.png" alt="" class="img-fluid product-img-2">
                                         </div>
-                                    </div>
-                                    <div class="mt-3">
-                                        <a href="#!">
-                                            <h6 class="text-capitalize fs-16 text-truncate">Regal in Ivory, Pita Handwork Organza Silk Saree</h6>
-                                        </a>
-                                        <h6 class="fw-normal mb-3 fs-16">₹ 87.99</h6>
-                                        <div class="d-flex flex-wrap gap-1">
-                                            <div data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" aria-label="Blue" data-bs-original-title="Blue">
-                                                <button type="button" class="btn avatar-xs p-0 d-flex align-items-center justify-content-center border rounded-circle fs-20 text-primary opacity-50">
-                                                    <i class="ri-checkbox-blank-circle-fill"></i>
-                                                </button>
-                                            </div>
-                                            <div data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" aria-label="Yellow" data-bs-original-title="Yellow">
-                                                <button type="button" class="btn avatar-xs p-0 d-flex align-items-center justify-content-center border rounded-circle fs-20 text-warning opacity-50">
-                                                    <i class="ri-checkbox-blank-circle-fill"></i>
-                                                </button>
-                                            </div>
-                                            <div data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" aria-label="Success" data-bs-original-title="Success">
-                                                <button type="button" class="btn avatar-xs p-0 d-flex align-items-center justify-content-center border rounded-circle fs-20 text-success opacity-50">
-                                                    <i class="ri-checkbox-blank-circle-fill"></i>
-                                                </button>
+                                        <div class="product-body">
+                                            <h5 class="product-item-name">
+                                                Handpainted Peach Organza Silk Saree
+                                            </h5>
+                                        </div>
+                                        <div class="product-footer">
+                                            <div class="d-flex flex-column flex-sm-row align-items-center justify-content-between">
+                                                <div class="product-item-price-wrap">
+                                                    <p class="product-price">₹ 87.99</p>
+                                                </div>
+                                                <div class="product-item-cart-wrap">
+                                                    <a href="#!" class="btn btn-primary btn-hover w-100 add-btn"><i class="mdi mdi-cart me-1"></i> Add To Cart</a>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div>                                    
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="card product-widget border-0 card-animate">
-                                <div class="card-body p-2">
-                                    <div class="position-relative p-4 bg-light">
-                                        <img src="images/demo-images/product-04.jpeg" alt="" class="img-fluid product-img-main">
-                                        <img src="images/demo-images/product-03.jpeg" alt="" class="img-fluid product-img-2">
-                                        <ul class="product-menu list-unstyled">
-                                            <li class="mb-2">
-                                                <a href="#!" class="rounded-circle bookmark" data-bs-toggle="button"><i class="bi bi-star"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="product-details.php" class="rounded-circle"><i class="bi bi-eye"></i></a>
-                                            </li>
-                                        </ul>
-                                        <div class="product-btn mx-auto">
-                                            <a href="#!" class="btn btn-info w-100"><i class="bi bi-bag align-baseline me-1"></i> Buy Now</a>
+                            <div class="col mb-2">   
+                                <div class="card product product-widget">
+                                    <div class="d-flex flex-column justify-content-between h-100">
+                                        <div class="product-header border-light border-bottom">
+                                            <a class="product-item-link" href="product-details.php"></a>
+                                            <img src="images/demo-images/product-03-700x700.png" alt="" class="img-fluid product-img-main">
+                                            <img src="images/demo-images/product-02-700x700.png" alt="" class="img-fluid product-img-2">
                                         </div>
-                                    </div>
-                                    <div class="mt-3">
-                                        <a href="#!">
-                                            <h6 class="text-capitalize fs-16 text-truncate">Regal in Ivory, Pita Handwork Organza Silk Saree</h6>
-                                        </a>
-                                        <h6 class="fw-normal mb-3 fs-16">₹ 87.99</h6>
-                                        <div class="d-flex flex-wrap gap-1">
-                                            <div data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" aria-label="Blue" data-bs-original-title="Blue">
-                                                <button type="button" class="btn avatar-xs p-0 d-flex align-items-center justify-content-center border rounded-circle fs-20 text-primary opacity-50">
-                                                    <i class="ri-checkbox-blank-circle-fill"></i>
-                                                </button>
-                                            </div>
-                                            <div data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" aria-label="Yellow" data-bs-original-title="Yellow">
-                                                <button type="button" class="btn avatar-xs p-0 d-flex align-items-center justify-content-center border rounded-circle fs-20 text-warning opacity-50">
-                                                    <i class="ri-checkbox-blank-circle-fill"></i>
-                                                </button>
-                                            </div>
-                                            <div data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" aria-label="Success" data-bs-original-title="Success">
-                                                <button type="button" class="btn avatar-xs p-0 d-flex align-items-center justify-content-center border rounded-circle fs-20 text-success opacity-50">
-                                                    <i class="ri-checkbox-blank-circle-fill"></i>
-                                                </button>
+                                        <div class="product-body">
+                                            <h5 class="product-item-name">
+                                                Regal in Ivory, Pita Handwork Organza Silk Saree
+                                            </h5>
+                                        </div>
+                                        <div class="product-footer">
+                                            <div class="d-flex flex-column flex-sm-row align-items-center justify-content-between">
+                                                <div class="product-item-price-wrap">
+                                                    <p class="product-price">₹ 87.99</p>
+                                                </div>
+                                                <div class="product-item-cart-wrap">
+                                                    <a href="#!" class="btn btn-primary btn-hover w-100 add-btn"><i class="mdi mdi-cart me-1"></i> Add To Cart</a>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div>                                    
                             </div>
                         </div>
                         <?php
-                        }
+                            }
                         ?>
                     </div>
                     <div class="swiper-button-next"></div>
@@ -496,7 +413,7 @@ include "inc_header.php";
     </div><!--end container-fluid-->
 </section>
 
-<section class="section bg-light-golden">
+<section class="section">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-7">
@@ -590,13 +507,13 @@ include "inc_header.php";
 
 
 <!-- START INSTAGRAM -->
-<section class="section pb-0 bg-thin-dark">
+<section class="section pb-0 bg-light-gray">
     <div class="container">
         <div class="row justify-content-center g-0">
             <div class="col-lg-7">
                 <div class="text-center">
-                    <h3 class="text-white mb-3">Follow Us In Instagram</h3>
-                    <p class="text-white fs-15">The most common approach that peoples use to say follow me on Instagram is by sending a direct message.</p>
+                    <h3 class="mb-3">Follow Us In Instagram</h3>
+                    <p class="fs-15">The most common approach that peoples use to say follow me on Instagram is by sending a direct message.</p>
                 </div>
             </div>
         </div>
