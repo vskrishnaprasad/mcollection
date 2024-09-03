@@ -109,6 +109,65 @@ include "inc_header.php";
     </div>
 </section>
 
+<section class="section section-video-reels">
+    <div class="container-fluid container-custom">
+        <div class="row justify-content-center">
+            <div class="col-lg-7">
+                <div class="section-content text-center mb-5">
+                    <h2 class="title fw-normal text-capitalize">Reels</h2>
+                    <p class="text-muted">Explore our featured collections here</p>
+                </div>
+            </div><!--end col-->
+        </div><!--end row-->
+        <div class="row">
+            <div class="col-md-3 mb-2">   
+                <div class="card video-card">
+                    <div class="video-container">
+                        <img class="video-img-overlay" src="images/logo-dark.png">
+                        <video autoplay muted loop>
+                            <source src="images/mcollections-products/mcollection-video-01.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>                                    
+            </div>
+            <div class="col-md-3 mb-2">   
+                <div class="card video-card">
+                    <div class="video-container">
+                        <img class="video-img-overlay" src="images/logo-dark.png">
+                        <video autoplay muted loop>
+                            <source src="images/mcollections-products/mcollection-video-02.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>                                    
+            </div>     
+            <div class="col-md-3 mb-2">   
+                <div class="card video-card">
+                    <div class="video-container">
+                        <img class="video-img-overlay" src="images/logo-dark.png">
+                        <video autoplay muted loop>
+                            <source src="images/mcollections-products/mcollection-video-03.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>                                    
+            </div>
+            <div class="col-md-3 mb-2">   
+                <div class="card video-card">
+                    <div class="video-container">
+                        <img class="video-img-overlay" src="images/logo-dark.png">
+                        <video autoplay muted loop>
+                            <source src="images/mcollections-products/mcollection-video-04.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>                                    
+            </div>                    
+        </div><!--end row-->
+    </div><!--end container-fluid-->
+</section>
+
 <section class="section">
     <div class="container-fluid container-custom">
         <div class="row justify-content-center">
@@ -125,7 +184,7 @@ include "inc_header.php";
                 <div class="swiper top-Product-slider product-list-view">
                     <div class="swiper-wrapper">
                     <?php
-                    for ($i = 1; $i <= 15; $i++) {
+                    for ($i = 1; $i <= 10; $i++) {
                     ?>
                     <div class="swiper-slide">
                         <div class="col mb-2">   
@@ -133,8 +192,8 @@ include "inc_header.php";
                                 <div class="d-flex flex-column justify-content-between h-100">
                                     <div class="product-header border-light border-bottom">
                                         <a class="product-item-link" href="product-details.php"></a>
-                                        <img src="images/demo-images/product-02-700x700.png" alt="" class="img-fluid product-img-main">
-                                        <img src="images/demo-images/product-03-700x700.png" alt="" class="img-fluid product-img-2">
+                                        <img src="images/mcollections-products/mcollection-img-01.jpg" alt="" class="img-fluid product-img-main">
+                                        <img src="images/mcollections-products/mcollection-img-02.jpg" alt="" class="img-fluid product-img-2">
                                     </div>
                                     <div class="product-body">
                                         <h5 class="product-item-name">
@@ -161,8 +220,36 @@ include "inc_header.php";
                                 <div class="d-flex flex-column justify-content-between h-100">
                                     <div class="product-header border-light border-bottom">
                                         <a class="product-item-link" href="product-details.php"></a>
-                                        <img src="images/demo-images/product-03-700x700.png" alt="" class="img-fluid product-img-main">
-                                        <img src="images/demo-images/product-02-700x700.png" alt="" class="img-fluid product-img-2">
+                                        <img src="images/mcollections-products/mcollection-img-03.jpg" alt="" class="img-fluid product-img-main">
+                                        <img src="images/mcollections-products/mcollection-img-04.jpg" alt="" class="img-fluid product-img-2">
+                                    </div>
+                                    <div class="product-body">
+                                        <h5 class="product-item-name">
+                                            Regal in Ivory, Pita Handwork Organza Silk Saree
+                                        </h5>
+                                    </div>
+                                    <div class="product-footer">
+                                        <div class="d-flex flex-column flex-sm-row align-items-center justify-content-between">
+                                            <div class="product-item-price-wrap">
+                                                <p class="product-price">₹ 87.99</p>
+                                            </div>
+                                            <div class="product-item-cart-wrap">
+                                                <a href="#!" class="btn btn-primary btn-hover w-100 add-btn"><i class="mdi mdi-cart me-1"></i> Add To Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>                                    
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="col mb-2">   
+                            <div class="card product product-widget">
+                                <div class="d-flex flex-column justify-content-between h-100">
+                                    <div class="product-header border-light border-bottom">
+                                        <a class="product-item-link" href="product-details.php"></a>
+                                        <img src="images/mcollections-products/mcollection-img-05.jpg" alt="" class="img-fluid product-img-main">
+                                        <img src="images/mcollections-products/mcollection-img-06.jpg" alt="" class="img-fluid product-img-2">
                                     </div>
                                     <div class="product-body">
                                         <h5 class="product-item-name">
@@ -346,8 +433,8 @@ include "inc_header.php";
                                     <div class="d-flex flex-column justify-content-between h-100">
                                         <div class="product-header border-light border-bottom">
                                             <a class="product-item-link" href="product-details.php"></a>
-                                            <img src="images/demo-images/product-02-700x700.png" alt="" class="img-fluid product-img-main">
-                                            <img src="images/demo-images/product-03-700x700.png" alt="" class="img-fluid product-img-2">
+                                            <img src="images/mcollections-products/mcollection-img-07.jpg" alt="" class="img-fluid product-img-main">
+                                            <img src="images/mcollections-products/mcollection-img-08.jpg" alt="" class="img-fluid product-img-2">
                                         </div>
                                         <div class="product-body">
                                             <h5 class="product-item-name">
@@ -374,8 +461,36 @@ include "inc_header.php";
                                     <div class="d-flex flex-column justify-content-between h-100">
                                         <div class="product-header border-light border-bottom">
                                             <a class="product-item-link" href="product-details.php"></a>
-                                            <img src="images/demo-images/product-03-700x700.png" alt="" class="img-fluid product-img-main">
-                                            <img src="images/demo-images/product-02-700x700.png" alt="" class="img-fluid product-img-2">
+                                            <img src="images/mcollections-products/mcollection-img-09.jpg" alt="" class="img-fluid product-img-main">
+                                            <img src="images/mcollections-products/mcollection-img-10.jpg" alt="" class="img-fluid product-img-2">
+                                        </div>
+                                        <div class="product-body">
+                                            <h5 class="product-item-name">
+                                                Regal in Ivory, Pita Handwork Organza Silk Saree
+                                            </h5>
+                                        </div>
+                                        <div class="product-footer">
+                                            <div class="d-flex flex-column flex-sm-row align-items-center justify-content-between">
+                                                <div class="product-item-price-wrap">
+                                                    <p class="product-price">₹ 87.99</p>
+                                                </div>
+                                                <div class="product-item-cart-wrap">
+                                                    <a href="#!" class="btn btn-primary btn-hover w-100 add-btn"><i class="mdi mdi-cart me-1"></i> Add To Cart</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>                                    
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="col mb-2">   
+                                <div class="card product product-widget">
+                                    <div class="d-flex flex-column justify-content-between h-100">
+                                        <div class="product-header border-light border-bottom">
+                                            <a class="product-item-link" href="product-details.php"></a>
+                                            <img src="images/mcollections-products/mcollection-img-11.jpg" alt="" class="img-fluid product-img-main">
+                                            <img src="images/mcollections-products/mcollection-img-12.jpg" alt="" class="img-fluid product-img-2">
                                         </div>
                                         <div class="product-body">
                                             <h5 class="product-item-name">

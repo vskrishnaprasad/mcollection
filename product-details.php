@@ -56,37 +56,37 @@ if($tempStatus==1){
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
                                     <div class="product-thumb rounded cursor-pointer">
-                                        <img src="images/demo-images/product-01.jpeg" alt="" class="img-fluid" />
+                                        <img src="images/mcollections-products/mcollection-img-01.jpg" alt="" class="img-fluid" />
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="product-thumb rounded cursor-pointer">
-                                        <img src="images/demo-images/product-02.jpeg" alt="" class="img-fluid" />
+                                        <img src="images/mcollections-products/mcollection-img-02.jpg" alt="" class="img-fluid" />
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="product-thumb rounded cursor-pointer">
-                                        <img src="images/demo-images/product-03.jpeg" alt="" class="img-fluid" />
+                                        <img src="images/mcollections-products/mcollection-img-03.jpg" alt="" class="img-fluid" />
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="product-thumb rounded cursor-pointer">
-                                        <img src="images/demo-images/product-04.jpeg" alt="" class="img-fluid" />
+                                        <img src="images/mcollections-products/mcollection-img-04.jpg" alt="" class="img-fluid" />
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="product-thumb rounded cursor-pointer">
-                                        <img src="images/demo-images/product-01.jpeg" class="img-fluid" />
+                                        <img src="images/mcollections-products/mcollection-img-01.jpg" class="img-fluid" />
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="product-thumb rounded cursor-pointer">
-                                        <img src="images/demo-images/product-02.jpeg" class="img-fluid" />
+                                        <img src="images/mcollections-products/mcollection-img-02.jpg" class="img-fluid" />
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="product-thumb rounded cursor-pointer">
-                                        <img src="images/demo-images/product-03.jpeg" class="img-fluid" />
+                                        <img src="images/mcollections-products/mcollection-img-03.jpg" class="img-fluid" />
                                     </div>
                                 </div>
                             </div>
@@ -100,25 +100,25 @@ if($tempStatus==1){
                             <div class="swiper productSwiper2">
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide ">
-                                        <img src="images/demo-images/product-01.jpeg" alt="" class="img-fluid" />
+                                        <img src="images/mcollections-products/mcollection-img-01.jpg" alt="" class="img-fluid" />
                                     </div>
                                     <div class="swiper-slide">
-                                        <img src="images/demo-images/product-02.jpeg" alt="" class="img-fluid" />
+                                        <img src="images/mcollections-products/mcollection-img-02.jpg" alt="" class="img-fluid" />
                                     </div>
                                     <div class="swiper-slide">
-                                        <img src="images/demo-images/product-03.jpeg" alt="" class="img-fluid" />
+                                        <img src="images/mcollections-products/mcollection-img-03.jpg" alt="" class="img-fluid" />
                                     </div>
                                     <div class="swiper-slide">
-                                        <img src="images/demo-images/product-04.jpeg" alt="" class="img-fluid" />
+                                        <img src="images/mcollections-products/mcollection-img-04.jpg" alt="" class="img-fluid" />
                                     </div>
                                     <div class="swiper-slide">
-                                        <img src="images/demo-images/product-01.jpeg" alt="" class="img-fluid" />
+                                        <img src="images/mcollections-products/mcollection-img-01.jpg" alt="" class="img-fluid" />
                                     </div>
                                     <div class="swiper-slide">
-                                        <img src="images/demo-images/product-02.jpeg" alt="" class="img-fluid" />
+                                        <img src="images/mcollections-products/mcollection-img-02.jpg" alt="" class="img-fluid" />
                                     </div>
                                     <div class="swiper-slide">
-                                        <img src="images/demo-images/product-03.jpeg" alt="" class="img-fluid" />
+                                        <img src="images/mcollections-products/mcollection-img-03.jpg" alt="" class="img-fluid" />
                                     </div>
                                 </div>
                                 <div class="swiper-button-next bg-transparent"></div>

@@ -269,15 +269,15 @@ if($tempStatus==1){
                 </div>
                 <div class="row row-cols-xxl-5 row-cols-lg-4 row-cols-md-2 row-cols-1 product-list-view" id="product-grid">
                     <?php
-                    for ($i = 1; $i <= 15; $i++) {
+                    for ($i = 1; $i <= 10; $i++) {
                     ?>
                     <div class="col mb-2">   
                         <div class="card product product-widget">
                             <div class="d-flex flex-column justify-content-between h-100">
                                 <div class="product-header border-light border-bottom">
                                     <a class="product-item-link" href="product-details.php"></a>
-                                    <img src="images/demo-images/product-02-700x700.png" alt="" class="img-fluid product-img-main">
-                                    <img src="images/demo-images/product-03-700x700.png" alt="" class="img-fluid product-img-2">
+                                    <img src="images/mcollections-products/mcollection-img-01.jpg" alt="" class="img-fluid product-img-main">
+                                    <img src="images/mcollections-products/mcollection-img-02.jpg" alt="" class="img-fluid product-img-2">
                                 </div>
                                 <div class="product-body">
                                     <h5 class="product-item-name">
@@ -302,8 +302,112 @@ if($tempStatus==1){
                             <div class="d-flex flex-column justify-content-between h-100">
                                 <div class="product-header border-light border-bottom">
                                     <a class="product-item-link" href="product-details.php"></a>
-                                    <img src="images/demo-images/product-03-700x700.png" alt="" class="img-fluid product-img-main">
-                                    <img src="images/demo-images/product-02-700x700.png" alt="" class="img-fluid product-img-2">
+                                    <img src="images/mcollections-products/mcollection-img-03.jpg" alt="" class="img-fluid product-img-main">
+                                    <img src="images/mcollections-products/mcollection-img-04.jpg" alt="" class="img-fluid product-img-2">
+                                </div>
+                                <div class="product-body">
+                                    <h5 class="product-item-name">
+                                        Regal in Ivory, Pita Handwork Organza Silk Saree
+                                    </h5>
+                                </div>
+                                <div class="product-footer">
+                                    <div class="d-flex flex-column flex-sm-row align-items-center justify-content-between">
+                                        <div class="product-item-price-wrap">
+                                            <p class="product-price">₹ 87.99</p>
+                                        </div>
+                                        <div class="product-item-cart-wrap">
+                                            <a href="#!" class="btn btn-primary btn-hover w-100 add-btn"><i class="mdi mdi-cart me-1"></i> Add To Cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                                    
+                    </div>
+                    <div class="col mb-2">   
+                        <div class="card product product-widget">
+                            <div class="d-flex flex-column justify-content-between h-100">
+                                <div class="product-header border-light border-bottom">
+                                    <a class="product-item-link" href="product-details.php"></a>
+                                    <img src="images/mcollections-products/mcollection-img-05.jpg" alt="" class="img-fluid product-img-main">
+                                    <img src="images/mcollections-products/mcollection-img-06.jpg" alt="" class="img-fluid product-img-2">
+                                </div>
+                                <div class="product-body">
+                                    <h5 class="product-item-name">
+                                        Handpainted Peach Organza Silk Saree
+                                    </h5>
+                                </div>
+                                <div class="product-footer">
+                                    <div class="d-flex flex-column flex-sm-row align-items-center justify-content-between">
+                                        <div class="product-item-price-wrap">
+                                            <p class="product-price">₹ 87.99</p>
+                                        </div>
+                                        <div class="product-item-cart-wrap">
+                                            <a href="#!" class="btn btn-primary btn-hover w-100 add-btn"><i class="mdi mdi-cart me-1"></i> Add To Cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                                    
+                    </div>
+                    <div class="col mb-2">   
+                        <div class="card product product-widget">
+                            <div class="d-flex flex-column justify-content-between h-100">
+                                <div class="product-header border-light border-bottom">
+                                    <a class="product-item-link" href="product-details.php"></a>
+                                    <img src="images/mcollections-products/mcollection-img-07.jpg" alt="" class="img-fluid product-img-main">
+                                    <img src="images/mcollections-products/mcollection-img-08.jpg" alt="" class="img-fluid product-img-2">
+                                </div>
+                                <div class="product-body">
+                                    <h5 class="product-item-name">
+                                        Regal in Ivory, Pita Handwork Organza Silk Saree
+                                    </h5>
+                                </div>
+                                <div class="product-footer">
+                                    <div class="d-flex flex-column flex-sm-row align-items-center justify-content-between">
+                                        <div class="product-item-price-wrap">
+                                            <p class="product-price">₹ 87.99</p>
+                                        </div>
+                                        <div class="product-item-cart-wrap">
+                                            <a href="#!" class="btn btn-primary btn-hover w-100 add-btn"><i class="mdi mdi-cart me-1"></i> Add To Cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                                    
+                    </div>
+                    <div class="col mb-2">   
+                        <div class="card product product-widget">
+                            <div class="d-flex flex-column justify-content-between h-100">
+                                <div class="product-header border-light border-bottom">
+                                    <a class="product-item-link" href="product-details.php"></a>
+                                    <img src="images/mcollections-products/mcollection-img-09.jpg" alt="" class="img-fluid product-img-main">
+                                    <img src="images/mcollections-products/mcollection-img-10.jpg" alt="" class="img-fluid product-img-2">
+                                </div>
+                                <div class="product-body">
+                                    <h5 class="product-item-name">
+                                        Handpainted Peach Organza Silk Saree
+                                    </h5>
+                                </div>
+                                <div class="product-footer">
+                                    <div class="d-flex flex-column flex-sm-row align-items-center justify-content-between">
+                                        <div class="product-item-price-wrap">
+                                            <p class="product-price">₹ 87.99</p>
+                                        </div>
+                                        <div class="product-item-cart-wrap">
+                                            <a href="#!" class="btn btn-primary btn-hover w-100 add-btn"><i class="mdi mdi-cart me-1"></i> Add To Cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                                    
+                    </div>
+                    <div class="col mb-2">   
+                        <div class="card product product-widget">
+                            <div class="d-flex flex-column justify-content-between h-100">
+                                <div class="product-header border-light border-bottom">
+                                    <a class="product-item-link" href="product-details.php"></a>
+                                    <img src="images/mcollections-products/mcollection-img-11.jpg" alt="" class="img-fluid product-img-main">
+                                    <img src="images/mcollections-products/mcollection-img-12.jpg" alt="" class="img-fluid product-img-2">
                                 </div>
                                 <div class="product-body">
                                     <h5 class="product-item-name">

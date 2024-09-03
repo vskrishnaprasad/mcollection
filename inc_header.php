@@ -25,7 +25,10 @@
 </head>
 
 <body>
-
+    <?php
+    $tempStatus=0;
+    if($tempStatus==1){
+    ?>
     <div class="top-tagbar">
         <div class="w-100">
             <div class="row justify-content-between align-items-center">
@@ -46,6 +49,10 @@
             </div>
         </div>
     </div>
+    <?php
+    }
+    ?>
+
     <nav class="navbar navbar-expand-lg ecommerce-navbar" id="navbar">
         <div class="container-fluid container-custom">
             <a class="navbar-brand d-none d-lg-block nav-bar-logo-custom" href="index.php">
@@ -56,15 +63,15 @@
                     <img src="images/logo-light.png" alt="" height="25">
                 </div>
             </a>
-            <button class="btn btn-soft-primary btn-icon d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="btn btn-mobile-menu-toggle btn-icon d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="bi bi-list fs-20"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mx-lg-auto mb-2 mb-lg-0" id="navigation-menu">
                     <li class="nav-item d-block d-lg-none">
                         <a class="d-block p-3 h-auto text-center" href="index.php">
-                            <img src="images/logo-dark.png" alt="" height="25" class="card-logo-dark mx-auto">
-                            <img src="images/logo-light.png" alt="" height="25" class="card-logo-light mx-auto">
+                            <img src="images/logo-dark.png" alt="" height="125" class="card-logo-dark mx-auto">
+                            <img src="images/logo-light.png" alt="" height="125" class="card-logo-light mx-auto">
                         </a>
                     </li>
                     <li class="nav-item">
