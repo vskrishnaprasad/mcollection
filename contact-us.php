@@ -3,8 +3,8 @@ include "inc_header.php";
 ?>
 <section class="page-wrapper bg-page-header">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
                 <div class="text-center d-flex align-items-center justify-content-between">
                     <h4 class="text-dark mb-0">Contact Us</h4>
                     <nav aria-label="breadcrumb">
@@ -51,21 +51,6 @@ include "inc_header.php";
                             <div class="ms-3 flex-grow-1">
                                 <h5 class="fs-17 lh-base mb-2">Phone Number</h5>
                                 <p class="text-muted fs-14 mb-0">+(234) 12345 67890<br> 888-0123-4567 (Toll free)</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="card border border-opacity-25">
-                    <div class="card-body p-4">
-                        <div class="d-flex">
-                            <div class="avatar-sm flex-shrink-0">
-                                <div class="avatar-title bg-success-subtle text-success rounded fs-17">
-                                    <i class="bi bi-newspaper"></i>
-                                </div>
-                            </div>
-                            <div class="ms-3 flex-grow-1">
-                                <h5 class="fs-17 lh-base mb-2">Fax</h5>
-                                <p class="text-muted fs-14 mb-0">1-234-567-8900</p>
                             </div>
                         </div>
                     </div>

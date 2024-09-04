@@ -31,6 +31,9 @@
 .bg-thin-dark{
 	background: #000 !important;
 }
+.bg-overlay-dark{
+    background-color: #000 !important;
+}
 .border-bottom-light-golden{
 	border-bottom: 1px solid #ffe29c !important;
 }
@@ -153,7 +156,7 @@
 }
 .section-video-reels .video-card .video-container {
     position: relative;
-    padding-top: 150%; 
+    padding-top: 165%; 
 }
 .section-video-reels .video-card .video-container video {
     position: absolute;
@@ -165,10 +168,15 @@
 }
 .section-video-reels .video-card .video-img-overlay {
     position: absolute;
-    height: 135px;
+    height: 100px;
     top: 0;
     left: 10%;
     z-index: 9;
+    opacity: 0.6;
+}
+
+.my-account-area .nav-pills .nav-link.active{
+    background: #333;
 }
 @media(max-width:991px){
     .top-tagbar{

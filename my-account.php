@@ -3,8 +3,8 @@ include "inc_header.php";
 ?>
 <!-- start profile -->
 <section class="position-relative">
-    <div class="profile-basic position-relative" style="background-image: url('images/profile-bg.jpg');background-size: cover;background-position: center; height: 300px;">
-        <div class="bg-overlay bg-primary" style="--bs-bg-opacity: 0.99;"></div>
+    <div class="profile-basic position-relative" style="background-image: url('images/profile-bg.jpg');background-size: cover;background-position: center; height: 120px;">
+        <div class="bg-overlay bg-overlay-dark bg-primary" style="--bs-bg-opacity: 0.99;"></div>
     </div>
     <div class="container">
         <div class="row">
@@ -32,7 +32,7 @@ include "inc_header.php";
         <div class="row">
             <div class="col-lg-3">
                 <div class="card">
-                    <div class="card-body">
+                    <div class="card-body my-account-area">
                         <ul class="nav nav-pills flex-column gap-3" role="tablist">
                             <li class="nav-item " role="presentation">
                                 <a class="nav-link fs-15 active" data-bs-toggle="tab" href="#custom-v-pills-profile" role="tab" aria-selected="true"><i class="bi bi-person-circle align-middle me-1"></i> Account Info</a>
@@ -57,9 +57,7 @@ include "inc_header.php";
                                         
                                         <div class="d-flex mb-4">
                                             <h6 class="fs-16 text-decoration-underline flex-grow-1 mb-0">Personal Info</h6>
-                                            <div class="flex-shrink-0">
-                                                <a href="#!" class="badge bg-dark-subtle text-dark ">Edit</a>
-                                            </div>
+                                            <div class="float-end clearfix"> <a href="javascript:void(0)" class="badge bg-primary-subtle text-primary "><i class="ri-pencil-fill align-bottom me-1"></i> Edit</a> </div>
                                         </div>
 
                                         <div class="table-responsive table-card px-1">

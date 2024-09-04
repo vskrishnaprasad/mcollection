@@ -52,3 +52,23 @@ var swiper = new Swiper(".top-Product-slider", {
         },
     },
 });
+
+var swiper = new Swiper(".reels-video-slider", {
+    loop: true,
+    spaceBetween: 0,
+        navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+    breakpoints: {
+        640: {
+            slidesPerView: 2,
+        },
+        1024: {
+            slidesPerView: 3,
+        },
+        1400: {
+            slidesPerView: 4,
+        },
+    },
+});

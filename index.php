@@ -66,39 +66,52 @@ include "inc_header.php";
 <section class="section">
     <div class="container-fluid container-custom">
         <div class="row">
-            <div class="col-lg-4 mb-3">
+            <div class="col-lg-3 mb-3">
                 <a href="#!" class="product-banner-1 mt-4 mt-lg-0 rounded overflow-hidden position-relative d-block">
                     <img src="images/demo-images/feature-01.png" class="img-fluid rounded" alt="">
                     <div class="bg-overlay blue"></div>
                     <div class="product-content p-4">
-                        <p class="text-uppercase text-white mb-2">NEW COLLECTIONS</p>
-                        <h1 class="text-white lh-base fw-medium ff-secondary"> Versatile Sarees for Every Occasion </h1>
+                        <h2 class="text-uppercase text-white mb-2">Hot Collections</h2>
+                        <h4 class="text-white lh-base fw-medium ff-secondary"> Versatile Sarees for Every Occasion </h4>
                         <div class="product-btn mt-4 text-white">
                             Shop Now <i class="bi bi-arrow-right ms-2"></i>
                         </div>
                     </div>
                 </a>
             </div>
-            <div class="col-lg-4 mb-3">
+            <div class="col-lg-3 mb-3">
                 <a href="#!" class="product-banner-1 mt-4 mt-lg-0 rounded overflow-hidden position-relative d-block">
                     <img src="images/demo-images/feature-02.png" class="img-fluid rounded" alt="">
                     <div class="bg-overlay blue"></div>
                     <div class="product-content p-4">
-                        <p class="text-uppercase text-white mb-2">NEW COLLECTIONS</p>
-                        <h1 class="text-white lh-base fw-medium ff-secondary"> Unwrap Timeless Elegance </h1>
+                        <h2 class="text-uppercase text-white mb-2">Best Sellers</h2>
+                        <h4 class="text-white lh-base fw-medium ff-secondary"> Unwrap Timeless Elegance </h4>
                         <div class="product-btn mt-4 text-white">
                             Shop Now <i class="bi bi-arrow-right ms-2"></i>
                         </div>
                     </div>
                 </a>
             </div>
-            <div class="col-lg-4 mb-3">
+            <div class="col-lg-3 mb-3">
+                <a href="#!" class="product-banner-1 mt-4 mt-lg-0 rounded overflow-hidden position-relative d-block">
+                    <img src="images/demo-images/feature-01.png" class="img-fluid rounded" alt="">
+                    <div class="bg-overlay blue"></div>
+                    <div class="product-content p-4">
+                        <h2 class="text-uppercase text-white mb-2">Premium Collections</h2>
+                        <h4 class="text-white lh-base fw-medium ff-secondary"> Versatile Sarees for Every Occasion </h4>
+                        <div class="product-btn mt-4 text-white">
+                            Shop Now <i class="bi bi-arrow-right ms-2"></i>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-3 mb-3">
                 <a href="#!" class="product-banner-1 mt-4 mt-lg-0 rounded overflow-hidden position-relative d-block">
                     <img src="images/demo-images/feature-02.png" class="img-fluid rounded" alt="">
                     <div class="bg-overlay blue"></div>
                     <div class="product-content p-4">
-                        <p class="text-uppercase text-white mb-2">NEW COLLECTIONS</p>
-                        <h1 class="text-white lh-base fw-medium ff-secondary"> Versatile Sarees for Every Occasion </h1>
+                        <h2 class="text-uppercase text-white mb-2">Festivitie Collections</h2>
+                        <h4 class="text-white lh-base fw-medium ff-secondary"> Versatile Sarees for Every Occasion </h4>
                         <div class="product-btn mt-4 text-white">
                             Shop Now <i class="bi bi-arrow-right ms-2"></i>
                         </div>
@@ -109,61 +122,104 @@ include "inc_header.php";
     </div>
 </section>
 
+
 <section class="section section-video-reels">
     <div class="container-fluid container-custom">
         <div class="row justify-content-center">
             <div class="col-lg-7">
                 <div class="section-content text-center mb-5">
-                    <h2 class="title fw-normal text-capitalize">Reels</h2>
-                    <p class="text-muted">Explore our featured collections here</p>
+                    <h2 class="title fw-normal text-capitalize"><span class="fw-semibold">Reels</span></h2>
+                    <p class="text-muted">Explore our creatives here</p>
                 </div>
             </div><!--end col-->
         </div><!--end row-->
-        <div class="row">
-            <div class="col-md-3 mb-2">   
-                <div class="card video-card">
-                    <div class="video-container">
-                        <img class="video-img-overlay" src="images/logo-dark.png">
-                        <video autoplay muted loop>
-                            <source src="images/mcollections-products/mcollection-video-01.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
-                        </video>
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <!-- Swiper -->
+                <div class="swiper reels-video-slider product-list-view">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                              <div class="card video-card">
+                                <div class="video-container">
+                                    <img class="video-img-overlay" src="images/logo-dark.png">
+                                    <video autoplay muted loop>
+                                        <source src="images/mcollections-products/mcollection-video-01.mp4" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                    </video>
+                                </div>
+                            </div>  
+                        </div>
+                        <div class="swiper-slide">
+                              <div class="card video-card">
+                                <div class="video-container">
+                                    <img class="video-img-overlay" src="images/logo-dark.png">
+                                    <video autoplay muted loop>
+                                        <source src="images/mcollections-products/mcollection-video-02.mp4" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                    </video>
+                                </div>
+                            </div>  
+                        </div>
+                        <div class="swiper-slide">
+                              <div class="card video-card">
+                                <div class="video-container">
+                                    <img class="video-img-overlay" src="images/logo-dark.png">
+                                    <video autoplay muted loop>
+                                        <source src="images/mcollections-products/mcollection-video-03.mp4" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                    </video>
+                                </div>
+                            </div>  
+                        </div>
+                        <div class="swiper-slide">
+                              <div class="card video-card">
+                                <div class="video-container">
+                                    <img class="video-img-overlay" src="images/logo-dark.png">
+                                    <video autoplay muted loop>
+                                        <source src="images/mcollections-products/mcollection-video-04.mp4" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                    </video>
+                                </div>
+                            </div>  
+                        </div>
+                        <div class="swiper-slide">
+                              <div class="card video-card">
+                                <div class="video-container">
+                                    <img class="video-img-overlay" src="images/logo-dark.png">
+                                    <video autoplay muted loop>
+                                        <source src="images/mcollections-products/mcollection-video-01.mp4" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                    </video>
+                                </div>
+                            </div>  
+                        </div>
+                        <div class="swiper-slide">
+                              <div class="card video-card">
+                                <div class="video-container">
+                                    <img class="video-img-overlay" src="images/logo-dark.png">
+                                    <video autoplay muted loop>
+                                        <source src="images/mcollections-products/mcollection-video-02.mp4" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                    </video>
+                                </div>
+                            </div>  
+                        </div>
+                        <div class="swiper-slide">
+                              <div class="card video-card">
+                                <div class="video-container">
+                                    <img class="video-img-overlay" src="images/logo-dark.png">
+                                    <video autoplay muted loop>
+                                        <source src="images/mcollections-products/mcollection-video-03.mp4" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                    </video>
+                                </div>
+                            </div>  
+                        </div>
                     </div>
-                </div>                                    
-            </div>
-            <div class="col-md-3 mb-2">   
-                <div class="card video-card">
-                    <div class="video-container">
-                        <img class="video-img-overlay" src="images/logo-dark.png">
-                        <video autoplay muted loop>
-                            <source src="images/mcollections-products/mcollection-video-02.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
-                        </video>
-                    </div>
-                </div>                                    
-            </div>     
-            <div class="col-md-3 mb-2">   
-                <div class="card video-card">
-                    <div class="video-container">
-                        <img class="video-img-overlay" src="images/logo-dark.png">
-                        <video autoplay muted loop>
-                            <source src="images/mcollections-products/mcollection-video-03.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
-                        </video>
-                    </div>
-                </div>                                    
-            </div>
-            <div class="col-md-3 mb-2">   
-                <div class="card video-card">
-                    <div class="video-container">
-                        <img class="video-img-overlay" src="images/logo-dark.png">
-                        <video autoplay muted loop>
-                            <source src="images/mcollections-products/mcollection-video-04.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
-                        </video>
-                    </div>
-                </div>                                    
-            </div>                    
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div><!--end col-->
         </div><!--end row-->
     </div><!--end container-fluid-->
 </section>

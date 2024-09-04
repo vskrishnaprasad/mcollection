@@ -3,8 +3,8 @@ include "inc_header.php";
 ?>
 <section class="page-wrapper bg-page-header">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
                 <div class="text-center d-flex align-items-center justify-content-between">
                     <h4 class="text-dark mb-0">About us</h4>
                     <nav aria-label="breadcrumb">

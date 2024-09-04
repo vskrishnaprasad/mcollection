@@ -3,8 +3,8 @@ include "inc_header.php";
 ?>
 <section class="page-wrapper bg-page-header">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
                 <div class="text-center d-flex align-items-center justify-content-between">
                     <h4 class="text-dark mb-0">Shopping Cart</h4>
                     <nav aria-label="breadcrumb">
@@ -28,7 +28,7 @@ include "inc_header.php";
                 <div class="d-flex align-items-center mb-4">
                     <h5 class="mb-0 flex-grow-1 fw-medium">There are <span class="fw-bold product-count"></span> products in your cart</h5>
                     <div class="flex-shrink-0">
-                        <a href="#!" class="text-decoration-underline link-secondary">Clear Cart</a>
+                        <div class="float-end clearfix"> <a href="javascript:void(0)" class="badge bg-primary-subtle text-primary "><i class="ri-pencil-fill align-bottom me-1"></i> Clear Cart</a> </div>
                     </div>
                 </div>
                 <div class="card product">
