@@ -100,6 +100,11 @@ include "inc_header.php";
     </div>
 </div>
 
+
+<?php
+if($tempStatus == 1){
+?>
+
 <section class="ecommerce-about-team bg-light bg-opacity-50">
     <div class="container">
         <div class="row justify-content-center">
@@ -206,6 +211,9 @@ include "inc_header.php";
         </div>
     </div>
 </section>
+<?php
+}
+?>
 <?php
 include "inc_footer.php";
 ?>

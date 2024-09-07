@@ -371,6 +371,9 @@ include "inc_header.php";
     </div><!--end container-fluid-->
 </section>
 
+<?php
+if($tempStatus == 1){
+?>
 <section class="section">
     <div class="container-fluid container-custom">
         <div class="row align-items-center">
@@ -583,7 +586,9 @@ include "inc_header.php";
         </div>
     </div><!--end container-fluid-->
 </section>
-
+<?php
+}
+?>
 <section class="section">
     <div class="container">
         <div class="row justify-content-center">
